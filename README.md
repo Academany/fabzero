@@ -11,3 +11,5 @@ This repository hosts the second and current iteration of Pre Academy, which inc
 * Increasing time spent on documentation tools and repository management
 * Increasing lessons in CAD (2D, 3D, parametric, advanced and simulation)
 * Removing subjects that are common with fab academy (composites, molding and casting, electronics production, etc.). It was found that incorporating this subjects paradoxically reduced the attention of the student when taking the Fab Academy program.
+
+[Go to second iteration documentation.](summary.md)
