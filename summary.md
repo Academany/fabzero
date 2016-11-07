@@ -1,7 +1,7 @@
-# Pre Academy Documentation
+# Pre Academy Second Edition Documentation
 
 ## Week 1
-* [Day 1. Introduction to Pre Fab Academy. Preparing the laptop and the notebook](w1/w1d1.md)
+* [Day 1. Introduction to Pre Fab Academy. Getting ready](w1/w1d1.md)
 * [Day 2. Documentation](w1/w1d2.md)
 * [Day 3. Working with git repositories](w1/w1d3.md)
 * [Day 4. CAD 2D. Raster and Vector](w1/w1d4.md)
