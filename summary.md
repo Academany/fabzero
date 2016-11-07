@@ -25,5 +25,5 @@
 * [Day 1. Electronics concepts & Electronics production](w4/w4d1.md)
 * [Day 2. Electronics design](w4/w4d2.md)
 * [Day 3. Introduction to programming](w4/w4d3.md)
-* [Day 4. Advanced programming in C](w4/w4d4.md)
+* [Day 4. Advanced programming. C and Assembly](w4/w4d4.md)
 * [Day 5. Final Project](w4/w4d5.md)
