@@ -1,4 +1,4 @@
-# Pre Academy Second Edition Documentation
+# Pre Academy 2017 Documentation
 
 ## Week 1
 * [Day 1. Introduction to Pre Fab Academy. Getting ready](w1/w1d1.md)
