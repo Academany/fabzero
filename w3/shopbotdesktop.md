@@ -1,3 +1,3 @@
-# Day 3. Introduction to programming
+# Shopbot desktop
 ---
 [Back to Summary](../summary.md)

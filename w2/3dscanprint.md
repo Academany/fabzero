@@ -1,4 +1,3 @@
-# Day 5. 3D Scannning and Printing
 # 3D Scanning and Printing
 
 ## General Notes

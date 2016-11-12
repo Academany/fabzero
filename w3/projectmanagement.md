@@ -1,3 +1,3 @@
-# Day 3. Laser cutting
+# Project management
 ---
 [Back to Summary](../summary.md)

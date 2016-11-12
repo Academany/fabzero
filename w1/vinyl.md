@@ -1,4 +1,4 @@
-# Day 5. Vinyl cutting
+# Vinyl cutting
 ## General tips
 These are general tips, not only for successfully completing the assignment, but also for learning in-depth some important concepts. During this week you will use 2D design software for computer controlled cutting applications and the basics of the vinyl and laser cutter.
 

@@ -1,120 +1,7 @@
-# Day 1. Introduction to Pre Fab Academy. Getting ready
-
-## What is Fab Academy X?
-
-* Fab Labs
-  * History
-    * Neil’s Day 1 Presentation
-    * Fab Lab Charter
-* Objectives
-* Equipment
-  * Inventory
-* Fab Lab Network
-  * Collaboration
-  * Standardization
-  * Conferences
-  * FabLabs.io
-  * Fab Foundation
-* Academany
-* Fab Academy X @ KTU and “The Kerala Experiment”
-  * Pioneering project
-  * First step in something bigger
-  * Expand to match FabAcademy
-
-## Methodology
-* [The nine principles](http://media.mit.edu/about/principles). MIT Media Lab
-* Traditional Education vs Distributed Learning
-* Tutors vs. teachers
-* Personal Research
-* No roads
-* Free your mind \(forget what you already know\)
-* Be brave, Take risks \(not physical risks\)
-* Stress control. Can you handle it?
-
-## How Fab Academy X works
-* Weekly Assignments
-* Documentation
-* Learn + make + share. Every week a different topic.
-* Iterative approach
-* Scientific method
-* Graduation: Diploma vs Learning
-* Links to previous years archives and important docs \(manual, grading sheets etc.\)
-
-## Preparing yourself for the course ahead
-
-### Your Laptop
-* The importance of FOSS software.
-* Recommended Backups
-  * Backup data to USB
-  * Backup data to Cloud
-* Showing how to install latest Ubuntu Desktop LTS
-* Showing how to install software using Ubuntu software center
-* Showing how to install software using apt-get
-* Showing how to compile software
-* Showing how to install Windows software using wine
-* Showing basic command line for ubuntu
-* Assignment: Install list of software
-  * “Terminal here” addon for Nautilus
-* Inkscape
-* Openscad
-* Gimp
-* Cura
-* Arduino IDE (not the ubuntu software center version)
-* Attiny addon for arduino IDE (Instructions in tutorial section of Hi Lo Tech MIT Media Lab)
-* Processing
-* Qcad
-* FreeCAD
-* Geogebra
-* Blender
-* Meshlab
-* Krita
-* mtPaint
-* MyPaint
-* Libreoffice
-* Slic3r
-* SimpleScreenRecorder
-* Git
-* Eagle
-* Kicad
-* Wine
-* Partworks in wine
-* Text editor of your choice (Atom, Brackets...)
-
-**Remote desktop:**
-
-* [TightVNC](http://www.tightvnc.com/)
-* [x11vnc](http://www.karlrunge.com/x11vnc/)
-* [noVNC](https://github.com/kanaka/noVNC)
-
-## Accounts
-It is recommended that students create the following online accounts
-* [Fablabs.io](fablabs.io) account
-* [Google](google.com) account for all Google services (Docs, YouTube...)
-* [Vimeo](vimeo.com) account for storing large videos
-* [Github](github.com) account for your personal code projects
-* [Dropbox](dropbox.com) account for hosting large files
-* [Sketchfab](sketchfab.com) account for embedding and hosting STL files
-
-> Exercise: Create those online accounts and keep your usernames/passwords in a safe place
-
-## Preparing the lab. Health and Safety
-* Cleaning up - Not someone else Problem
-* Safety Manual
-* Access control
-  * Facility
-  * Sensitive items
-  * Machines
-* Emergency Plan
-  * Fire
-  * Police
-  * Hospital
-  * Pharmacy
-
-
-## Videoconferencing
+# Videoconferencing
 Fab labs are connected through a MCU videoconferencing system
 
-### Installing and running Linphone
+## Installing and running Linphone
 Installing the latest release of Linphone in Ubuntu is easy typing in a terminal window:
 
 ```
@@ -127,7 +14,7 @@ After installation just type `linphone` in a terminal window to execute it.
 
 > Exercise: Install Linphone in your laptop and launch it.
 
-### Configuration
+## Configuration
 The image shown below is the main window that appears after executing Linphone. In here you can type a **SIP** address and press the _call button_ to connect, but it is preferable that you create a new contact, since you will be calling the videoconferencing system several times:
 
 ![](./img/video/linphone.png)
@@ -156,7 +43,7 @@ Finally in the **Codecs tab**, make sure that you have enabled the H264 codec. I
 
 > Exercise: Configure Linphone
 
-### Connecting to Class
+## Connecting to Class
 Connect to the class clicking in your Class 4 contact or typing in the address bar:
 
 `sip:4@mcu.cba.mit.edu`
@@ -169,7 +56,7 @@ And enter the **PIN** number followed by the pound key **#**, not using your key
 
 > Exercise: Connect to MCU #4
 
-### Muting and unmuting
+## Muting and unmuting
 **Before** you enter any room, always remember to mute locally. That way your microphone does not send audio to the MCU. Remember also to mute locally when you are not talking.
 
 > Exercise: Looking at your system settings/sound/input panel, find your mute/unmute key and practice muting and unmuting locally.
@@ -178,7 +65,7 @@ In some rooms, by default, **you are also muted in the bridge**.  That is a seco
 
 > Exercise: Connect to MCU. Make sure you are muted locally. Enter room #1 and toggle the bridge mute until you are unmuted. Talk to someone and practice muting locally when you are not talking.
 
-### Modifying the layout
+## Modifying the layout
 You can modify the layout using the keypad. Keys `2` and `8` will modify the layout while keys `4` and `6` will change the main participant (usually the biggest) in the layout.
 
 ![](./img/video/class.png)

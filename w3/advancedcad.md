@@ -1,3 +1,3 @@
-# Day 2. Parametric CAD II. OpenSCAD
+# Advanced CAD
 ---
 [Back to Summary](../summary.md)

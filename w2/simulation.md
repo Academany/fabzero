@@ -1,3 +1,3 @@
-# Day 1. Project management
+# Simulation
 ---
 [Back to Summary](../summary.md)

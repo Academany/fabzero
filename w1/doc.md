@@ -1,4 +1,4 @@
-# Day 2. Documentating your work
+# Writing damn good documentation
 
 ## The notebook
 For documentation **it is strongly recommended that you always carry with you a notebook** with around 100 non detachable pages that you will use **exclusively** for the course. Do not use separate sheets because it is highly probable that they will eventually end up lost and shuffled. Screenshots are helpful, but do not rely all your research in screenshots only.

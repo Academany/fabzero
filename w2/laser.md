@@ -1,3 +1,3 @@
-# Day 4. Simulation
+# Laser cutting
 ---
 [Back to Summary](../summary.md)

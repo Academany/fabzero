@@ -14,3 +14,5 @@ This repository hosts the second and current iteration of Pre Academy, which inc
 
 [Go to Pre Academy 2017 documentation.](summary.md)  
 [Go to Pre Academy 2017 git repository](http://git.fabacademy.org/fabacademyx/preacademy2017)
+
+If you have questions or inquiries about this second iteration content please do not hesitate to raise an issue or contact me (Francisco): hola [at] beachlab [dot] org. Happy to help!

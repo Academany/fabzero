@@ -1,3 +1,3 @@
-# Day 3. Design Thinking
+# Universal Principles of Design
 ---
 [Back to Summary](../summary.md)

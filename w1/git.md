@@ -1,4 +1,4 @@
-# Day 3. Working with git repositories
+# Working with git repositories
 
 ## The community effect
 Imagine a community of 4 people, where everyone has a design and shares it. The balance is positive for all of them, since each one gives one and receives 3. The **most important** feature in sharing communities is that knowledge is amplified and **you always receive more that you give**.

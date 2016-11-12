@@ -1,3 +1,3 @@
-# Day 5. Final Project
+# Parametric CAD II. OpenSCAD
 ---
 [Back to Summary](../summary.md)
