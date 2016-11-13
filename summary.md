@@ -2,7 +2,7 @@
 
 ## Week 1
 * [Day 1. Introduction to Pre Fab Academy. Getting ready](w1/intro.md)
-* [Day 2. [Command Line](w1/commandline.md) & [Documenting your work](w1/doc.md)
+* [Day 2. Command Line](w1/commandline.md) & [Documenting your work](w1/doc.md)
 * [Day 3. Working with git repositories](w1/git.md)
 * [Day 4. CAD 2D. Raster and Vector](w1/cad2d.md)
 * [Day 5. Vinyl cutting](w1/vinyl.md)

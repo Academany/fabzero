@@ -19,5 +19,46 @@ ls -a /usr/local/bin
 ## Do I need to memorize all of this?
 No. You can type `help COMMAND` or `man COMMAND` for a more extended help on how to use the commands.
 
+## Navigating the filesystem
+### Where am I
+In bash you can see the directory you are. `pwd` command stands for Print Working Directory. It will output the full path of your location in the filesystem.
+
+### Moving around
+`cd` command stands for Call Directory and it is used to go to other directories.
+
+### Listing contents
+`ls` command
+
+### Creating and removing directories
+`mkdir`  
+
+`rmdir`
+
+### Creating, moving, deleting files
+`touch`
+
+`cp` for Copy
+
+`mv` for Move
+
+`rm` for Remove
+
+> Warning: There is no trash can. The file is gone.
+
+### Finding files and folders
+
+`find`
+
+### File permissions
+
+`chmod`
+
+### sudo
+`su` switch User
+
+`sudo` Super User Do
+
+
+
 ---
 [Back to Summary](../summary.md)
