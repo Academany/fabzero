@@ -1,37 +1,60 @@
 # Linux Command line 101
 
 ## Command line?
-We are used to use a program that has a **Graphical User Interface** (GUI), but in reality this is just an interface for showing us information and interact with the program. The actual programs are running in the background.
+We are familiar to use programs that have a **Graphical User Interface** (GUI), but in reality this is just an interface for showing us information and interact with the actual program. The actual programs are running in the background.
 
-But some programs can also be run without the GUI. So one way to interact with these programs is through the **Command Line**.
+But programs can also be run without the GUI and actually many programs come without a GUI. So the way to interact with these programs is through the **Command Line**.
 
-The enviroment we use is the Shell or command-line interpreter. There are many shells. The one that comes with most distributions is **Bash** (for Bourne Again Shell).
+The enviroment we use is the Shell or command-line interpreter. There are many shells. The one that comes with most distributions is **Bash** (Bourne Again Shell).
+
+[SHELL ENVIRONMENT IMAGE PLACEHOLDER]
+
+## The Unix philosophy
+
 
 ## Basic syntax
-The command line syntax is
-
-A mandatory `COMMAND` with optional `OPTIONS` and optional `ARGUMENTS`. For example:
+The command line syntax is a mandatory `COMMAND` with optional `OPTIONS` and optional `ARGUMENTS`. For example, copy the following and paste it in the command line:
 ```
 ls -a /usr/local/bin
 ```
+
+> ### Something's wrong! Copy and paste keys are not working
+The usual copy and paste key combinations have different functions in Bash. To copy text in Bash, select it and press `CONTROL`+`SHITFT`+`C`. To paste text in Bash use the arrow keys to go to the desired location and use `CONTROL`+`SHITFT`+`V`.
+
 `ls` is a command which lists files and folders. `-a` is an option to display hidden files and `/usr/local/bin` is the argument telling where to operate the command. If the argument was not present it would list the current directory.
 
-> **Remember:** Linux is a case sensitive operating system. `-n` and `-N` are different options!
+>### Wait, wait, wait. Do I need to memorize all of this?
+No. Just use the `man` COMMAND (for Manual) everytime you need help on how to use the commands.
 
-Options come in two flavors, they can be a single letter like `-a`. In this case you don't have a clue of what that option is performing. On the other hand you can concatenate sincle letter options. For example `-a -l` can be reduced to `-al`. Some options also have a human readable flavor. Human readable options are prefixed with two dashes and they give you a clue of what that option is doing. For example `-a` becomes `--all` in human readable flavor, giving you the clue that it will list all the files, including the hidden ones which start with a `.` in Linux. 
+> Exercise: Have a quick look at the manual for `ls` command. We will need this in a while.
 
-## Do I need to memorize all of this?
-No. You can type `help COMMAND` or `man COMMAND` for a more extended help on how to use the commands.
+Options come in two flavors, one is called **short option**, a single letter like `-a`. In this case you don't have a clue of what that option is performing. On the other hand you can concatenate short options. For example `-a -l` can be reduced to `-al`.
+
+> **Remember:** Linux is a case sensitive operating system. `-n` and `-N` are different things!
+
+Some options also have a human readable flavor called **long option**. Human readable options are prefixed with two dashes `--` and they give you a clue of what that option is doing. For example the long option of `-a` is `--all`, giving you the clue that it will list all the files and folders, including the hidden ones. Long options cannot be concatenated.
+
+> Exercise: List the files of your home folder. Display them as a list. Display the hidden files also. What other options can be useful?
 
 ## Navigating the filesystem
-### Where am I
-In bash you can see the directory you are. `pwd` command stands for Print Working Directory. It will output the full path of your location in the filesystem.
+### Where am I?
+In Ubuntu you can see at every moment what is the current directory and the full path. `pwd` command stands for _Print Working Directory_. It will output the full path of your location in the filesystem.
+
+> Exercise: Open a new terminal window. Where are you now? What is ~?
 
 ### Moving around
 `cd` command stands for Call Directory and it is used to go to other directories.
 
+> Exercise: Navigate to your root folder `/`
+
+### Tab completion
+A very handy keyboard shorcut is the `TAB` key. It will autocomplete the name of the file or the folder name.
+
+> Exercise: From the root folder, navigate to your Documents folder. Use `TAB` to keep autocompleting.
+
+
 ### Listing contents
-`ls` command
+We have seen the `ls` command already. Let's do some more advanced things with it.
 
 ### Creating and removing directories
 `mkdir`  
