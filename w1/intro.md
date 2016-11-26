@@ -5,19 +5,17 @@ For documentation **it is strongly recommended that you always carry with you a 
 
 Divide your annotations in entries. In every entry you can write:
 
-* Date
+* Date and time
 * What you are doing, for what assignment (you will forget soon)
-* Machines used and settings
-* Workflows, protocols or procedures you are following
-* Troubles you are finding in the  way, and how are you dealing with them
-* Debugging table
-* Entry conclusion (Finished, to be continued later, stuck in a process, ...)
+* Include machines used and settings
+* Include workflows, protocols or procedures you are following
+* Include troubles you are finding in the way, and how are you dealing with them
+* Include a debugging table if you are debugging
+* Finish the entry with a conclusion (Finished, to be continued later, stuck in a process, ...)
 
-> Exercise: Get a notebook for the pre fabacademy program and write down your first entry.
+> Exercise: Get a notebook for the pre academy program and write down your first entry and answer in one sentence: Why are you here? Please, nothing similar to [this](http://cmorse.org/missiongen/)
 
-
-## What is Fab Academy X?
-
+## What is Fab Academy?
 * Fab Labs
   * History
     * Neil’s Day 1 Presentation
@@ -28,14 +26,18 @@ Divide your annotations in entries. In every entry you can write:
 * Fab Lab Network
   * Collaboration
   * Standardization
-  * Conferences
+  * Conferences (global, regional)
   * FabLabs.io
   * Fab Foundation
 * Academany
-* Fab Academy X @ KTU and “The Kerala Experiment”
-  * Pioneering project
+* Links to previous years archives and important docs \(manual, grading sheets etc.\)
+
+## Fab AcademyX @ KTU “Project Kerala"
+  * Unique and pioneer project
   * First step in something bigger
-  * Expand to match FabAcademy
+    * The best of Fab Academy. A program based on MIT's MAS.863 HTMAA
+    * The best of the Fab Lab Network Expertise
+    * Exclusively based in commonly used FOSS
 
 ## Methodology
 * [The nine principles](http://media.mit.edu/about/principles). MIT Media Lab
@@ -54,7 +56,6 @@ Divide your annotations in entries. In every entry you can write:
 * Iterative approach
 * Scientific method
 * Graduation: Diploma vs Learning
-* Links to previous years archives and important docs \(manual, grading sheets etc.\)
 
 ## Preparing yourself for the course ahead
 
@@ -63,50 +64,17 @@ Divide your annotations in entries. In every entry you can write:
 * Recommended Backups
   * Backup data to USB
   * Backup data to Cloud
-* Showing how to install latest Ubuntu Desktop LTS
-* Showing how to install software using Ubuntu software center
-* Showing how to install software using apt-get
-* Showing how to compile software
-* Showing how to install Windows software using wine
-* Showing basic command line for ubuntu
-* Assignment: Install list of software
-  * “Terminal here” addon for Nautilus
-* Inkscape
-* Openscad
-* Gimp
-* Cura
-* Arduino IDE (not the ubuntu software center version)
-* Attiny addon for arduino IDE (Instructions in tutorial section of Hi Lo Tech MIT Media Lab)
-* Processing
-* Qcad
-* FreeCAD
-* Geogebra
-* Blender
-* Meshlab
-* Krita
-* mtPaint
-* MyPaint
-* Libreoffice
-* Slic3r
-* SimpleScreenRecorder
-* Git
-* Eagle
-* Kicad
-* Wine
-* Partworks in wine
-* Text editor of your choice (Atom, Brackets...)
-
-**Remote desktop:**
-
-* [TightVNC](http://www.tightvnc.com/)
-* [x11vnc](http://www.karlrunge.com/x11vnc/)
-* [noVNC](https://github.com/kanaka/noVNC)
+* Install Ubuntu Desktop LTS
+* Install software using Ubuntu software center
+* Install software using apt-get
+* How to compile software
+* Install Windows software using wine
 
 ## Accounts
 It is recommended that students create the following online accounts
-* [Fablabs.io](fablabs.io) account
-* [Google](google.com) account for all Google services (Docs, YouTube...)
-* [Vimeo](vimeo.com) account for storing large videos
+* [Fablabs.io](fablabs.io) account. This is the official account used for many services
+* [Google](google.com) account for all Google services (Email, Docs, YouTube...)
+* [Vimeo](vimeo.com) account for storing large videos. Alternative to Youtube.
 * [Github](github.com) account for your personal code projects
 * [Dropbox](dropbox.com) account for hosting large files
 * [Sketchfab](sketchfab.com) account for embedding and hosting STL files

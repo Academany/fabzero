@@ -9,10 +9,10 @@
 
 ## 3D Printing
 * All students: Learn how to level the 3D printer.
-* Before printing, I recommend first do the _move material_ in the Maintenance/Advanced menu. Once the nozzle is at printing temperature (around 210C) move the material using the clickwheel until the material comes out of the nozzle steady and without imperfections.
+* Ultimaker 2 users: Before printing, it is recommended first do the _move material_ in the Maintenance/Advanced menu. Once the nozzle is at printing temperature (around 210C) move the material using the clickwheel until the material comes out of the nozzle steady and without imperfections.
 
 ![](./img/3dprinting/filament.jpg)
-In the image above, you can see the 0.4mm filament through the microscope. To the left you can see symptoms of a partially obtruded nozzle. If this is the case perform an [atomic clean](https://ultimaker.com/en/manuals/149-atomic-method). And the right is a good looking filament.
+Use your USB microscope. In the image above, you can see the 0.4mm filament through the microscope. To the left you can see symptoms of a partially obtruded nozzle. If this is the case perform an [atomic clean](https://ultimaker.com/en/manuals/149-atomic-method). And the right is a good looking filament.
 
 ### Group assignment
 * Find out limits of the machine. Print a test: [Thingiverse test prints](http://www.thingiverse.com/search/page:1?q=test&sa=).

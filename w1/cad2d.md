@@ -3,6 +3,8 @@
 ## 2D Design
 Assorted 2D design recommendations
 
+Graphicsmagik
+
 * Try at least one raster and one vector tool.
 * Learn how to vectorize a B/W image. You will need to do this many times.
 ---

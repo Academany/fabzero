@@ -1,7 +1,7 @@
 # Linux Command line 101
 
 ## Command line?
-We are familiar to use programs that have a **Graphical User Interface** (GUI), but in reality this is just an interface for showing us information and interact with the actual program. The actual programs are running in the background.
+We are all familiar with programs that have a **Graphical User Interface** (GUI), but in reality this is just an interface for showing us information and interact with the actual program. The actual programs are running in the background.
 
 But programs can also be run without the GUI and actually many programs come without a GUI. So the way to interact with these programs is through the **Command Line**.
 
@@ -10,7 +10,13 @@ The enviroment we use is the Shell or command-line interpreter. There are many s
 [SHELL ENVIRONMENT IMAGE PLACEHOLDER]
 
 ## The Unix philosophy
+It is important to understand the [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) before you move forward. Programs in Unix were written following this philosophy:
 
+* Unix programs do one thing and do it well.
+* Unix programs are designed to work together.
+* Unix programs are designed to handle text streams, because that is a universal interface.
+
+So Unix (and Linux programs) usually perform a single task only. They are not multipulpose complex programs. To achieve complex behaviours the output of a program can be piped (more on this later) to another program. keep this is mind.
 
 ## Basic syntax
 The command line syntax is a mandatory `COMMAND` with optional `OPTIONS` and optional `ARGUMENTS`. For example, copy the following and paste it in the command line:
@@ -23,8 +29,8 @@ The usual copy and paste key combinations have different functions in Bash. To c
 
 `ls` is a command which lists files and folders. `-a` is an option to display hidden files and `/usr/local/bin` is the argument telling where to operate the command. If the argument was not present it would list the current directory.
 
->### Wait, wait, wait. Do I need to memorize all of this?
-No. Just use the `man` COMMAND (for Manual) everytime you need help on how to use the commands.
+>### Wait, wait, wait... Do I need to memorize all of this?
+No. Just use the `man` COMMAND (for Manual) everytime you need help on how to use the commands. Yes, I know. We all hate manuals. But in Unix/Linux world you will find a lot of references about [RTFM](https://en.wikipedia.org/wiki/RTFM).
 
 > Exercise: Have a quick look at the manual for `ls` command. We will need this in a while.
 
@@ -38,7 +44,7 @@ Some options also have a human readable flavor called **long option**. Human rea
 
 ## Navigating the filesystem
 ### Where am I?
-In Ubuntu you can see at every moment what is the current directory and the full path. `pwd` command stands for _Print Working Directory_. It will output the full path of your location in the filesystem.
+The information displayed in Bash varies from distribution to distribution. In Ubuntu you can see at every moment what is the current directory and the full path. Otherwise `pwd` command (_Print Working Directory_) will output the full path of your location in the filesystem.
 
 > Exercise: Open a new terminal window. Where are you now? What is ~?
 
@@ -54,23 +60,36 @@ A very handy keyboard shorcut is the `TAB` key. It will autocomplete the name of
 
 
 ### Listing contents
-We have seen the `ls` command already. Let's do some more advanced things with it.
+We have seen the `ls` command already. Most of the time you will use `ls -lh` (with optional `-a`) which gives you a long list with human readable file sizes.
 
-### Creating and removing directories
-`mkdir`  
+The first column tells you if the item is a file `-`, a directory `d`, or a link `l`. Then you can see the permissions, owner, group, date, file size, and name.
 
-`rmdir`
+> Exercise: List and analyse the contents of your `/usr/bin`. What do you see?
 
-### Creating, moving, deleting files
-`touch`
+### Creating, moving and deleting files and folders
+`mkdir` is used to create a directory
 
-`cp` for Copy
+> Exercise: Create a personal folder using this scheme `surname.name` in your `~/Documents` folder.
 
-`mv` for Move
+`touch` command is used to create an empty file.
 
-`rm` for Remove
+> Exercise: create a file named `readme.md` inside your personal folder. Check that the file is there.
 
-> Warning: There is no trash can. The file is gone.
+`rmdir` removes empty directories.
+
+> Exercise: Try to remove your personal folder. Ouch. What's the problem?
+
+`cp` is a command used to copy files and folder. It has many options but the basic usage is `cp origin destination`.
+
+> Exercise: Copy your `readme.md` to `day1.md`
+
+`mv` is used for moving files but can also me used as a rename tool.
+
+> Exercise: Rename `day1.md` to `week1day1.md`. Remember to use `man` if you don't know how to use a certain command.
+
+`rm` can be used to remove files and folders
+
+> **Warning:** There is no trash can in the command line. You delete a file and the file is gone. Be be careful with this command.
 
 ### Finding files and folders
 
