@@ -15,24 +15,32 @@ Divide your annotations in entries. In every entry you can write:
 
 > Exercise: Get a notebook for the pre academy program and write down your first entry and answer in one sentence: Why are you here? Please, nothing similar to [this](http://cmorse.org/missiongen/)
 
-## What are Fab Labs?
-* Fab Labs
-  * History
-    * Neil’s Day 1 Presentation
-    * Fab Lab Charter
-* Objectives
-* Equipment
-  * Inventory
-* Fab Lab Network
+## Fab Labs
+
+* History
+* Neil’s Day 1 Presentation
+* Fab Lab Charter
+* Equipment - Inventory
+
+### Fab Lab Network
   * Collaboration
   * Standardization
   * Conferences (global, regional)
-  * FabLabs.io
-  * Fab Foundation
-* Academany
+  * [FabLabs.io](http://fablabs.io)
+  * [Fab Foundation](http://fabboundation.org)
 
+### Academany
+![](./img/intro/academany.png)
 
-### Methodology
+The Academany a short name for **The Academy of Almost Anything**, a new global educational structure offering high level education all over the globe, at connected sites offering the same infrastructure to all students. All courses that are part of The Academy of Almost Anything are **directed by people leading the way in their field**, and constantly evolve to stay at the cutting edge development of research into tools, technologies and techniques.
+
+* [Fab Academy - HTMAA](http://fabacademy.org/)
+* [Bio Academy - HTGAA](http://bio.academany.org/)
+* Why to Make (almost) Anything - WTMAA (Upcoming)
+* Machines That Make - MTM (Upcoming)
+* Soft Academy (Upcoming)
+
+### Academany methodology
 Fab Academy is not a traditional but a **distributed education system** with tutors instead of teachers. Students undertake their own research in a 5 months long program. Academany educational programs are based on [the nine principles](http://media.mit.edu/about/principles) from Joi Ito (MIT Media Lab).
 
 ![](./img/intro/principles.jpeg)
