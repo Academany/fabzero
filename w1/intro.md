@@ -18,6 +18,7 @@ Divide your annotations in entries. In every entry you can write:
 ## Fab Labs and The Fab Lab Network
 
 * History
+* Cost of innovation
 * Fab Lab Charter
 * Equipment - Inventory
 * Collaboration
@@ -38,11 +39,12 @@ The Academany a short name for **The Academy of Almost Anything**, a new global 
 * Soft Academy (Upcoming)
 
 ### Academany methodology
-Academany programs are not a traditional but a **distributed education system** with tutors instead of teachers. Students undertake their own research in a 5 months long program. Academany educational programs are based on [the nine principles](http://media.mit.edu/about/principles) from Joi Ito (MIT Media Lab).
+Academany programs are not a traditional but a **distributed education system** with tutors instead of teachers. Students undertake their own research in a 5 months long program. Academany educational programs are inspired in line with [the nine principles](http://media.mit.edu/about/principles) from Joi Ito (MIT Media Lab).
 
 ![](./img/intro/principles.jpeg)
 
 * No roads, make your own path
+* Move out of your comfort zone and stay there
 * Free your mind (forget what you already know)
 * Be brave, take risks (not physical risks)
 * Stress control. Can you handle it?
