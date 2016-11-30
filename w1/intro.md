@@ -15,21 +15,18 @@ Divide your annotations in entries. In every entry you can write:
 
 > Exercise: Get a notebook for the pre academy program and write down your first entry and answer in one sentence: Why are you here? Please, nothing similar to [this](http://cmorse.org/missiongen/)
 
-## Fab Labs
+## Fab Labs and The Fab Lab Network
 
 * History
-* Neil’s Day 1 Presentation
 * Fab Lab Charter
 * Equipment - Inventory
+* Collaboration
+* Standardization
+* Conferences (global, regional)
+* [FabLabs.io](http://fablabs.io)
+* [Fab Foundation](http://fabboundation.org)
 
-### Fab Lab Network
-  * Collaboration
-  * Standardization
-  * Conferences (global, regional)
-  * [FabLabs.io](http://fablabs.io)
-  * [Fab Foundation](http://fabboundation.org)
-
-### Academany
+### Educational programs: The Academany
 ![](./img/intro/academany.png)
 
 The Academany a short name for **The Academy of Almost Anything**, a new global educational structure offering high level education all over the globe, at connected sites offering the same infrastructure to all students. All courses that are part of The Academy of Almost Anything are **directed by people leading the way in their field**, and constantly evolve to stay at the cutting edge development of research into tools, technologies and techniques.
@@ -41,7 +38,7 @@ The Academany a short name for **The Academy of Almost Anything**, a new global 
 * Soft Academy (Upcoming)
 
 ### Academany methodology
-Fab Academy is not a traditional but a **distributed education system** with tutors instead of teachers. Students undertake their own research in a 5 months long program. Academany educational programs are based on [the nine principles](http://media.mit.edu/about/principles) from Joi Ito (MIT Media Lab).
+Academany programs are not a traditional but a **distributed education system** with tutors instead of teachers. Students undertake their own research in a 5 months long program. Academany educational programs are based on [the nine principles](http://media.mit.edu/about/principles) from Joi Ito (MIT Media Lab).
 
 ![](./img/intro/principles.jpeg)
 
@@ -69,29 +66,8 @@ Fab Academy is not a traditional but a **distributed education system** with tut
 
 ## Let's get ready!
 
-### Prepare your Laptop
-* The importance of FOSS software.
-* Recommended Backups
-  * Backup data to USB
-  * Backup data to Cloud
-* Installing Ubuntu Desktop LTS
-* Installing software using Ubuntu software center
-* Install software using apt-get/apt/snap
-* Compiling software
-* Installing Windows software using Wine
-
-### Create online accounts
-It is recommended that students create the following online accounts
-* [Fablabs.io](fablabs.io) account. This is the official account used for many services
-* [Google](google.com) account for all Google services (Email, Docs, YouTube...)
-* [Vimeo](vimeo.com) account for storing large videos. Alternative to Youtube.
-* [Github](github.com) account for your personal code projects
-* [Dropbox](dropbox.com) account for hosting large files
-* [Sketchfab](sketchfab.com) account for embedding and hosting STL files
-
-> Exercise: Create those online accounts and keep your usernames/passwords in a **safe** place
-
-## Health, Safety and Environment (HSE)
+## Safefy first
+Health, Safety and Environment (HSE) guidelines.
 * Cleaning up - Not someone else Problem
 * Safety Manual
 * Access control
@@ -103,3 +79,29 @@ It is recommended that students create the following online accounts
   * Police
   * Hospital
   * Pharmacy
+
+> Exercise: Walk around the lab. Identify HSE potential problems and write them down in your notebook.
+
+### Prepare your Laptop
+* The importance of FOSS software.
+* Recommended Backups
+  * Backup data to USB
+  * Backup data to Cloud
+* Installing Ubuntu Desktop LTS
+* Installing software using Ubuntu software center
+* Install software using apt-get/apt/snap
+* Compiling software
+* Installing Windows software using Wine
+
+> Backup your data, partition your hard drive and install Ubuntu in it
+
+### Create online accounts
+It is recommended that students create the following online accounts
+* [Fablabs.io](fablabs.io) account. This is the official account used for many services
+* [Google](google.com) account for all Google services (Email, Docs, YouTube...)
+* [Vimeo](vimeo.com) account for storing large videos. Alternative to Youtube.
+* [Github](github.com) account for your personal code projects
+* [Dropbox](dropbox.com) account for hosting large files
+* [Sketchfab](sketchfab.com) account for embedding and hosting STL files
+
+> Exercise: Create those online accounts and keep your usernames/passwords in a **safe** place
