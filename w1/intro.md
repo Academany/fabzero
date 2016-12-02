@@ -89,7 +89,7 @@ Health, Safety and Environment (HSE) guidelines.
 * Recommended Backups
   * Backup data to USB
   * Backup data to Cloud
-* Installing Ubuntu Desktop LTS
+* Installing Ubuntu Desktop 16.04 LTS **64 bits**
 * Installing software using Ubuntu software center
 * Install software using apt-get/apt/snap
 * Compiling software
