@@ -29,7 +29,7 @@ git config --global core.editor atom #set the editor
 ```
 > Exercise: Configure git with your personal data
 
-## Cloning a repository
+## Cloning a repository using HTTPS connection
 > **Note:** From now on you will need your [fablabs.io](fablabs.io) account.
 
 To clone a repository you must type in a terminal window:
@@ -38,24 +38,18 @@ To clone a repository you must type in a terminal window:
 
 You can specify 2 kind of address depending on the connection used: HTTPS or SSH.
 
-HTTPS authentication will require login/password for each connection if the project is private. You can use the credential helper to cache these for some time (15 min by default). This will require an extra config step:
-
-`git config --global credential.helper cache # Set git to use the credential memory cache`
-
-To change the default timeout
-
-`git config --global credential.helper 'cache --timeout=3600' # Set the cache to timeout after 1 hour (setting is in seconds)`
+HTTPS connection is commonly used when you are cloning a repository that you will not be modifiying but you want to receive changes. It will not require login/password for each connection if the project is public.
 
 > Exercise: Clone the prefab repository using the https address:  
 http://git.fabacademy.org/fabacademyx/preacademy2017.git  
 Did you need to authenticate? What does it mean?
 
-Hopefully you will have a folder called `preacademy2017` in your home folder now.
+Hopefully you will have a folder called `preacademy2017` in your home folder now. But the problem is that if we want to push changes now it will require our login/password for each time we connect. Which is very unconvenient. So we will change the connection to SSH.
 
-> Exercise: What happens if you move the folder to another location? What happens if you rename the folder?
+> Delete the `preacademy2017` folder
 
 ## Generating SSH Keypair
-We usually use SSH connection in git, that way we are not messing with logins and passwords. A SSH connection needs a SSH keypair, one public key and one private key. These two together will allow you to connect. You generate a ssh keypair use this tutorial.
+We usually use SSH connection in git, that way we are not messing with logins and passwords. A SSH connection needs a SSH keypair, one public key and one private key. These two together will allow you to connect. You can generate a ssh keypair by following [this tutorial](https://help.github.com/articles/generating-an-ssh-key/).
 
 ## Cloning a repository using a SSH connection
 Please find below the SSH address to clone the repository. In your computer, inside a terminal window, navigate to where you want to clone the repository (**recommended your home directory**):
@@ -65,22 +59,29 @@ cd ~
 git clone git@git.fabacademy.org:fabacademyx/preacademy2017.git
 ```
 
-
 > Exercise: Clone the prefab repository in your computer.
 
 ## Basic git workflow
 This is the basic git workflow. Once you have made all changes to your website (hopefully daily), upload those changes to the repository. **Very important:** Do not miss any step, and do them in order.
 ```
 cd ~/folder_name          # go to the repository folder
+du -sh surname.name       # check your folder size
 git pull                  # pull other students changes
 git add --all             # add your changes
 git commit -m "message"   # write a meaningful message
-git push
+git push                  # push to the archive
 ```
-This is the manual workflow of updating your page. You can also write a script and  [automate this process](.w1d2.md).
+This is the manual workflow of updating your page. You can also write a script and  [automate this process](doc.md).
+
+> Exercise: What happens if you move the folder to another location? What happens if you rename the folder? Try to pull and push some changes after you rename or move the repository folder.
+>
 
 ## Where is the webpage?
+The webpage is here http://archive.fabacademy.org/preacademy2017
 
+> Bookmark this page
+
+---
 
 ## Troubleshooting
 
