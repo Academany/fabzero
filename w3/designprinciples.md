@@ -2,8 +2,8 @@
 
 ## Simplicity
 
-The [Zen of Python](http://www.thezenofpython.com/)
-
+> The [Zen of Python](http://www.thezenofpython.com/)
+>
 * Beautiful is better than ugly.
 * Explicit is better than implicit.
 * Simple is better than complex.
