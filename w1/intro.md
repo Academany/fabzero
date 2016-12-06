@@ -43,11 +43,12 @@ Academany programs are not a traditional but a **distributed education system** 
 
 ![](./img/intro/principles.jpeg)
 
-* No roads, make your own path
+### A piece of advice
+* Do not follow existing roads, make your own path
 * Move out of your comfort zone and stay there
-* Free your mind (forget what you already know)
+* Free your mind, forget what you already know, try new things
 * Be brave, take risks (not physical risks)
-* Stress control. Can you handle it?
+* Things will go wrong, things will change continuously, you will loose work, you will break things, and you will not be able to find a solution immediately. You will need to control your stress. Can you handle it?
 
 ### How Fab Academy works
 * Basic principle is **Learn + make + share**. Based in the Scientific method
@@ -68,7 +69,7 @@ Academany programs are not a traditional but a **distributed education system** 
 
 ## Let's get ready!
 
-## Safefy first
+### Safefy first
 Health, Safety and Environment (HSE) guidelines.
 * Cleaning up - Not someone else Problem
 * Safety Manual
