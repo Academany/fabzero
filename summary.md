@@ -16,7 +16,7 @@
 
 ## Week 3
 * [Day 1. Project management](w3/projectmanagement.md)
-* [Day 2. Universal Principles of Design](w3/designprinciples.md)
+* [Day 2. Principles of Design](w3/designprinciples.md)
 * [Day 3. Design Thinking](w3/designthinking.md)
 * [Day 4. Advanced CAD](w3/advancedcad.md)
 * [Day 5. Shopbot desktop](w3/shopbotdesktop.md)

@@ -13,8 +13,7 @@ This repository hosts the second and current iteration of Pre Academy, which inc
 * It is based in commonly used [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software)
 * Removing topics that are common with fab academy (composites, molding and casting, electronics production, etc.). It was found that incorporating this subjects paradoxically reduced the attention of the student when taking the Fab Academy program.
 
-[Go to Pre Academy 2017 schedule.](summary.md)  
-[Go to Pre Academy 2017 git repository](http://git.fabacademy.org/fabacademyx/preacademy2017/)  
-[Go to Pre Academy 2017 students archive](http://archive.fabacademy.org/preacademy2017/)
+[Go to Pre Academy 2017 schedule and course documentation](summary.md)    
+[Go to Pre Academy 2017 students archive](http://archive.fabacademy.org/fabacademyx/preacademy2017/)
 
 If you have questions or inquiries about this second iteration content please do not hesitate to raise an issue or contact me (Francisco): hola [at] beachlab [dot] org. Happy to help!

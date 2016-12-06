@@ -1,8 +1,11 @@
 # Parametric CAD II. OpenSCAD
 
 ## Introduction to OpenSCAD
-[OpenSCAD](http://www.openscad.org/) is a free **script based** application for creating solid 3D CAD objects. It has a specific [description language](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/The_OpenSCAD_Language) which specifies geometric primitives and defines how they are modified to render a 3D model.
+[OpenSCAD](http://www.openscad.org/) is a free **script based** application for creating solid 3D CAD objects. 
 > Install OpenSCAD in your computer
+
+It has a specific [description language](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/The_OpenSCAD_Language) which specifies geometric primitives and defines how they are modified to render a 3D model. No one likes manuals, but you have to read the manual sometimes.
+![](img/openscad/rtfm.jpg)
 
 ## Seeing the Matrix
 Script based CAD software like OpenSCAD has a number of advantages over traditional and more intuitive *click and drag* software.
