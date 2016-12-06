@@ -7,7 +7,7 @@ But programs can also be run without the GUI and actually many programs come wit
 
 The enviroment we use is the Shell or command-line interpreter. There are many shells. The one that comes with most distributions is **Bash** (Bourne Again Shell).
 
-[SHELL ENVIRONMENT IMAGE PLACEHOLDER]
+![](img/intro/bash.png)
 
 ## The Unix philosophy
 It is important to understand the [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) before you move forward. Programs in Unix were written following this philosophy:
@@ -89,7 +89,7 @@ The first column tells you if the item is a file `-`, a directory `d`, or a link
 
 `rm` can be used to remove files and folders
 
-> **Warning:** There is no trash can in the command line. You delete a file and the file is gone. Be be careful with this command.
+> **Warning:** There is no trash can in the command line. You delete a file and the file is gone forever. Be be careful with this command.
 
 ### Finding files and folders
 
@@ -100,7 +100,9 @@ One of the things you ~~should~~ must do before pushing your files to the archiv
 
 The reason why this is important, has an answer in how version control systems are designed. They are designed to keep history. That's why once you upload something by mistake, even if you delete it, it remains in the history and it is very difficult to remove it.
 
-`du`
+`du -sr myfolder`
+
+A normal alchive should grow at a rate of 1-2 mb per week.
 
 ### Users, groups and permissions
 Linux is a multi-user operating system with users and groups. Different users have different file access levels or privileges (read, write, execute). By default bash tells you what user is logged in. Otherwise you can ask bash _Who am I?_
