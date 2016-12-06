@@ -26,36 +26,47 @@ A Markdown document is just a plain text file usually appended with a `.md` exte
 
 > Exercise: Create a markdown page with a text editor and introduce yourself. Use header titles, bold text, italic text, link, bullets and a image.
 
-#### Documentation Workflow
-The process of writing the documentation involves typing the documentation in markdown, exporting to HTML, and pushing the documentation to github. You can do all of these things manually but they can automated them in a shell script.
+### Markdown Workflow
+The process of writing the documentation involves typing the documentation in markdown, converting it to HTML, and pushing the documentation to the archive. We will first learn how to do all of these things manually, but they can automated them in a shell script.
 
-An alternative workflow would be using an online tool like [Stackedit.io](https://stackedit.io/). This is not described here, but is it worth having a look at it.
-
-
-#### What is needed
-You first need a text editor. I use [Atom](https://atom.io/) because it is Open Source and also has built in markdown preview. To activate the markdown preview in Atom clic on _Packages/Markdown Preview/Toggle Preview_.
+#### The text editor
+You first need a text editor. I use [Atom](https://atom.io/) because it is Open Source and also has built in markdown preview. To activate the markdown preview in Atom clic on _Packages/Markdown Preview/Toggle Preview_ or press `SHIFT`+`CONTROL`+`M`.
 
 ![](./img/doc/atom.png)
 
 > Exercise: Install atom
 
-To convert `.md` files to `.html` files ~~you need~~ I use a command line tool called **pandoc**. In Ubuntu you can install pandoc by typing this in the terminal:
+#### Markdown to HTML conversion
+To convert `.md` files to `.html` files there is a command line tool called **pandoc**. In Ubuntu you can install pandoc by typing this in the terminal:
 
 `sudo apt-get install pandoc`
 
 > Exercise: Install pandoc
 
-When you export to HTML, by default pandoc will export it unstyled, just like a normal HTML file written from scratch. But you can style your HTML using CSS. Styling HTML is recommended not only because it looks nicer but also because styling can make it easier and more pleasant to read. Which I consider an important feature for the documentation. Instead of writing your own `css` file from scratch, what I recommend is modifying one of the many available `css` files for pandoc, or use [the one I use](http://git.fabcloud.io/francisco/beach-lab-htgaa-2015/blob/master/students/sanchez.francisco/base.css).
+Pandoc has several options. You can learn them by reading the manual, type `man pandoc`. The options we will use are:
+```
+-f markdown  #it tells pandoc the origin file format
+-o html      #it tells pandoc the destination file format
+-s           #creates a standalone document, not a fragment
+-c style.css #path or URL to stylesheet
+```
+So exporting a markdown file to html is:
+
+`pandoc -s -f markdown -t html -c style.css file.md file.html`
+
+When you export to HTML, by default pandoc will export it unstyled, just like a plain HTML file written from scratch. But you can style your HTML using CSS by using the option `-c style.css`. Styling the resulting HTML is recommended not only because it looks nicer, but also because styling can make it easier and more pleasant to read. Which is an important feature for the documentation. Instead of writing your own `css` file from scratch, modify one of the many available `css` files for pandoc, or use [this one](http://git.fabcloud.io/francisco/beach-lab-htgaa-2015/blob/master/students/sanchez.francisco/base.css).
 
 >### Some tips learned the hard way
 > Standard markdown syntax does not require a blank line before a header. Pandoc  does  require  this (except, of course, at the beginning of the document). The reason for the requirement is that it is all  too  easy for  a  #  to  end  up  at the beginning of a line by accident (perhaps through line wrapping).
 >
 > If you need a hard line break, put two or more spaces at the end of a line.
 
-#### Automating everything
-Some people tells me why I keep using command line tools like pandoc. It is because I consider automation the **real power of comand line tools**. You want to automate ~~because you are lazy bastard like me, admit it~~ in order to avoid typing all these commands in terminal over and over and also in order to speed up the process of file conversion and uploading to the server.
+Some people will ask *why do we keep using command line tools like pandoc? It's so annoying having to type all of those commands*. Continue reading to find out why.
 
-All you need to do is to create a new plain text file and name it something like `auto.sh` (for _shell script_) where you will write a sequence of commands. Those will be the very same commands that you would type in the terminal one by one.
+#### Automating everything
+Automation is the **real power of comand line tools**. You want to automate ~~because you are lazy bastard like me, admit it~~ in order to avoid typing all these commands in terminal over and over and also in order to speed up the process of file conversion and uploading to the server.
+
+All you need to do is to create a script, which is a plain text file names something like `auto.sh` (for _shell script_) where you will write a sequence of commands. Those will be the very same commands that you would type in the terminal one by one.
 
 This tutorial assumes that you have all the markdown `.md` and css `.css` files together in the root of your student folder - which is inside the lab folder containing the github repository. Otherwise just adjust the paths accordingly. The contents of the `auto.sh` file should be similar to this:
 
@@ -70,7 +81,7 @@ do
   echo "Converting $f to $filename.html"
   `pandoc -s -c base.css $f -t html -o $filename.html`
 done
-# Step 2. Uploading everything to github
+# Step 2. Uploading everything to the repository
 # If there is commit message then upload
 if [ "$#" -gt 0 ]
 then
@@ -78,16 +89,13 @@ then
     git add --all
     git commit -m "$*"
     git push
-    # git ftp push -u <user> -P ftp://host.example.com/fab2016 # Uncomment this line to upload to ftp. Replace <user> and server to your settings
 else
     echo "Not uploading (Empty commit message)"
 fi
 ```
+> Note: Please note that the `git commit` line contains a `$*`. This is important since we will [pass the commit message as an argument](http://osr600doc.sco.com/en/SHL_automate/_Passing_to_shell_script.html) when we execute the script.
 
-> Note 1: Please note that the `git commit` line contains a `$*`. This is important since we will [pass the commit message as an argument](http://osr600doc.sco.com/en/SHL_automate/_Passing_to_shell_script.html) when we execute the script.
->
-> Note 2: This script includes a commented line that also uploads at the same time to a ftp server. If you want to do the same proceed to install [git-ftp](https://github.com/git-ftp/git-ftp) before uncommenting the line.
-
+#### Using the script
 Now it comes the easy part. After you type all your documentation you open a new terminal inside your student folder that contains `auto.sh` file and type:
 
 `sh auto.sh`
