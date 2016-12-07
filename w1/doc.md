@@ -24,7 +24,12 @@ Markdown is very **easy to write**, very **easy to read** and you can also **eas
 
 A Markdown document is just a plain text file usually appended with a `.md` extension. It will only take you about 10 minutes to learn the basics following [this tutorial](https://help.github.com/articles/markdown-basics/).
 
-> Exercise: Create a markdown page with a text editor and introduce yourself. Use header titles, bold text, italic text, link, bullets and a image.
+> Exercise: Create a markdown page with a text editor and introduce yourself. Use header titles, bold text, italic text, link, bullets and an image.  
+
+>### Some tips learned the hard way
+> Standard markdown syntax does not require a blank line before a header. Pandoc  does  require  this (except, of course, at the beginning of the document). The reason for the requirement is that it is all  too  easy for  a  #  to  end  up  at the beginning of a line by accident (perhaps through line wrapping).
+>
+> If you need a hard line break, put two or more spaces at the end of a line.
 
 ### Markdown Workflow
 The process of writing the documentation involves typing the documentation in markdown, converting it to HTML, and pushing the documentation to the archive. We will first learn how to do all of these things manually, but they can automated them in a shell script.
@@ -56,11 +61,6 @@ So exporting a markdown file to html is:
 
 When you export to HTML, by default pandoc will export it unstyled, just like a plain HTML file written from scratch. But you can style your HTML using CSS by using the option `-c style.css`. Styling the resulting HTML is recommended not only because it looks nicer, but also because styling can make it easier and more pleasant to read. Which is an important feature for the documentation. Instead of writing your own `css` file from scratch, modify one of the many available `css` files for pandoc, or use [this one](http://git.fabcloud.io/francisco/beach-lab-htgaa-2015/blob/master/students/sanchez.francisco/base.css).
 
->### Some tips learned the hard way
-> Standard markdown syntax does not require a blank line before a header. Pandoc  does  require  this (except, of course, at the beginning of the document). The reason for the requirement is that it is all  too  easy for  a  #  to  end  up  at the beginning of a line by accident (perhaps through line wrapping).
->
-> If you need a hard line break, put two or more spaces at the end of a line.
-
 Some people will ask *why do we keep using command line tools like pandoc? It's so annoying having to type all of those commands*. Continue reading to find out why.
 
 #### Automating everything
@@ -68,10 +68,23 @@ Automation is the **real power of comand line tools**. You want to automate ~~be
 
 All you need to do is to create a script, which is a plain text file names something like `auto.sh` (for _shell script_) where you will write a sequence of commands. Those will be the very same commands that you would type in the terminal one by one.
 
-This tutorial assumes that you have all the markdown `.md` and css `.css` files together in the root of your student folder - which is inside the lab folder containing the github repository. Otherwise just adjust the paths accordingly. The contents of the `auto.sh` file should be similar to this:
+This tutorial assumes that you have all the markdown `.md` and css `.css` files together in the root of your student folder - which is inside the lab folder containing the github repository. Otherwise just adjust the paths accordingly. The script `auto.sh` can start simple, and towards time it will become more and more advanced as you master command line:
 
 ```bash
-# Automation file
+# Simple Automation file
+# Step 1. Converting
+pandoc -s -f markdown -t html -c style.css file1.md file1.html
+pandoc -s -f markdown -t html -c style.css file2.md file2.html
+# Step 2. Uploading to the archive
+git pull
+git add --all
+git commit -m "updates"
+git push
+```
+> Do you see any disadvantage in the above script?
+
+```bash
+# Advanced Automation file
 # Step 1. File conversion from .md to .html
 FILES=*.md
 for f in $FILES
@@ -102,7 +115,7 @@ Now it comes the easy part. After you type all your documentation you open a new
 
 And it search for all the `.md` files in your folder and will convert them to HTML, overwriting if they already existed. But **if you also write a commit message** like this:
 
-`sh auto.sh this will be the commit message`
+`bash auto.sh this will be the commit message`
 
 This will convert all the markdown documentation to HTML **and** upload the documentation to your repository (if you uncommented the ftp line it will also ask you the ftp password).
 
