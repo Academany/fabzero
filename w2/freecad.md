@@ -1,3 +1,3 @@
-# Day 1. Parametric CAD I. FreeCAD
+# Parametric CAD I. FreeCAD
 ---
 [Back to Summary](../summary.md)

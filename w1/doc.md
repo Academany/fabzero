@@ -111,7 +111,7 @@ fi
 #### Using the script
 Now it comes the easy part. After you type all your documentation you open a new terminal inside your student folder that contains `auto.sh` file and type:
 
-`sh auto.sh`
+`bash auto.sh`
 
 And it search for all the `.md` files in your folder and will convert them to HTML, overwriting if they already existed. But **if you also write a commit message** like this:
 
@@ -123,7 +123,7 @@ This will convert all the markdown documentation to HTML **and** upload the docu
 
 ### Audio and video
 * Selfie video: Many incubators and accelerators will ask you to record a video where you show you and your team. If you are planning to start a [kickstarter](https://www.kickstarter.com) campaign for a product you want to sell you will also have to do the same.
-> Try to record a 10 to 15 seconds video presenting yourself. Do you think it's easy? Let's see how many times you have to repeat the scene until you are satisfied.
+> Record a 10 to 15 seconds video presenting yourself. Do you think it's easy? Let's see how many times you have to repeat the scene until you are satisfied.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4FNLdBSj4Ms?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
