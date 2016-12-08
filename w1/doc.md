@@ -1,8 +1,9 @@
-# Writing damn good documentation
+# Documenting your work
 
-## The computer
+## What and how to document
+The most important thing to understand when it comes to documenting your work is that you are not writing a tutorial, a step by step guide or telling others what to do. You are telling your personal story, your journey in the learning process. While you still have to provide details about your findings, you have to become a storyteller. The following are some tools that will help you deliver better and more clear documentation.
 
-### Writing documentation in markdown
+## Writing documentation in markdown
 This is an example of documentation written in HTML code. It takes time because there are all these tags that you have to open and remember to close like:
 ```html
 <h1>This is the title</h1>
@@ -34,14 +35,14 @@ A Markdown document is just a plain text file usually appended with a `.md` exte
 ### Markdown Workflow
 The process of writing the documentation involves typing the documentation in markdown, converting it to HTML, and pushing the documentation to the archive. We will first learn how to do all of these things manually, but they can automated them in a shell script.
 
-#### The text editor
+### The text editor
 You first need a text editor. I use [Atom](https://atom.io/) because it is Open Source and also has built in markdown preview. To activate the markdown preview in Atom clic on _Packages/Markdown Preview/Toggle Preview_ or press `SHIFT`+`CONTROL`+`M`.
 
 ![](./img/doc/atom.png)
 
 > Exercise: Install atom
 
-#### Markdown to HTML conversion
+### Markdown to HTML conversion
 To convert `.md` files to `.html` files there is a command line tool called **pandoc**. In Ubuntu you can install pandoc by typing this in the terminal:
 
 `sudo apt-get install pandoc`
@@ -63,7 +64,7 @@ When you export to HTML, by default pandoc will export it unstyled, just like a 
 
 Some people will ask *why do we keep using command line tools like pandoc? It's so annoying having to type all of those commands*. Continue reading to find out why.
 
-#### Automating everything
+### Automating everything
 Automation is the **real power of comand line tools**. You want to automate ~~because you are lazy bastard like me, admit it~~ in order to avoid typing all these commands in terminal over and over and also in order to speed up the process of file conversion and uploading to the server.
 
 All you need to do is to create a script, which is a plain text file names something like `auto.sh` (for _shell script_) where you will write a sequence of commands. Those will be the very same commands that you would type in the terminal one by one.
@@ -108,7 +109,7 @@ fi
 ```
 > Note: Please note that the `git commit` line contains a `$*`. This is important since we will [pass the commit message as an argument](http://osr600doc.sco.com/en/SHL_automate/_Passing_to_shell_script.html) when we execute the script.
 
-#### Using the script
+### Using the script
 Now it comes the easy part. After you type all your documentation you open a new terminal inside your student folder that contains `auto.sh` file and type:
 
 `bash auto.sh`
@@ -121,7 +122,12 @@ This will convert all the markdown documentation to HTML **and** upload the docu
 
 > Exercise: Write a script to automate the conversion of your files to the repository.
 
-### Audio and video
+## Audio and video
+
+### Pictures
+
+### Video
+
 * Selfie video: Many incubators and accelerators will ask you to record a video where you show you and your team. If you are planning to start a [kickstarter](https://www.kickstarter.com) campaign for a product you want to sell you will also have to do the same.
 
 > Record a 10 to 15 seconds video presenting yourself. Do you think it's easy? Let's see how many times you have to repeat the scene until you are satisfied.
@@ -139,5 +145,6 @@ This will convert all the markdown documentation to HTML **and** upload the docu
 > Include one of these GIF in your archive.   
 
 * Experiment with adding titles and subtitles to your videos (in another language or for people with disabilities for example). Subtitles can be hardcoded or softcoded, find out the difference. You can create subtitles with YouTube Creator Studio.
+
 ---
 [Back to Summary](../summary.md)
