@@ -49,15 +49,20 @@ The information displayed in Bash varies from distribution to distribution. In U
 > Exercise: Open a new terminal window. Where are you now? What is ~?
 
 ### Moving around
-`cd` command stands for Call Directory and it is used to go to other directories.
+`cd` command stands for *change directory* and it is used to go to other directories.
 
-> Exercise: Navigate to your root folder `/`
+> Exercise: Navigate to your root folder /
+
+If you need to navigate to a folder with spaces like *My Documents* use the escape character `\` to tell bash that the space is part of the name and not another argument:
+
+`cd My\ Documents`
+
+If you need to go back to the last directory you were you can use the command `cd -`. This is very useful to go back and forward between 2 directories.
 
 ### Tab completion
 A very handy keyboard shorcut is the `TAB` key. It will autocomplete the name of the file or the folder name.
 
 > Exercise: From the root folder, navigate to your Documents folder. Use `TAB` to keep autocompleting.
-
 
 ### Listing contents
 We have seen the `ls` command already. Most of the time you will use `ls -lh` (with optional `-a`) which gives you a long list with human readable file sizes.
@@ -70,6 +75,10 @@ The first column tells you if the item is a file `-`, a directory `d`, or a link
 `mkdir` is used to create a directory
 
 > Exercise: Create a personal folder using this scheme `surname.name` in your `~/Documents` folder.
+
+If you need to create a folder structure you can use the option `-p` which will create all the required parent folders.
+
+> Create `~/Documents/surname.name/week1/img`
 
 `touch` command is used to create an empty file.
 
@@ -85,15 +94,28 @@ The first column tells you if the item is a file `-`, a directory `d`, or a link
 
 `mv` is used for moving files but can also me used as a rename tool.
 
-> Exercise: Rename `day1.md` to `week1day1.md`. Remember to use `man` if you don't know how to use a certain command.
+> Exercise: Rename `day1.md` to `week1day1.md`. Remember to use `man mv` if you don't know how to use the command.
+
+When moving files from other directories to the current directory you can use the shortcut `.`
+
+> Example: `mv ~/Downloads/somefile.zip .`
+
+At all time we can use w ildcards like `*` that represents any number of any characters and `?` that represent one of any character.
 
 `rm` can be used to remove files and folders
 
 > **Warning:** There is no trash can in the command line. You delete a file and the file is gone forever. Be be careful with this command.
 
-### Finding files and folders
+You can use `rm` recursively to delete files and folders
 
-`find`
+> Example `rm -r ~/Documents/surname.name/` will delete the folder and everything inside it. Extreme caution!
+
+### Finding files and folders
+`find` will recursively search for files and folders inside a specified starting location. For example, to find files and folders anywhere inside your home folder which contains "1":
+
+`find ~ -name "*1*"`
+
+This command has many other options, explore the manual if you want to learn more.
 
 ### File sizes
 One of the things you ~~should~~ must do before pushing your files to the archive is checking your files sizes. That way you make sure you are not accidentally uploading 16Mpx pictures, a large video or huge STL meshes (to name just three of the most common mistakes).
@@ -104,20 +126,38 @@ The reason why this is important, has an answer in how version control systems a
 
 A normal alchive should grow at a rate of 1-2 mb per week.
 
-### Users, groups and permissions
+### Understanding users, groups and permissions
 Linux is a multi-user operating system with users and groups. Different users have different file access levels or privileges (read, write, execute). By default bash tells you what user is logged in. Otherwise you can ask bash _Who am I?_
 
 `whoami` command will tell you who you are.
 
-You can also switch user with `su` command.
-
-`chmod`
+`chmod` will change the permissions of a specified file or device.
 
 ### sudo
 
-`sudo` Super User Do
+`sudo` stands for _Super User Do_ and it will perform tasks as if you were the root user. For instance, if you want to move one file out of your home folder you will be denied permission. To do that you will have to execute the command you want to perform So you will be able to install software, look into other users home folders, and other administrative tasks.
 
+`sudo mv somefile.txt /`
 
+As soon as you have performed you administrative tasks you should revert back to your user privileges. You can withdraw yourself from admin privileges with `sudo -k`.
+
+You can also switch user with `su` command. Being the most common use when you want to become root `sudo su`. Exit to your normal user as soon as you finish with `exit` command.
+
+### Looking inside files
+
+`cat` will display your file on the screen. You can also use option `-n` to number the lines.
+
+`cat -n somefile.txt`
+
+`head` and `tail` commands will show the first and lastest 10 lines of a file. You can change this number of lines displayed by using the option `-n`
+
+`tail -n 5 somefile.txt`
+
+`less` is used for browsing long files, it will display the file you specify using the `man` command line viewer.  
+
+`grep` is a very useful command. It looks for text inside files.
+
+### Piping commands
 
 ---
 [Back to Summary](../summary.md)

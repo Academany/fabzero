@@ -126,7 +126,7 @@ This will convert all the markdown documentation to HTML **and** upload the docu
 
 > Record a 10 to 15 seconds video presenting yourself. Do you think it's easy? Let's see how many times you have to repeat the scene until you are satisfied.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4FNLdBSj4Ms?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+![](img/doc/interview.png)
 
 * Screen recording: Sometimes the best way to show something that you are doing in a computer is with a screen capture video (with or without voice over). A good screen recorder for GNU/Linux is [SimpleScreenRecorder](http://www.maartenbaert.be/simplescreenrecorder/).
 
@@ -134,8 +134,10 @@ This will convert all the markdown documentation to HTML **and** upload the docu
 
 * Do not underestimate the legacy `.gif` format. It is very useful to show short videos (2 to 5 seconds) like a led blinking. It also shows your emotions and helps the people understand how do you feel doing fab academy. It does not require autoplay. There are a number of resources for downloading, manipulating or converting to `.gif` like [Giphy](http://giphy.com/), [Ezgif](http://ezgif.com/video-to-gif) and many more.
 
-> Include one of these GIF in your archive.  
-<iframe src="http://giphy.com/embed/j5QcmXoFWl4Q0" width="480" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+![](img/doc/ok.gif)
+
+> Include one of these GIF in your archive.   
+
 * Experiment with adding titles and subtitles to your videos (in another language or for people with disabilities for example). Subtitles can be hardcoded or softcoded, find out the difference. You can create subtitles with YouTube Creator Studio.
 ---
 [Back to Summary](../summary.md)
