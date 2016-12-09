@@ -1,7 +1,13 @@
 # Documenting your work
 
 ## What and how to document
-The most important thing to understand when it comes to documenting your work is that you are not writing a tutorial, a step by step guide or telling others what to do. You are telling your personal story, your journey in the learning process. While you still have to provide details about your findings, you have to become a storyteller. The following are some tools that will help you deliver better and more clear documentation.
+The most important thing to understand when it comes to documenting your work is that you are not writing a tutorial, a step by step guide or telling others what to do. **You are telling your personal story**, your journey into the learning process. While you still have to provide details about your findings, you have to become a storyteller.
+
+Documenting **is not about the final result, it's about the process**. What was the goal, what did you had to research, how did you approach the solution, and what was the outcome.
+
+**Document failures and successes**. Some people hide failures but there is much more you can learn from documenting your failures than documenting your sucesses.
+
+The following are some tools that will help you deliver better and more clear documentation.
 
 ## Writing documentation in markdown
 This is an example of documentation written in HTML code. It takes time because there are all these tags that you have to open and remember to close like:
