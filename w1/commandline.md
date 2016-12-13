@@ -100,7 +100,7 @@ When moving files from other directories to the current directory you can use th
 
 > Example: `mv ~/Downloads/somefile.zip .`
 
-At all time we can use w ildcards like `*` that represents any number of any characters and `?` that represent one of any character.
+At all time we can use wildcards like `*` that represents any number of any characters and `?` that represent one of any character.
 
 `rm` can be used to remove files and folders
 
@@ -120,11 +120,15 @@ This command has many other options, explore the manual if you want to learn mor
 ### File sizes
 One of the things you ~~should~~ must do before pushing your files to the archive is checking your files sizes. That way you make sure you are not accidentally uploading 16Mpx pictures, a large video or huge STL meshes (to name just three of the most common mistakes).
 
-The reason why this is important, has an answer in how version control systems are designed. They are designed to keep history. That's why once you upload something by mistake, even if you delete it, it remains in the history and it is very difficult to remove it.
+The reason why this is important, has an answer in how version control systems are designed. They are designed to keep history. That's why once you upload something by mistake, even if you delete it, it remains in the history and it is very difficult to remove it. So we use the `du` (disk usage) command to check the size of alll files and folders (*) inside the current folder with summarize option `-s` and human readable format `-h`.
 
-`du -sr myfolder`
+`du -sh foldername`
 
-A normal alchive should grow at a rate of 1-2 mb per week.
+If we have a group of files and folders and we want to check the size of all of them, we can specify all files and folders instead of a specific folder `*` and optionally pipe the result `|` to the `sort` command to sort the results by human numerical value `-h` and in reverse order `-r` so that bigger files appear first.
+
+`du -sh * | sort -rh`
+
+A normal archive should grow at a rate of 1-2 mb per week.
 
 ### Understanding users, groups and permissions
 Linux is a multi-user operating system with users and groups. Different users have different file access levels or privileges (read, write, execute). By default bash tells you what user is logged in. Otherwise you can ask bash _Who am I?_
@@ -155,7 +159,17 @@ You can also switch user with `su` command. Being the most common use when you w
 
 `less` is used for browsing long files, it will display the file you specify using the `man` command line viewer.  
 
-`grep` is a very useful command. It looks for text inside files.
+`grep` is a very useful command. It looks for text inside files and display the line of text that contains the search pattern. Some useful options are:
+
+```
+-r # recursive search
+-i # case insensitive search pattern
+-n # show the text line number than contains the search pattern
+```
+
+So for if you want to seach for "openscad" anywhere inside the current folder you would do:
+
+`grep -rin "openscad" .`
 
 ### Piping commands
 

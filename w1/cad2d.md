@@ -1,11 +1,26 @@
 # CAD 2D. Raster and Vector
 
-## 2D Design
-Assorted 2D design recommendations
+## Raster
 
-Graphicsmagick
+## Graphicsmagick
+Graphicsmagick swiss army command line tool for image processing. It is an improved and updated variant of the well known [imagemagick](). Please refer to the [graphicsmagick website]() to find out why.
 
-* Try at least one raster and one vector tool.
+> Why is Graphicsmagick better than Imagemagick?
+
+`gm convert image1.jpg -resize 640x640 resulting_
+image.jpg`
+
+One of the utilities of graphicsmagick is the ability to compose images in a horizontal strip, which is very useful for documenting processes.
+
+`gm convert image1.jpg image2.jpg -geometry x400 +append resulting_
+image.jpg`
+
+
+
+
+
+## Vectorizing a raster image
+
 * Learn how to vectorize a B/W image. You will need to do this many times.
 ---
 [Back to Summary](../summary.md)

@@ -1,6 +1,12 @@
-# Introduction to programming
+# Introduction to embedded C programming
 
-In this session we are going to learn to program an attiny44 using AVR-GCC toolchain in C language. Programming is a huge topic. It will take long time to master. The first thing you should know about programming is that **you cannot program a microcontroller without reading the datasheet** of that specific microcontroller.
+In this section we are going to learn to program an attiny44 using AVR-GCC toolchain in C language. Programming is a huge topic. It will take long time to master.
+
+## I know Arduino scripting language. I don't need C
+Please watch this video https://www.youtube.com/watch?v=ERY7d7W-6nA
+
+## The datasheet
+The first thing you should know about embedded programming is that **you cannot program a microcontroller without reading the datasheet** of that specific microcontroller.
 
 > Download the [Attiny 44 Datasheet](http://www.atmel.com/images/doc8006.pdf) and browse through it.
 
