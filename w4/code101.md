@@ -84,8 +84,6 @@ http://www.ladyada.net/learn/avr/avrdude.html
 
 ## The programmer
 
-I forgot to change the profile from cut to mill
-
 
 Do not start from scratch. Start by editing an existing program.
 

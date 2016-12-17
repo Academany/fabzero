@@ -29,11 +29,6 @@ The usual copy and paste key combinations have different functions in Bash. To c
 
 `ls` is a command which lists files and folders. `-a` is an option to display hidden files and `/usr/local/bin` is the argument telling where to operate the command. If the argument was not present it would list the current directory.
 
->### Wait, wait, wait... Do I need to memorize all of this?
-No. Just use the `man` COMMAND (for Manual) everytime you need help on how to use the commands. Yes, I know. We all hate manuals. But in Unix/Linux world you will find a lot of references about [RTFM](https://en.wikipedia.org/wiki/RTFM).
-
-> Exercise: Have a quick look at the manual for `ls` command. We will need this in a while.
-
 Options come in two flavors, one is called **short option**, a single letter like `-a`. In this case you don't have a clue of what that option is performing. On the other hand you can concatenate short options. For example `-a -l` can be reduced to `-al`.
 
 > **Remember:** Linux is a case sensitive operating system. `-n` and `-N` are different things!
@@ -42,7 +37,16 @@ Some options also have a human readable flavor called **long option**. Human rea
 
 > Exercise: List the files of your home folder. Display them as a list. Display the hidden files also. What other options can be useful?
 
+## The manual
+Wait, wait, wait... Do I need to memorize all of this?
+No. Just use the `man` COMMAND (for Manual) everytime you need help on how to use the commands. Yes, I know. We all hate manuals. But in Unix/Linux world you will find a lot of references about [RTFM](https://en.wikipedia.org/wiki/RTFM).
+
+![](../w2/img/openscad/rtfm.jpg)
+
+> Exercise: Have a quick look at the manual for `ls` command. Get familiarised, you will need this a lot.
+
 ## Navigating the filesystem
+
 ### Where am I?
 The information displayed in Bash varies from distribution to distribution. In Ubuntu you can see at every moment what is the current directory and the full path. Otherwise `pwd` command (_Print Working Directory_) will output the full path of your location in the filesystem.
 
@@ -63,6 +67,8 @@ If you need to go back to the last directory you were you can use the command `c
 A very handy keyboard shorcut is the `TAB` key. It will autocomplete the name of the file or the folder name.
 
 > Exercise: From the root folder, navigate to your Documents folder. Use `TAB` to keep autocompleting.
+
+When two or more options are available the first `TAB` will not autocomplete, a second `TAB` will show you the available options for you to type a few extra letters to diferenciate. After that another `TAB` will autocomplete.
 
 ### Listing contents
 We have seen the `ls` command already. Most of the time you will use `ls -lh` (with optional `-a`) which gives you a long list with human readable file sizes.
