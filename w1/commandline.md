@@ -7,7 +7,7 @@ But programs can also be run without the GUI and actually many programs come wit
 
 The enviroment we use is the Shell or command-line interpreter. There are many shells. The one that comes with most distributions is **Bash** (Bourne Again Shell).
 
-![](img/intro/bash.png)
+![](img/bash/bash.png)
 
 ## The Unix philosophy
 It is important to understand the [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) before you move forward. Programs in Unix were written following this philosophy:
@@ -136,22 +136,78 @@ If we have a group of files and folders and we want to check the size of all of 
 
 A normal archive should grow at a rate of 1-2 mb per week.
 
-### Understanding users, groups and permissions
+### Understanding users
 Linux is a multi-user operating system with users and groups. Different users have different file access levels or privileges (read, write, execute). By default bash tells you what user is logged in. Otherwise you can ask bash _Who am I?_
 
 `whoami` command will tell you who you are.
 
-`chmod` will change the permissions of a specified file or device.
-
-### sudo
-
-`sudo` stands for _Super User Do_ and it will perform tasks as if you were the root user. For instance, if you want to move one file out of your home folder you will be denied permission. To do that you will have to execute the command you want to perform So you will be able to install software, look into other users home folders, and other administrative tasks.
+There are 2 kinds of users in Linux. Normal users and _superusers_. Supersers can perfom administrative tasks and will be able to look into other users folders. Even if you are a normal user you can perform superuser tasks using the `sudo` command. `sudo` stands for _Super User Do_ and it will perform tasks as if you were the root user. For instance, if you want to move one file out of your home folder you will be denied permission. To do that you will have to execute the command as if you were a superuser like `root` user.
 
 `sudo mv somefile.txt /`
 
-As soon as you have performed you administrative tasks you should revert back to your user privileges. You can withdraw yourself from admin privileges with `sudo -k`.
+As soon as you have performed you administrative tasks you should revert back to your normal user privileges. You can withdraw yourself from admin privileges with `sudo -k`.
 
-You can also switch user with `su` command. Being the most common use when you want to become root `sudo su`. Exit to your normal user as soon as you finish with `exit` command.
+You can also switch user to root with `su`, but you need superuser privileges for that you must use `sudo su`. Exit to your normal user as soon as you finish with `exit` command.
+
+Files are owned by the user who created them. You can change the owner with the `chown` command:
+
+`sudo chown myuser file` will change the owner to a user called `myuser`.
+
+### Understanding permissions
+Permissions are arranged in groups of 3 letters that represents the access level for the current user, group and others.
+
+![](img/bash/perm1.png)
+
+Each group of 3 letters represents the the read/write/execute access to a file or folder.
+
+![](img/bash/perm2.png)
+
+Permissions of a specific file or device are changed with the `chmod` command. For example, if you want to change the permission of the file `script.sh` you could do:
+
+`sudo chmod 666 script.sh`
+
+But what does 666 mean? It's about time to talk about the octal notation.
+
+#### Octal notation
+In octal notation, permissions are represented by 3 numbers. Each one of these three numbers represent the user/group/others access and the value of the number itself the read/write/execute value. Given than read access is 4, write access is 2 and execute access is 1, all combinations of these three result in an unique number from 0 to 7.
+
+   | Read (4) | Write (2) | Execute (1) | Result
+---|---|---|---|---
+User | 4 | 2 | 0 | **6**
+Group | 4 | 2 | 0 | **6**
+Others | 4 | 2 | 0 | **6**
+
+With a little bit of math all the permissions are easily derived. Otherwise you can also use this table:
+
+Octal Value | Mode | Octal Value | Mode
+---|---|---|---
+**0** | - - - | **4** | r - -
+**1** | - - x | **5** | r - x
+**2** | - w - | **6** | r w -
+**3** | - w x | **7** | r w x
+
+This method is recommended when you want to set all permissions at once.
+
+> Exercise: Derive the following permissions 755, 644, 600, 660
+
+#### Symbolic notation
+The symbolic notation is more intuitive and it is useful when only a few permissions settings want to be changed. The notation is as follows, `+` stands for add a permission, `-` for removing a permission, and `=` for adding a specific permission but removing the others.
+
+| Read (r) | Write (w) | Execute (x) | Result
+---|---|---|---|---
+User (u) | + | + |  | **u+rw**
+Group (g) |  | - | + | **g+x-w**
+Others (o) | = |  |  | **o=r**
+All (a) | - | - | - | **a-rwx**
+
+#### Octal _vs_ Symbolic Notation
+
+Octal Value | Symbolic  | Result
+---|---|---
+755 | u+rwx,g+rx,o+rx | rwxr-xr-x
+777 | a+rwx | rwxrwxrwx 
+644 | u+rw,g=r,o=r | rw-r--r--
+700 | u+rwx,g-rwx,o-rwx | rwx------
 
 ### Looking inside files
 

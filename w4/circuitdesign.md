@@ -1,6 +1,6 @@
 # Electronics design
 ## Eagle Tutorial
-Even if you are not planning to use Eagle you **still have to learn Eagle** because you will find many designs out there using this format. You have to learn how to create the Schematic Design first and then the Design Layout. These are two half an hour tutorials:
+Even if you are not planning to use Eagle you **still ~~have~~ want to learn Eagle** because you will find many designs out there using this format. You have to learn how to create the Schematic Design first and then the Design Layout. These are two half an hour tutorials:
 
 [Tutorial 1](https://www.youtube.com/watch?v=1AXwjZoyNno)  
 [Tutorial 2](https://www.youtube.com/watch?v=CCTs0mNXY24)

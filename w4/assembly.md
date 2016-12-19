@@ -73,6 +73,35 @@ The following is a video from [Basic and Default Usage of a Timer and Counter an
 
 <iframe width="853" height="480" src="https://www.youtube-nocookie.com/embed/Tj6xGtwOlB4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
+## Assembly Instruction Set
+
+### Data Transfer Instructions
+* `mov dest,orig` copies the value of `orig` register to `dest` register
+
+### Arithmetic Instructions
+* `DEC reg` decrease 1 the value of the register
+* `ADD reg1,reg2` adds the value of reg1 to reg2
+
+### Logic Instructions
+* `AND`
+* `OR`
+* `EOR`
+
+### Compare Instructions
+* `CPI value1,value2` compares 2 values and results in 0 (no equal) or different from 0 (equal)
+
+### Rotate and Shift Instructions
+
+###
+
+* `SBI reg,bit` sets a bit in a register
+* `CBI reg,bit` clears a bit in a register
+* `BRNE label` jumps to the specified label if the result of `cpi` is 0
+* `LDI reg,value` loads the specified value in the register
+* `CLI reg` clears the entire register
+* `JMP label` jumps to a certain label
+* `RJMP label` jumps to a label at a maximum distance of -+ 2k words
+
 ## Button-LED example
 ```asm
 ; buttonled.asm
@@ -82,45 +111,52 @@ The following is a video from [Basic and Default Usage of a Timer and Counter an
 ; by Francisco Sanchez
 ; CC-BY-SA 4.0 License
 ;
-;
 ; This program turns on the LED of a helloworld board when the button is pressed
 
-.device attiny44 	 ; defines which device to assemble for
-.org 0		        ; sets the programs origin
-
-sbi DDRA, 7
-; sbi reg,bit Sets a bit of a register.  
-; Setting DDRA bit 7 makes pin PA7 a (digital) output
-cli DDRB, 3
-; sets PB3 as input
-sbi PORTB, 3
-; activates pull up resistor in PB3
-
-loop:		
-; label for main loop
-; labels must start with a letter and end with a colon
-
-cpi PINA,0
-; compares the value of PINA (button) with 0
-
-brne release
-; the result was different from 0 so the button is released. Go to subroutine release
-
-sbi PORTA,7
-; the result was 0 so the button is pressed. Turn pin PA7 to HIGH (5V)
-
-jmp done
-; avoids subroutine release
-
+.device attiny44                ; defines which device to assemble for
+.org 0		                      ; sets the programs origin
+          SBI   DDRA,7          ; sbi reg,bit Sets a bit of a register.  
+                                ; Setting DDRA bit 7 makes pin PA7 a (digital) output
+          CBI   DDRB,3          ; sets PB3 as input
+          SBI   PORTB, 3        ; activates pull up resistor in PB3
+loop:		                        ; label for main loop
+                                ; labels must start with a letter and end with a colon
+          CPI   PINA,0          ; compares the value of PINA (button) with 0
+          BRNE  release         ; the result was different from 0 so the button is
+                                ; released.Go to subroutine release
+          SBI   PORTA,7         ; the result was 0 so the button is pressed. Turn
+                                ; pin PA7 to HIGH (5V)
+          JMP   done            ; avoids subroutine release
 release:
-cbi PORTA,7
-; Turns pin PA7 to LOW (0V)
+          CBI   PORTA,7         ; Turns pin PA7 to LOW (0V)
+done:                           ; land here after turn PA7 HIGH
+          RJMP  loop            ; relative jump to label called loop
+```
 
-done:
-; land here after turn PA7 HIGH
+## The Stack
+LIFO Last In First Out
 
-rjmp loop
-; relative jump to label called loop
+`PUSH reg,value` copies a byte of data from to the first empty byte at the top of the Stack
+
+`POP reg` removes a byte of data from the top of the stack to the specified register
+
+## Macros
+A macro is a group of instructions that you code once and are able to use as many times as necessary. The main difference between a macro and a subroutine is that the macro is expanded at the place where it is used, meaning it uses program memory for each of the instances. A macro can take up to 10 parameters referred to as @0-@9 and given as a coma delimited list.
+
+```asm
+.MACRO    DELAY                 ; This directive creates a macro called delay
+
+.ENDMACRO                       ; Directive that ends the macro
+
+DELAY
+```
+## Inline Assembly in C
+It is possible to write Assembly code within a C program by using the following syntax in C:
+
+```C
+asm ("
+// here your assembly code
+    ")
 ```
 
 ## LED blink delay example
@@ -133,7 +169,6 @@ This is a sample of how an assembly program looks like.
 ; February 2016
 ; by Francisco Sanchez
 ; CC-BY-SA 4.0 License
-;
 ;
 ; This program blinks the LED of a helloworld board
 
