@@ -1,5 +1,7 @@
 # Linux Command line 101
 
+> **Note:** As you go through this tutorial, do not try to memorize, learn by usage.
+
 ## Command line?
 We are all familiar with programs that have a **Graphical User Interface** (GUI), but in reality this is just an interface for showing us information and interact with the actual program. The actual programs are running in the background.
 
@@ -205,7 +207,7 @@ All (a) | - | - | - | **a-rwx**
 Octal Value | Symbolic  | Result
 ---|---|---
 755 | u+rwx,g+rx,o+rx | rwxr-xr-x
-777 | a+rwx | rwxrwxrwx 
+777 | a+rwx | rwxrwxrwx
 644 | u+rw,g=r,o=r | rw-r--r--
 700 | u+rwx,g-rwx,o-rwx | rwx------
 

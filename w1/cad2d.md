@@ -3,7 +3,7 @@
 ## Raster
 
 ## Graphicsmagick
-Graphicsmagick swiss army command line tool for image processing. It is an improved and updated variant of the well known [imagemagick](). Please refer to the [graphicsmagick website]() to find out why.
+Graphicsmagick swiss army command line tool for image processing. It is an improved and updated variant of the well known [imagemagick](https://www.imagemagick.org/script/index.php). Please refer to the [graphicsmagick website](http://www.graphicsmagick.org/) to find out why.
 
 > Why is Graphicsmagick better than Imagemagick?
 
@@ -14,9 +14,6 @@ One of the utilities of graphicsmagick is the ability to compose images in a hor
 
 `gm convert image1.jpg image2.jpg -geometry x400 +append resulting_
 image.jpg`
-
-
-
 
 
 ## Vectorizing a raster image

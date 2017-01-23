@@ -1,5 +1,7 @@
 # Working with git repositories
 
+> **Note:** As you go through this tutorial, do not try to memorize, learn by usage.
+
 ## The community effect
 Imagine a community of 4 people, where everyone has a design and shares it. The balance is positive for all of them, since each one gives one and receives 3. The **most important** feature in sharing communities is that knowledge is amplified and **you always receive more that you give**.
 
@@ -18,7 +20,7 @@ For the next part of the course we will need to install [git](https://git-scm.co
 > Exercise: Install git in your laptop.
 
 ## Configuring git
-Set some basic config and tell git who you are. Maybe I don't have to say that, but replace **yourname** with your actual name and **youremail** with your email address.
+Set some basic config and tell git who you are. Maybe I don't have to say that but please remember gentle reader, to replace **yourname** with your actual name and **youremail** with your actual email address.
 
 ```
 cd ~/folder_name # replace this with your repository folder
