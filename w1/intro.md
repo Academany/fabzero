@@ -90,9 +90,9 @@ Health, Safety and Environment (HSE) guidelines.
 * Recommended Backups
   * Backup data to USB
   * Backup data to Cloud
-* Installing Ubuntu Desktop 16.04 LTS **64 bits**
-* Installing software using Ubuntu software center
-* Install software using apt-get/apt/snap
+* Installing a GNU/Linux distribution
+* Installing software using package managers
+* Install software using command line
 * Compiling software
 * Installing Windows software using Wine
 
@@ -101,7 +101,7 @@ Health, Safety and Environment (HSE) guidelines.
 ### Create online accounts
 It is recommended that students create the following online accounts
 * [Fablabs.io](fablabs.io) account. This is the official account used for many services
-* [Google](google.com) account for all Google services (Email, Docs, YouTube...)
+* [Google](google.com) account for all Google services (Docs, YouTube...)
 * [Vimeo](vimeo.com) account for storing large videos. Alternative to Youtube.
 * [Github](github.com) account for your personal code projects
 * [Dropbox](dropbox.com) account for hosting large files

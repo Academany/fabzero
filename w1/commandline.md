@@ -41,9 +41,7 @@ Some options also have a human readable flavor called **long option**. Human rea
 
 ## The manual
 Wait, wait, wait... Do I need to memorize all of this?
-No. Just use the `man` COMMAND (for Manual) everytime you need help on how to use the commands. Yes, I know. We all hate manuals. But in Unix/Linux world you will find a lot of references about [RTFM](https://en.wikipedia.org/wiki/RTFM).
-
-![](../w2/img/openscad/rtfm.jpg)
+No. Just use the `man` COMMAND (for Manual) everytime you need help on how to use the commands. Yes, I know. We all hate manuals.
 
 > Exercise: Have a quick look at the manual for `ls` command. Get familiarised, you will need this a lot.
 

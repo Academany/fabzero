@@ -39,7 +39,7 @@ A Markdown document is just a plain text file usually appended with a `.md` exte
 > If you need a hard line break, put two or more spaces at the end of a line.
 
 ### Markdown Workflow
-The process of writing the documentation involves typing the documentation in markdown, converting it to HTML, and pushing the documentation to the archive. We will first learn how to do all of these things manually, but they can automated them in a shell script.
+The process of writing the documentation involves typing the documentation in markdown, converting it to HTML. We will first learn how to do all of these things manually, but they can automated them in a shell script.
 
 ### The text editor
 You first need a text editor. I use [Atom](https://atom.io/) because it is Open Source and also has built in markdown preview. To activate the markdown preview in Atom clic on _Packages/Markdown Preview/Toggle Preview_ or press `SHIFT`+`CONTROL`+`M`.
@@ -55,23 +55,21 @@ To convert `.md` files to `.html` files there is a command line tool called **pa
 
 > Exercise: Install pandoc
 
-Pandoc has several options. You can learn them by reading the manual, type `man pandoc`. The options we will use are:
+When you convert to HTML, by default pandoc will export it unstyled, just like a plain HTML file written from scratch. But you can style your HTML using CSS by using the option `-c style.css`. Styling the resulting HTML is recommended not only because it looks nicer, but also because styling can make it easier and more pleasant to read. Which is an important feature for the documentation. Instead of writing your own `css` file from scratch, modify one of the many available `css` files for pandoc, or use [this one](http://git.fabcloud.io/francisco/beach-lab-htgaa-2015/blob/master/students/sanchez.francisco/base.css). Pandoc has several options. You can learn them by reading the manual, type `man pandoc`. The options we will use are:
+
 ```
--f markdown  #it tells pandoc the origin file format
--o html      #it tells pandoc the destination file format
--s           #creates a standalone document, not a fragment
--c style.css #path or URL to stylesheet
+-o html       #it tells pandoc the destination file format
+-s            #creates a standalone document, not a fragment
+-c style.css  #path or URL to a CSS stylesheet (optional)
 ```
-So exporting a markdown file to html is:
+So exporting a markdown file.md to file.html with a style.css stylesheet is:
 
-`pandoc -s -f markdown -t html -c style.css file.md file.html`
+`pandoc -s -t html -c style.css file.md -o file.html`
 
-When you export to HTML, by default pandoc will export it unstyled, just like a plain HTML file written from scratch. But you can style your HTML using CSS by using the option `-c style.css`. Styling the resulting HTML is recommended not only because it looks nicer, but also because styling can make it easier and more pleasant to read. Which is an important feature for the documentation. Instead of writing your own `css` file from scratch, modify one of the many available `css` files for pandoc, or use [this one](http://git.fabcloud.io/francisco/beach-lab-htgaa-2015/blob/master/students/sanchez.francisco/base.css).
-
-Some people will ask *why do we keep using command line tools like pandoc? It's so annoying having to type all of those commands*. Continue reading to find out why.
+> It's so annoying having to type all of those commands. Why do we keep using all these command line tools?
 
 ### Automating everything
-Automation is the **real power of comand line tools**. You want to automate ~~because you are at least as lazy as me, admit it~~ in order to avoid typing all these commands in terminal over and over and also in order to speed up the process of file conversion and uploading to the server.
+Automation is the **real power of comand line tools**. You want to automate in order to avoid typing all these commands in terminal over and over and also in order to speed up the process of file conversion and uploading to the server.
 
 All you need to do is to create a script, which is a plain text file names something like `auto.sh` (for _shell script_) where you will write a sequence of commands. Those will be the very same commands that you would type in the terminal one by one.
 
@@ -80,13 +78,8 @@ This tutorial assumes that you have all the markdown `.md` and css `.css` files 
 ```bash
 # Simple Automation file
 # Step 1. Converting
-pandoc -s -f markdown -t html -c style.css file1.md file1.html
-pandoc -s -f markdown -t html -c style.css file2.md file2.html
-# Step 2. Uploading to the archive
-git pull
-git add --all
-git commit -m "updates"
-git push
+pandoc -s -t html -c style.css file1.md -o file1.html
+pandoc -s -t html -c style.css file2.md -o file2.html
 ```
 > Do you see any disadvantage in the above script?
 
@@ -99,34 +92,18 @@ do
   # extension="${f##*.}"
   filename="${f%.*}"
   echo "Converting $f to $filename.html"
-  `pandoc -s -c base.css $f -t html -o $filename.html`
+  `pandoc -s -t html -c base.css $f -o $filename.html`
 done
-# Step 2. Uploading everything to the repository
-# If there is commit message then upload
-if [ "$#" -gt 0 ]
-then
-    git pull
-    git add --all
-    git commit -m "$*"
-    git push
-else
-    echo "Not uploading (Empty commit message)"
-fi
 ```
-> Note: Please note that the `git commit` line contains a `$*`. This is important since we will [pass the commit message as an argument](http://osr600doc.sco.com/en/SHL_automate/_Passing_to_shell_script.html) when we execute the script.
 
 ### Using the script
 Now it comes the easy part. After you type all your documentation you open a new terminal inside your student folder that contains `auto.sh` file and type:
 
 `bash auto.sh`
 
-And it search for all the `.md` files in your folder and will convert them to HTML, overwriting if they already existed. But **if you also write a commit message** like this:
+And it search for all the `.md` files in your folder and will convert them to HTML, overwriting if they already existed.
 
-`bash auto.sh this will be the commit message`
-
-This will convert all the markdown documentation to HTML **and** upload the documentation to your repository (if you uncommented the ftp line it will also ask you the ftp password).
-
-> Exercise: Write a script to automate the conversion of your files to the repository.
+> Exercise: Write a script to automate the conversion of your files to HTML.
 
 ## Audio and video
 
@@ -144,11 +121,9 @@ This will convert all the markdown documentation to HTML **and** upload the docu
 
 > Record a 30 seconds video showing something you do on screen.
 
-* Do not underestimate the legacy `.gif` format. It is very useful to show short videos (2 to 5 seconds) like a led blinking. It also shows your emotions and helps the people understand how do you feel doing fab academy. It does not require autoplay. There are a number of resources for downloading, manipulating or converting to `.gif` like [Giphy](http://giphy.com/), [Ezgif](http://ezgif.com/video-to-gif) and many more.
+* The legacy `.gif` format is useful to show short videos (2 to 5 seconds) like a led blinking, but it is very inefficient. It is recommended that you convert them to `.mp4`. There are a number of resources for downloading, manipulating or converting `.gif` files like [Giphy](http://giphy.com/), [Ezgif](http://ezgif.com/video-to-gif) and many more.
 
 ![](img/doc/ok.gif)
-
-> Include one of these GIF in your archive.   
 
 * Experiment with adding titles and subtitles to your videos (in another language or for people with disabilities for example). Subtitles can be hardcoded or softcoded, find out the difference. You can create subtitles with YouTube Creator Studio.
 
