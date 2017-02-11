@@ -95,6 +95,7 @@ Health, Safety and Environment (HSE) guidelines.
 * Install software using command line
 * Compiling software
 * Installing Windows software using Wine
+* Post-install script for [Ubuntu]() and [Manjaro]()
 
 > Backup your data, partition your hard drive and install Ubuntu in it
 
