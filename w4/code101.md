@@ -11,22 +11,47 @@ The first thing you should know about embedded programming is that **you cannot 
 > Download the [Attiny 44 Datasheet](http://www.atmel.com/images/doc8006.pdf) and browse through it.
 
 ## Setting up AVR-GCC Toolchain on Linux
-For writing code you just need a text editor, like atom. AVR-GCC is a toolchain that will help you with the software development process, but doesn’t do anything about burning the final executable (the hex file) to the microcontroller. For that we need to install **AVR D**ownloader **U**ploa**DE**r (avrdude)
+For writing code you just need a text editor, like atom. AVR-GCC is a toolchain that will help you with the software development process, but doesn’t do anything about burning the final executable (the hex file) to the microcontroller. For that we need to install **AVR D**ownloader **U**ploa**DE**r (avrdude).
+
+In Ubuntu
 
 `sudo apt install avrdude gcc-avr binutils-avr avr-libc`
 
+And in Arch Linux
+
+`sudo pacman -S avrdude `
+
 ## The basic idea
-A microcontroller has a number of pins. Some pins have a fixed function and cannot be changed, like VCC or GND. The rest of the pins and can be configured as inputs or outputs.
+A microcontroller has a number of pins. Some pins have a fixed function and cannot be changed, like VCC or GND. The rest of the pins and can be configured as inputs or outputs by writing to the Data Direction Registers. There is one of these for each port A and B, named DDRA and DDRB.
 
 By default pins are configured as input
 
 https://www.arduino.cc/en/Tutorial/DigitalPins
 
 ## Registers
-Say hello to something it will be
 
 ## Hello world program
 
+```C
+#define F_CPU 1000000UL
+#include <avr/io.h>
+#include <util/delay.h>
+
+int main (void)
+{
+
+ DDRB = 0b00000100; // set PB2 as output in DDRB
+
+ while(1) {
+          // set PB2 high to turn led on
+          PORTB = 0b00000100;
+          _delay_ms(1000);
+          // set PB2 low to turn led off
+          PORTB = 0b00000000;
+          _delay_ms(1000);
+          }
+}
+```
 
 ## The button and LED program
 
@@ -63,7 +88,8 @@ int main (void)
 ```
 ## Bitwise operations
 
-## Macros
+## Making your life easier: Macros
+Macros are
 ```C
 #define setbit(register, bit)   (register) |=  (1 << (bit))
 #define clearbit(register, bit) (register) &= ~(1 << (bit))
