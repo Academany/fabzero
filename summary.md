@@ -1,4 +1,4 @@
-# Pre Academy 2017 Documentation
+# Official Pre Academy Documentation
 
 ## Week 1
 * [Day 1. Introduction to Pre Fab Academy. Getting ready](w1/intro.md)
