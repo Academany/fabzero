@@ -19,12 +19,12 @@ The first official cycle of Pre Academy was tutored by Luciano Betoldi and Franc
 [Go to Pre Academy 2016 students archive](http://thebeachlab.github.io/)
 
 ## Second iteration. Pre Academy 2017
-The second iteration of Pre Academy was tutored by Francisco Sanchez in December 2016 to twenty professors of KTU Engineering colleges of the state of Kerala, South India. Students will obtain a certificate issued by Fab Academy X during [Fab13](http://fab13.fabevent.org) in Santiago de Chile.
+The second iteration of Pre Academy was tutored by Francisco Sanchez with assistance from Sibu Saman and Yadu Sharon (both from Kerala itself) in December 2016 to twenty professors of KTU Engineering colleges of the state of Kerala, South India. Students will obtain a certificate issued by Fab Academy X during [Fab13](http://fab13.fabevent.org) in Santiago de Chile.
 
 [Go to Pre Academy 2017 students archive](http://archive.fabacademy.org/fabacademyx/preacademy2017/)
 
 ## Third iteration: Pre Academy 2018
-The third iteration of Pre Academy is planned to be tutored by Francisco Sanchez and Luis Carvao in late 2017 in Jordan (TBD). Successful students will obtain a certificate issued by Fab Academy X during [Fab14](http://fab14.fabevent.org) in France.
+The third iteration of Pre Academy is planned to be tutored by Francisco Sanchez, Fiore Basile and Sibu Saman in late 2017-Early 2018 in Jordan. Successful students will obtain a certificate issued by Fab Academy X during [Fab14](http://fab14.fabevent.org) in France.
 
 # Questions and comments
 If you have questions or inquiries about the course content please do not hesitate to raise an issue or contact me (Francisco): hola [at] beachlab [dot] org. Happy to help!
