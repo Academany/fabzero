@@ -13,19 +13,19 @@ Divide your annotations in entries. In every entry you can write:
 * Include a debugging table if you are debugging
 * Finish the entry with a conclusion (Finished, to be continued later, stuck in a process, ...)
 
-> Exercise: Get a notebook for the pre academy program and write down your first entry and answer in one sentence: Why are you here? Please, nothing similar to [this](http://cmorse.org/missiongen/)
+> Exercise: Get a notebook for the pre academy program and write down your first entry and answer in one sentence: Why are you here?
 
 ## Fab Labs and The Fab Lab Network
 
 * History
 * Cost of innovation
-* Fab Lab Charter
-* Equipment - Inventory
+* [Fab Lab Charter](http://fab.cba.mit.edu/about/charter/)
+* Equipment - [Inventory](https://docs.google.com/spreadsheets/d/1U-jcBWOJEjBT5A0N84IUubtcHKMEMtndQPLCkZCkVsU/pub?single=true&gid=0&output=html)
 * Collaboration
 * Standardization
 * Conferences (global, regional)
 * [FabLabs.io](http://fablabs.io)
-* [Fab Foundation](http://fabboundation.org)
+* [Fab Foundation](http://fabfoundation.org)
 
 ### Educational programs: The Academany
 ![](./img/intro/academany.png)
@@ -34,9 +34,12 @@ The Academany a short name for **The Academy of Almost Anything**, a new global 
 
 * [Fab Academy - HTMAA](http://fabacademy.org/)
 * [Bio Academy - HTGAA](http://bio.academany.org/)
-* Why to Make (almost) Anything - WTMAA (Upcoming)
+* [Fabricademy]()
+* [Why to Make (almost) Anything - WTMAA]()
 * Machines That Make - MTM (Upcoming)
-* Soft Academy (Upcoming)
+* Will your program be the next?
+
+
 
 ### Academany methodology
 Academany programs are not a traditional but a **distributed education system** with tutors instead of teachers. Students undertake their own research in a 5 months long program. Academany educational programs are inspired in line with [the nine principles](http://media.mit.edu/about/principles) from Joi Ito (MIT Media Lab).
@@ -48,21 +51,27 @@ Academany programs are not a traditional but a **distributed education system** 
 * Move out of your comfort zone and stay there
 * Free your mind, forget what you already know, try new things
 * Be brave, take risks (not physical risks)
-* Things will go wrong, things will change continuously, you will loose work, you will break things, and you will not be able to find a solution immediately. You will need to control your stress. Can you handle it?
+* You will need to control your stress. Can you handle it?
+  * Things will go wrong
+  * things will change continuously
+  * you will loose work
+  * you will break things
+  * you will not be able to find a solution immediately
 
 ### How Fab Academy works
-* Basic principle is **Learn + make + share**. Based in the Scientific method
 * Every week a different topic.
-* Learn: Weekly class by Neil Gershenferld (MIT) by videoconferencing system. Student undertakes its own research
-* Make: Hands-on with local instructor guidance to complete an assignment. Is an iterative approach strategy where time management is crucial
-* Share: Student documents the experience through a personal portfolio
-* Student self-assesment: Student checks its progress against the _Assignments and Assestments_ document.
-* Local evaluation: Local instructors make sure you meet the required standard
-* Global Evaluation: Completing students go through global evaluation process
+* Basic principle is **Learn + make + share**. Based in the Scientific method
+  * Learn: Weekly class by Neil Gershenferld (MIT) by videoconferencing system. Student undertakes its own research
+  * Make: Hands-on with local instructor guidance to complete an assignment. Is an iterative approach strategy where time management is crucial
+  * Share: Student documents the experience through a personal portfolio
+* 3 levels of assesment
+  * Student self-assesment: Student checks its progress against the [Assignments and Assessments](http://docs.academany.org/FabAcademy-Assessment/_book/) document.
+  * Local evaluation: Local instructors make sure you meet the required standard
+  * Global Evaluation: Completing students go through global evaluation process
 * Graduation: Diploma vs Learning
 * Links to previous years archives and important docs
   * [Archives](archive.fabacademy.org)
-  * [Fab Academy Handbook](http://docs.academany.org/FabAcademy-Handbook/_book/). Everything you want to know about Fab Academy
+  * [Fab Academy Handbook](http://docs.academany.org/FabAcademy-Handbook/_book/). More than you want to know about Fab Academy
   * [Assignments and Assessments](http://docs.academany.org/FabAcademy-Assessment/_book/). How the Fab Academy program is evaluated
 
 > Bookmark all these documents and pages
