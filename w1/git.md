@@ -42,13 +42,13 @@ You can specify 2 kind of address depending on the connection used: HTTPS or SSH
 
 HTTPS connection is commonly used when you are cloning a repository that you will not be modifiying but you want to receive changes. It will not require login/password for each connection if the project is public.
 
-> Exercise: Clone the prefab repository using the https address:  
-http://git.fabacademy.org/fabacademyx/preacademy2017.git  
+> Exercise: Clone the prefab repository using the https address:
+https://gitlab.fabcloud.org/preacademy/preacademy2018.git
 Did you need to authenticate? What does it mean?
 
-Hopefully you will have a folder called `preacademy2017` in your home folder now. But the problem is that if we want to push changes now it will require our login/password for each time we connect. Which is very inconvenient. So we will change the connection to SSH.
+Hopefully you will have a folder called `preacademy2018` in your home folder now. But the problem is that if we want to push changes now it will require our login/password for each time we connect. Which is very inconvenient. So we will change the connection to SSH.
 
-> Delete the `preacademy2017` folder
+> Delete the `preacademy2018` folder
 
 ## Generating SSH Keypair
 We usually use SSH connection in git, that way we are not messing with logins and passwords. A SSH connection needs a SSH keypair, one public key and one private key. These two together will allow you to establish an encripted connection. You can generate a ssh keypair by following [this tutorial](https://help.github.com/articles/generating-an-ssh-key/).
@@ -72,7 +72,7 @@ Please find below the SSH address to clone the repository. In your computer, ins
 
 ```
 cd ~  # actually it also goes to home if you just do cd
-git clone git@git.fabacademy.org:fabacademyx/preacademy2017.git
+git clone git@gitlab.fabcloud.org:preacademy/preacademy2018.git
 ```
 
 > Exercise: Clone the prefab repository in your computer.
@@ -93,7 +93,7 @@ This is the manual workflow of updating your page. You can also write a script a
 >
 
 ## Where is the webpage?
-The webpage is here http://archive.fabacademy.org/fabacademyx/preacademy2017
+The webpage is here https://fabcloud.io/preacademy/preacademy2018/index.html
 
 > Bookmark this page
 

@@ -26,7 +26,7 @@ The second iteration of Pre Academy was tutored by Francisco Sanchez with assist
 ## Third iteration: Pre Academy 2018
 The third iteration of Pre Academy is planned to be tutored by Francisco Sanchez, Fiore Basile and Sibu Saman in late 2017-Early 2018 in Amman, Jordan to a number of participants of Hussein Technical University and the Crown Prince Foundation. Successful students will obtain a certificate issued by Fab Academy X during [Fab14](http://fab14.fabevent.org) in France.
 
-[Go to Pre Academy 2018 students archive](http://archive.fabacademy.org/fabacademyx/preacademy2017/)
+[Go to Pre Academy 2018 students archive](https://fabcloud.io/preacademy/preacademy2018/)
 
 # Questions and comments
 If you have questions or inquiries about the course content please do not hesitate to raise an issue or contact me (Francisco): hola [at] beachlab [dot] org. Happy to help!
