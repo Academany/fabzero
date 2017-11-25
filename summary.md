@@ -1,4 +1,5 @@
 # Official Pre Academy Documentation
+Please bear in mind that this is not an actual calendar but a syllabus of the program.
 
 ## Week 1
 * [Day 1. Introduction to Pre Fab Academy. Getting ready](w1/intro.md)
@@ -19,7 +20,7 @@
 * [Day 2. Principles of Design](w3/designprinciples.md)
 * [Day 3. Design Thinking](w3/designthinking.md)
 * [Day 4. Advanced CAD](w3/advancedcad.md)
-* [Day 5. Shopbot desktop](w3/shopbotdesktop.md)
+* [Day 5. Shopbot CNC](w3/shopbotcnc.md)
 
 ## Week 4
 * [Day 1. Electronics 101](w4/electronics101.md) & [Electronics production](w4/production.md)
