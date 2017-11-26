@@ -93,7 +93,7 @@ This is the manual workflow of updating your page. You can also write a script a
 >
 
 ## Where is the webpage?
-The webpage is here https://fabcloud.io/preacademy/preacademy2018/index.html
+The webpage is here http://preacademy.fabcloud.io/preacademy2018/
 
 > Bookmark this page
 
