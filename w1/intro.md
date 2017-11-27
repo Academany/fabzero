@@ -21,8 +21,8 @@ Divide your annotations in entries. In every entry you can write:
 * Cost of innovation
 * [Fab Lab Charter](http://fab.cba.mit.edu/about/charter/)
 * Equipment - [Inventory](https://docs.google.com/spreadsheets/d/1U-jcBWOJEjBT5A0N84IUubtcHKMEMtndQPLCkZCkVsU/pub?single=true&gid=0&output=html)
-* Collaboration
-* Standardization
+  * Collaboration
+  * Standardization
 * Conferences (global, regional)
 * [FabLabs.io](http://fablabs.io)
 * [Fab Foundation](http://fabfoundation.org)
@@ -34,8 +34,8 @@ The Academany a short name for **The Academy of Almost Anything**, a new global 
 
 * [Fab Academy - HTMAA](http://fabacademy.org/)
 * [Bio Academy - HTGAA](http://bio.academany.org/)
-* [Fabricademy]()
-* [Why to Make (almost) Anything - WTMAA]()
+* [Fabricademy](http://textile-academy.org/)
+* [Why to Make (almost) Anything - WTMAA](http://academany.org/design/) - [2017 Recitations](http://archive.fabacademy.org/archives/2017/master/lectures/index.html)
 * Machines That Make - MTM (Upcoming)
 * Will your program be the next?
 
@@ -74,7 +74,7 @@ Academany programs are not a traditional but a **distributed education system** 
   * [Fab Academy Handbook](http://docs.academany.org/FabAcademy-Handbook/_book/). More than you want to know about Fab Academy
   * [Assignments and Assessments](http://docs.academany.org/FabAcademy-Assessment/_book/). How the Fab Academy program is evaluated
 
-> Bookmark all these documents and pages
+> Exercise: Bookmark all these documents and pages
 
 ## Let's get ready!
 
@@ -100,13 +100,14 @@ Health, Safety and Environment (HSE) guidelines.
   * Backup data to USB
   * Backup data to Cloud
 * Installing a GNU/Linux distribution
-* Installing software using package managers
-* Install software using command line
-* Compiling software
+* Installing software
+  * Using GUI package managers
+  * Install software using command line
+  * Compiling software
 * Installing Windows software using Wine
-* Post-install script for [Ubuntu]() and [Manjaro]()
+* WIP: Post-install script for [Ubuntu]() and [Arch]()
 
-> Backup your data, partition your hard drive and install Ubuntu in it
+> Exercise: Backup your data, partition your hard drive and install Ubuntu-based distro in it
 
 ### Create online accounts
 It is recommended that students create the following online accounts
