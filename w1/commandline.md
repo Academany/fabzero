@@ -130,11 +130,68 @@ The reason why this is important, has an answer in how version control systems a
 
 `du -sh foldername`
 
-If we have a group of files and folders and we want to check the size of all of them, we can specify all files and folders instead of a specific folder `*` and optionally pipe the result `|` to the `sort` command to sort the results by human numerical value `-h` and in reverse order `-r` so that bigger files appear first.
+If we have a group of files and folders and we want to check the size of all of them, we can specify all files and folders instead of a specific folder `*` and optionally *pipe* the result `|` to the `sort` command to sort the results by human numerical value `-h` and in reverse order `-r` so that bigger files appear first.
 
 `du -sh * | sort -rh`
 
 A normal archive should grow at a rate of 1-2 mb per week.
+
+### Looking inside files
+
+`cat` will display your file on the screen. You can also use option `-n` to number the lines.
+
+`cat -n somefile.txt`
+
+You can also count the number of lines of a file by *piping* the output to `wc` (word count) command
+
+`cat file.txt | wc -l`
+
+`wc` can count characters, words, and lines. Check the man page.
+
+`head` and `tail` commands will show the first and lastest 10 lines of a file. You can change this number of lines displayed by using the option `-n`
+
+`tail -n 5 somefile.txt`
+
+`less` is used for browsing long files, it will display the file you specify using the same viewer as `man` command.
+
+`grep` is a very useful command. It looks for text inside files and display the line of text that contains the search pattern. Some useful options are:
+
+```
+-r # recursive search
+-i # case insensitive search pattern
+-n # show the text line number than contains the search pattern
+```
+
+So for if you want to seach for "openscad" anywhere inside the current folder you would do:
+
+`grep -rin "openscad" .`
+
+### The `echo` command
+
+#### Display text on the screen
+`echo` displays its parameters in the stdout (screen). It is usefull when creating our scripts `echo hello world` will display `hello world` on screen.
+
+#### Writing to files
+If you want to write text to a file you can use `echo hello world > file.txt` but **warning!**, it will overwrite the contents of the file.
+
+```
+echo hello me > file.txt
+echo hello you > file.txt
+cat file.txt
+
+hello you
+```
+
+If you want to append text to an existing file (add a new line of text) use the `>>` operator instead.
+
+```
+echo hello me >> file.txt
+echo hello you >> file.txt
+cat file.txt
+
+hello me
+hello you
+```
 
 ### Understanding users
 Linux is a multi-user operating system with users and groups. Different users have different file access levels or privileges (read, write, execute). By default bash tells you what user is logged in. Otherwise you can ask bash _Who am I?_
@@ -208,32 +265,6 @@ Octal Value | Symbolic  | Result
 777 | a+rwx | rwxrwxrwx
 644 | u+rw,g=r,o=r | rw-r--r--
 700 | u+rwx,g-rwx,o-rwx | rwx------
-
-### Looking inside files
-
-`cat` will display your file on the screen. You can also use option `-n` to number the lines.
-
-`cat -n somefile.txt`
-
-`head` and `tail` commands will show the first and lastest 10 lines of a file. You can change this number of lines displayed by using the option `-n`
-
-`tail -n 5 somefile.txt`
-
-`less` is used for browsing long files, it will display the file you specify using the `man` command line viewer.  
-
-`grep` is a very useful command. It looks for text inside files and display the line of text that contains the search pattern. Some useful options are:
-
-```
--r # recursive search
--i # case insensitive search pattern
--n # show the text line number than contains the search pattern
-```
-
-So for if you want to seach for "openscad" anywhere inside the current folder you would do:
-
-`grep -rin "openscad" .`
-
-### Piping commands
 
 ---
 [Back to Summary](../summary.md)
