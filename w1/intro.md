@@ -27,7 +27,7 @@ Divide your annotations in entries. In every entry you can write:
 * [FabLabs.io](http://fablabs.io)
 * [Fab Foundation](http://fabfoundation.org)
 
-### Educational programs: The Academany
+## Educational programs: The Academany
 ![](./img/intro/academany.png)
 
 The Academany a short name for **The Academy of Almost Anything**, a new global educational structure offering high level education all over the globe, at connected sites offering the same infrastructure to all students. All courses that are part of The Academy of Almost Anything are **directed by people leading the way in their field**, and constantly evolve to stay at the cutting edge development of research into tools, technologies and techniques.
@@ -44,18 +44,6 @@ Academany programs are not a traditional but a **distributed education system** 
 
 ![](./img/intro/principles.jpeg)
 
-### A piece of advice
-* Do not follow existing roads, make your own path
-* Move out of your comfort zone and stay there
-* Free your mind, forget what you already know, try new things
-* Be brave, take risks (not physical risks)
-* You will need to control your stress. Can you handle it?
-  * Things will go wrong
-  * things will change continuously
-  * you will loose work
-  * you will break things
-  * you will not be able to find a solution immediately
-
 ### How Fab Academy works
 * Every week a different topic.
 * Basic principle is **Learn + make + share**. Based in the Scientific method
@@ -71,6 +59,29 @@ Academany programs are not a traditional but a **distributed education system** 
   * [Archives](http://archive.fabacademy.org)
   * [Fab Academy Handbook](http://docs.academany.org/FabAcademy-Handbook/_book/). More than you want to know about Fab Academy
   * [Assignments and Assessments](http://docs.academany.org/FabAcademy-Assessment/_book/). How the Fab Academy program is evaluated
+
+### Requirements to pass Pre academy
+Pre Academy program will be awarded a Diploma if you meet the following requirements by the end of the program.
+* Documentation
+  * You are able to narrate the experience during the Pre Academy program
+  * You use resized images and compressed videos where applicable
+* Complete and document a final project that
+  * Contains a microcontroller board that yoy have designed and fabricated with an input and output device
+  * Uses at least 2 fabrication proceses in the Lab
+  * You create a 1280x720 pixels `.png` slide
+  * You create a 30s presentation 720p `.mp4` compressed video introducing you and your final project
+
+### A piece of advice
+* Do not follow existing roads, make your own path
+* Move out of your comfort zone and stay there
+* Free your mind, forget what you already know, try new things
+* Be brave, take risks (not physical risks)
+* You will need to control your stress. Can you handle it?
+  * Things will go wrong
+  * things will change continuously
+  * you will loose work
+  * you will break things
+  * you will not be able to find a solution immediately
 
 > Exercise: Bookmark all these documents and pages
 
