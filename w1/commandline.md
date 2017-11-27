@@ -228,7 +228,7 @@ But what does 666 mean? It's about time to talk about the octal notation.
 #### Octal notation
 In octal notation, permissions are represented by 3 numbers. Each one of these three numbers represent the user/group/others access and the value of the number itself the read/write/execute value. Given than read access is 4, write access is 2 and execute access is 1, all combinations of these three result in an unique number from 0 to 7.
 
-   | Read (4) | Write (2) | Execute (1) | Result
+Who? | Read (4) | Write (2) | Execute (1) | Result
 ---|---|---|---|---
 User | 4 | 2 | 0 | **6**
 Group | 4 | 2 | 0 | **6**
@@ -250,7 +250,7 @@ This method is recommended when you want to set all permissions at once.
 #### Symbolic notation
 The symbolic notation is more intuitive and it is useful when only a few permissions settings want to be changed. The notation is as follows, `+` stands for add a permission, `-` for removing a permission, and `=` for adding a specific permission but removing the others.
 
-| Read (r) | Write (w) | Execute (x) | Result
+ Who? | Read (r) | Write (w) | Execute (x) | Result
 ---|---|---|---|---
 User (u) | + | + |  | **u+rw**
 Group (g) |  | - | + | **g+x-w**
