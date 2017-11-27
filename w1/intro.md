@@ -23,7 +23,7 @@ Divide your annotations in entries. In every entry you can write:
 * Equipment - [Inventory](https://docs.google.com/spreadsheets/d/1U-jcBWOJEjBT5A0N84IUubtcHKMEMtndQPLCkZCkVsU/pub?single=true&gid=0&output=html)
   * Collaboration
   * Standardization
-* Conferences (global, regional)
+* Conferences ([global](http://fab13.fabevent.org/), [regional]())
 * [FabLabs.io](http://fablabs.io)
 * [Fab Foundation](http://fabfoundation.org)
 
@@ -38,8 +38,6 @@ The Academany a short name for **The Academy of Almost Anything**, a new global 
 * [Why to Make (almost) Anything - WTMAA](http://academany.org/design/) - [2017 Recitations](http://archive.fabacademy.org/archives/2017/master/lectures/index.html)
 * Machines That Make - MTM (Upcoming)
 * Will your program be the next?
-
-
 
 ### Academany methodology
 Academany programs are not a traditional but a **distributed education system** with tutors instead of teachers. Students undertake their own research in a 5 months long program. Academany educational programs are inspired in line with [the nine principles](http://media.mit.edu/about/principles) from Joi Ito (MIT Media Lab).
@@ -70,7 +68,7 @@ Academany programs are not a traditional but a **distributed education system** 
   * Global Evaluation: Completing students go through global evaluation process
 * Graduation: Diploma vs Learning
 * Links to previous years archives and important docs
-  * [Archives](archive.fabacademy.org)
+  * [Archives](http://archive.fabacademy.org)
   * [Fab Academy Handbook](http://docs.academany.org/FabAcademy-Handbook/_book/). More than you want to know about Fab Academy
   * [Assignments and Assessments](http://docs.academany.org/FabAcademy-Assessment/_book/). How the Fab Academy program is evaluated
 
