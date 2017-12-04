@@ -1,0 +1,25 @@
+from koko.retro.lib.shapes import *
+
+# Render boundaries
+cad.xmin = -1
+cad.xmax = 1
+cad.ymin = -1
+cad.ymax = 1
+cad.mm_per_unit = 1 # mm units
+
+# Parameters
+depth=10.
+width=3.
+distance=15.
+n=7
+dec=0.1 # decrement in mm
+
+# Draw
+r1=rectangle(-distance,n*distance,-depth-distance,0)
+
+for i in range (n):
+ s1=slot(0,0,width-(dec*i),depth)
+ s1=move(s1,i*distance,0)
+ r1=r1-s1
+
+cad.function = r1

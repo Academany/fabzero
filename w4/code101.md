@@ -28,7 +28,11 @@ By default pins are configured as input
 
 https://www.arduino.cc/en/Tutorial/DigitalPins
 
-## Registers
+## DDR Data Direction Registers
+
+## PORT Registers
+
+## PIN Registers
 
 ## Hello world program
 
@@ -74,7 +78,7 @@ int main (void)
   // SET PULL UP RESISTOR IN PA3
 
  while(1) {
-   if (testbit(PINA,PA3))  
+   if (testbit(PINA,PA3))
 
    PORTB = 0b00000000;
    // set PB2 low to turn led off

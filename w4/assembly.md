@@ -19,14 +19,14 @@ You need an assembler compiler to convert the `.asm` file to a `.hex` file that 
 `
 
 ## Instruction set
-[8 bit AVR Instruction set](http://academy.cba.mit.edu/classes/embedded_programming/doc0856.pdf)  
+[8 bit AVR Instruction set](http://academy.cba.mit.edu/classes/embedded_programming/doc0856.pdf)
 [AVR Assembler user guide](http://academy.cba.mit.edu/classes/embedded_programming/doc1022.pdf)
 
 ## Datasheets
 Programming in assembly requires a big knowledge of the hardware since the instructions control this hardware directly. All the information about the microcontroller can be found in the datasheet. Some important microcontroller datasheets for Fab Academy are:
 
-[attiny 44]()  
-[attiny45]()  
+[attiny 44]()
+[attiny45]()
 [atmega328]()
 
 ## Inputs and Outputs
@@ -92,8 +92,6 @@ The following is a video from [Basic and Default Usage of a Timer and Counter an
 
 ### Rotate and Shift Instructions
 
-###
-
 * `SBI reg,bit` sets a bit in a register
 * `CBI reg,bit` clears a bit in a register
 * `BRNE label` jumps to the specified label if the result of `cpi` is 0
@@ -115,7 +113,7 @@ The following is a video from [Basic and Default Usage of a Timer and Counter an
 
 .device attiny44                ; defines which device to assemble for
 .org 0		                      ; sets the programs origin
-          SBI   DDRA,7          ; sbi reg,bit Sets a bit of a register.  
+          SBI   DDRA,7          ; sbi reg,bit Sets a bit of a register.
                                 ; Setting DDRA bit 7 makes pin PA7 a (digital) output
           CBI   DDRB,3          ; sets PB3 as input
           SBI   PORTB, 3        ; activates pull up resistor in PB3
@@ -176,12 +174,12 @@ This is a sample of how an assembly program looks like.
 .org 0		        ; sets the programs origin
 
 sbi DDRA, 7
-; sbi(reg,bit): Sets a bit of a register.  
+; sbi(reg,bit): Sets a bit of a register.
 ; DDRA is the data direction register A
 ; Setting DDRA bit 7 makes pin PA7 a (digital) output
 ; A digital output can be switched ON/OFF for 5V or 0V
 
-loop:		
+loop:
 ; label for main loop
 ; labels must start with a letter and end with a colon
 

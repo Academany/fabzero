@@ -1,0 +1,192 @@
+{
+    "nodes": [
+        {
+            "datums": [
+                {
+                    "expr": "-s0.distance",
+                    "name": "x0",
+                    "type": "float",
+                    "uid": 0
+                },
+                {
+                    "expr": "-s0.depth-s0.distance",
+                    "name": "y0",
+                    "type": "float",
+                    "uid": 1
+                },
+                {
+                    "expr": "s0.n*s0.distance",
+                    "name": "x1",
+                    "type": "float",
+                    "uid": 2
+                },
+                {
+                    "expr": "0",
+                    "name": "y1",
+                    "type": "float",
+                    "uid": 3
+                },
+                {
+                    "expr": "\u0012fab.types.Shape('aa-f-15X-Xf105a-f-25Y-Yf0',float('-15.000000'),float('-25.000000'),float('-inf'),float('105.000000'),float('0.000000'),float('inf'))",
+                    "name": "shape",
+                    "type": "_fabtypes.Shape",
+                    "uid": 4
+                }
+            ],
+            "inspector": [
+                -147.69661695217746,
+                190.06794152794291
+            ],
+            "name": "r0",
+            "script": [
+                "# Neil Gershenfeld 1/24/15",
+                "# Matt Keeter 6/11/15",
+                "",
+                "import fab",
+                "",
+                "title('Rectangle (corner)')",
+                "",
+                "input('x0', float)",
+                "input('y0', float)",
+                "input('x1', float)",
+                "input('y1', float)",
+                "",
+                "output('shape', fab.shapes.rectangle(x0, x1, y0, y1))",
+                "",
+                "# UI",
+                "sb.ui.wireframe([(x0, y0, 0), (x1, y0, 0),",
+                "                  (x1, y1, 0), (x0, y1, 0)], close=True)",
+                "sb.ui.point(x0, y0)",
+                "sb.ui.point(x1, y1)",
+                "",
+                ""
+            ],
+            "uid": 0
+        },
+        {
+            "datums": [
+                {
+                    "expr": "10",
+                    "name": "depth",
+                    "type": "float",
+                    "uid": 6
+                },
+                {
+                    "expr": "3",
+                    "name": "width",
+                    "type": "float",
+                    "uid": 11
+                },
+                {
+                    "expr": "15",
+                    "name": "distance",
+                    "type": "float",
+                    "uid": 18
+                },
+                {
+                    "expr": "7",
+                    "name": "n",
+                    "type": "int",
+                    "uid": 1
+                },
+                {
+                    "expr": "0.1",
+                    "name": "dec",
+                    "type": "float",
+                    "uid": 2
+                }
+            ],
+            "inspector": [
+                -151.38566531188428,
+                430.42115379039905
+            ],
+            "name": "s0",
+            "script": [
+                "import fab",
+                "",
+                "title('Parameters')",
+                "input('depth', float)",
+                "input('width', float)",
+                "input('distance', float)",
+                "input('n', int)",
+                "input('dec', float)",
+                ""
+            ],
+            "uid": 1
+        },
+        {
+            "datums": [
+                {
+                    "expr": "\u0011[__0.__4]",
+                    "name": "rectangle",
+                    "type": "_fabtypes.Shape",
+                    "uid": 23
+                },
+                {
+                    "expr": "\u0011[__1.__6]",
+                    "name": "depth",
+                    "type": "float",
+                    "uid": 15
+                },
+                {
+                    "expr": "\u0011[__1.__11]",
+                    "name": "width",
+                    "type": "float",
+                    "uid": 10
+                },
+                {
+                    "expr": "\u0011[__1.__18]",
+                    "name": "distance",
+                    "type": "float",
+                    "uid": 12
+                },
+                {
+                    "expr": "\u0011[__1.__1]",
+                    "name": "n",
+                    "type": "int",
+                    "uid": 0
+                },
+                {
+                    "expr": "\u0011[__1.__2]",
+                    "name": "dec",
+                    "type": "float",
+                    "uid": 4
+                },
+                {
+                    "expr": "\u0012fab.types.Shape('aaaaaaaaa-f-15X-Xf105a-f-25Y-Yf0nm-Xf0-Yf0-Zf0m-Xf0-Yf0-Zf0m-Xf0-Yf0-Zf0m+*f1X*f0Y+*f-0X*f1Y_m-Xf0-Yf0-Zf0iaa-f-1.5X-Xf1.5a-f-10Y-Yf0ini-*f0-Xf1.5*f2-Yf0i-*f-2-Xf3.5*f-2-Yf0-*f2-Xf1.5*f0-Yf-2m-*f2f0X__ni-*f0-Xf1.5*f2-Yf0i-*f-2-Xf3.5*f-2-Yf0-*f2-Xf1.5*f0-Yf-2nm-Xf15-Yf0-Zf0m-Xf0-Yf0-Zf0m-Xf0-Yf0-Zf0m+*f1X*f0Y+*f-0X*f1Y_m-Xf0-Yf0-Zf0iaa-f-1.45X-Xf1.45a-f-10Y-Yf0ini-*f0-Xf1.45*f2-Yf0i-*f-2-Xf3.45*f-2-Yf0-*f2-Xf1.45*f0-Yf-2m-*f2f0X__ni-*f0-Xf1.45*f2-Yf0i-*f-2-Xf3.45*f-2-Yf0-*f2-Xf1.45*f0-Yf-2nm-Xf30-Yf0-Zf0m-Xf0-Yf0-Zf0m-Xf0-Yf0-Zf0m+*f1X*f0Y+*f-0X*f1Y_m-Xf0-Yf0-Zf0iaa-f-1.4X-Xf1.4a-f-10Y-Yf0ini-*f0-Xf1.4*f2-Yf0i-*f-2-Xf3.4*f-2-Yf0-*f2-Xf1.4*f0-Yf-2m-*f2f0X__ni-*f0-Xf1.4*f2-Yf0i-*f-2-Xf3.4*f-2-Yf0-*f2-Xf1.4*f0-Yf-2nm-Xf45-Yf0-Zf0m-Xf0-Yf0-Zf0m-Xf0-Yf0-Zf0m+*f1X*f0Y+*f-0X*f1Y_m-Xf0-Yf0-Zf0iaa-f-1.35X-Xf1.35a-f-10Y-Yf0ini-*f0-Xf1.35*f2-Yf0i-*f-2-Xf3.35*f-2-Yf0-*f2-Xf1.35*f0-Yf-2m-*f2f0X__ni-*f0-Xf1.35*f2-Yf0i-*f-2-Xf3.35*f-2-Yf0-*f2-Xf1.35*f0-Yf-2nm-Xf60-Yf0-Zf0m-Xf0-Yf0-Zf0m-Xf0-Yf0-Zf0m+*f1X*f0Y+*f-0X*f1Y_m-Xf0-Yf0-Zf0iaa-f-1.3X-Xf1.3a-f-10Y-Yf0ini-*f0-Xf1.3*f2-Yf0i-*f-2-Xf3.3*f-2-Yf0-*f2-Xf1.3*f0-Yf-2m-*f2f0X__ni-*f0-Xf1.3*f2-Yf0i-*f-2-Xf3.3*f-2-Yf0-*f2-Xf1.3*f0-Yf-2nm-Xf75-Yf0-Zf0m-Xf0-Yf0-Zf0m-Xf0-Yf0-Zf0m+*f1X*f0Y+*f-0X*f1Y_m-Xf0-Yf0-Zf0iaa-f-1.25X-Xf1.25a-f-10Y-Yf0ini-*f0-Xf1.25*f2-Yf0i-*f-2-Xf3.25*f-2-Yf0-*f2-Xf1.25*f0-Yf-2m-*f2f0X__ni-*f0-Xf1.25*f2-Yf0i-*f-2-Xf3.25*f-2-Yf0-*f2-Xf1.25*f0-Yf-2nm-Xf90-Yf0-Zf0m-Xf0-Yf0-Zf0m-Xf0-Yf0-Zf0m+*f1X*f0Y+*f-0X*f1Y_m-Xf0-Yf0-Zf0iaa-f-1.2X-Xf1.2a-f-10Y-Yf0ini-*f0-Xf1.2*f2-Yf0i-*f-2-Xf3.2*f-2-Yf0-*f2-Xf1.2*f0-Yf-2m-*f2f0X__ni-*f0-Xf1.2*f2-Yf0i-*f-2-Xf3.2*f-2-Yf0-*f2-Xf1.2*f0-Yf-2',float('-15.000000'),float('-25.000000'),float('-inf'),float('105.000000'),float('0.000000'),float('inf'))",
+                    "name": "comb",
+                    "type": "_fabtypes.Shape",
+                    "uid": 1
+                }
+            ],
+            "inspector": [
+                313.59614894027243,
+                355.2752766462408
+            ],
+            "name": "s1",
+            "script": [
+                "import fab",
+                "",
+                "title('slots')",
+                "input('rectangle', fab.types.Shape)",
+                "input('depth', float)",
+                "input('width', float)",
+                "input('distance', float)",
+                "input('n', int)",
+                "input('dec', float)",
+                "",
+                "",
+                "for i in range (n):",
+                " s1=fab.shapes.slot(0,0,width-(dec*i),depth)",
+                " s1=fab.shapes.move(s1,i*distance,0)",
+                " rectangle=rectangle & ~s1",
+                "",
+                "",
+                "output('comb',rectangle)"
+            ],
+            "uid": 2
+        }
+    ],
+    "protocol": 6,
+    "type": "sb"
+}
