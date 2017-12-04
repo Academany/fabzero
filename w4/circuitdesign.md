@@ -1,5 +1,5 @@
 # Electronics design
-There are several ways you can create your electronics design. Some of them include:
+Welcome to the amazing world of electronics design. We will learn tools and acquire some skills to be able to design our own circuit boards, which together with the skills of Electronics Production will allow us to fabricate our own circuit boards. And this is not only super cool, but also a huge step in digital fabrication. There are several ways you can create your electronics design. These are just some that we will cover:
 * Drawing your circuit boards by hand. With the help of a template
 * Using [Eagle](https://www.autodesk.com/products/eagle/overview)
 * Using [Kicad](http://kicad-pcb.org/)
@@ -18,8 +18,6 @@ Even if you are not planning to use Eagle you **still ~~have~~ want to know the 
 
 ## KiCAD
 
-
-
 ## Kokopelli Retro
 
 [kokopelli](https://www.mattkeeter.com/projects/kokopelli/) was created by Matt Keeter and Neil Gershenfeld and is currently *abandonware*.
@@ -27,12 +25,12 @@ Even if you are not planning to use Eagle you **still ~~have~~ want to know the 
 ![](img/elecdesign/kokogear.png)
 
 > Why do I want to waste my precious time in this obsolete and unsupported software that works for Linux only?  There are two reasons why you'd want to learn how to modify and design your circuit boards in kokopelli:
-1. Because all the hello boards that Neil designs and are in this `.cad` format. Sooner or later you will come across one of them. He probably does so because of reason number two.
-2. You are in Fab Academy because you want to turn codes into things(?). Eagle is just a specialized drawing program that makes your life easier when drawing circuits. On the other hand `.cad` is pure code and hence it is the closer you will be for turning codes into things. In the future, if there is such a thing like a programmable digital material, you will program it with something like kokopelli.
+> 1. Because all the hello boards that Neil designs and are in this `.cad` format. Sooner or later you will come across one of them. He probably does so because of reason number two.
+> 2. You are in Fab Academy because you want to turn codes into things(?). Eagle is just a specialized drawing program that makes your life easier when drawing circuits. On the other hand `.cad` is pure code and hence it is the closer you will be for turning codes into things. In the future, if there is such a thing like a programmable digital material, you will program it with something like kokopelli.
 
 ### A warning about kokopelli
 
- This tutorial is only valid for kokopelli 0.05 version which can be found in [this repository](https://github.com/TheBeachLab/kokoretro). The newer (also abandoned) version of kokopelli [in Matt Keeter Github account](https://github.com/mkeeter/kokopelli) broke backwards compatibility with Neil `.cad` files.
+This tutorial is only valid for kokopelli 0.05 version which can be found in [this repository](https://github.com/TheBeachLab/kokoretro). The newer (also abandoned) version of kokopelli [in Matt Keeter Github account](https://github.com/mkeeter/kokopelli) broke backwards compatibility with Neil `.cad` files.
 
 ### Hands on: Modifiying a circuit board design in kokopelli
 
@@ -113,7 +111,7 @@ Wires never go oblique in kopopelli, they will only go in X and Y direction and 
 A--->---
        |
        |    #This is an awesome ASCII drawing
-       B                          
+       B
 ```
 If you want to change it, reverse the order of the points. So from B to A it will go like this:
 ```
