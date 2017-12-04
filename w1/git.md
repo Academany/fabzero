@@ -22,7 +22,7 @@ For the next part of the course we will need to install [git](https://git-scm.co
 ## Configuring git
 Set some basic config and tell git who you are. Maybe I don't have to say that but please remember gentle reader, to replace **yourname** with your actual name and **youremail** with your actual email address.
 
-```
+```bash
 cd ~/folder_name # replace this with your repository folder
 git config --global user.name "yourname" #set name for commits
 git config --global user.email "youremail" #set email for commits

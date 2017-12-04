@@ -15,6 +15,6 @@ One of the utilities of graphicsmagick is the ability to compose images in a hor
 
 ## Vectorizing a raster image
 
-* Learn how to vectorize a B/W image in Inkscape. You will need to do this many times.
+Learn how to vectorize a B/W image in Inkscape. You will need to do this many times.
 ---
 [Back to Summary](../summary.md)
