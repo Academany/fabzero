@@ -28,6 +28,18 @@ Some other things to take into account:
 
 ## Stuffing the board
 
+### Soldering
+
+* It’s not like painting. Doesn’t work like this. Soldering Iron in, Solder in, Solder out, Soldering Iron out.
+* Use the double side tape to fix the board to the table
+* Start with the microcontroller, continue towards the perimeter
+* Easy with the tweezers
+* Soldering day - No coffee
+* Use good lighting and loupes
+
+### Using the heat gun
+Proper use of the heat gun. Remember to put it in cold air after use until no heat comes out.
+
 ## Programming the board
 
 ## It doesn't work: Debugging

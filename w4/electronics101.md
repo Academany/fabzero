@@ -23,6 +23,12 @@ Let's learn a little bit about how the components work. A good resource is the O
 
 ## Using the function generator
 
+## Microcontrollers
+
+### Fuses
+
+Fuses (HIGH, LOW, EXTENDED) Tutorial: [http://fabacademy.org/archives/2015/doc/fuses.html](http://fabacademy.org/archives/2015/doc/fuses.html)
+
 
 ---
 [Back to Summary](../summary.md)

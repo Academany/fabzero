@@ -1,4 +1,45 @@
-# Introduction to embedded C programming
+# Coding 101
+
+There is a difference between **knowing** the path and **walking** the path. Walk-the-path.
+
+* Basics about programming
+
+    * Add Author, date, description and license
+
+    * Always comment your code
+
+    * Init and loop parts
+
+    * Digital output
+
+    * Analog output (PWM)
+
+    * Digital input
+
+    * Analog input (ADC) 8 bit/10bit
+
+    * Pull up down resistors (10k)
+
+    * Multitasking? Polling
+
+    * Debounce buttons
+
+* Programming. 3 paths depending on proficiency:
+
+    * Beginners: Arduino IDE
+
+    * Intermediates: C
+
+    * Advanced: Assembly
+
+* Why C? [https://www.youtube.com/watch?v=ERY7d7W-6nA&feature=youtu.be](https://www.youtube.com/watch?v=ERY7d7W-6nA&feature=youtu.be)
+
+* Why Assembly? [https://en.wikipedia.org/wiki/Apollo_Guidance_Computer](https://en.wikipedia.org/wiki/Apollo_Guidance_Computer)
+
+
+## Pseudocode
+
+## Introduction to embedded C programming
 
 In this section we are going to learn to program an attiny44 using AVR-GCC toolchain in C language. Programming is a huge topic. It will take long time to master.
 

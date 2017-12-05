@@ -121,5 +121,8 @@ A
 ```
 That's it! The whole process is not that as hard as it might look like. It takes more time to explain it than actually doing it.
 
+### Advanced kokopelli: Creating your own components
+
+### Advanced kokopelli: Non rectangular cutouts
 ---
 [Back to Summary](../summary.md)
