@@ -1,6 +1,6 @@
 # Coding 101
 
-There is a difference between **knowing** the path and **walking** the path. Walk-the-path.
+For learning to code you **have to** code. There is a difference between **knowing** the path and **walking** the path. Walk-the-path.
 
 * Basics about programming
 

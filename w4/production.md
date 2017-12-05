@@ -18,11 +18,11 @@ I recommend that you get them from Fab Foundation or another Lab. Over years I h
 Some people use FR4 boards and V-shape milling bits.
 
 ## Preparing the job
-Some other things to take into account:
+Milling circuit boards is a process **very sensitive to height differences**. Even a tiny bubble in the double sided tape, remains of old glue will affect the milling. Take your time to carefully prepare the board for milling.
 
-* Milling circuit boards is a process **very sensitive to height differences**. Even a tiny bubble in the double sided tape, remains of old glue will affect the milling. Take your time to carefully prepare the board for milling.
-* **Always** use a sacrificial material. I recommend another PCB board with the paper side looking up. I do not recommend acrylic or wood since the height is not consistent across the surface.
-* Be careful with the 1/64 milling bit. It breaks easily.
+**Always** use a sacrificial material. I recommend another PCB board with the paper side looking up. I do not recommend acrylic or wood since the height is not consistent across the surface.
+
+Be careful with the 1/64 milling bit. It breaks easily.
 
 ## Milling the board
 
@@ -39,6 +39,9 @@ Some other things to take into account:
 
 ### Using the heat gun
 Proper use of the heat gun. Remember to put it in cold air after use until no heat comes out.
+
+## Smoke test
+Power the board. If there is no smoke go next step.
 
 ## Programming the board
 Download this [sample code](files/code101/samplecode.zip) and test if you can compile it and upload it to your microcontroller with your FabISP. Usage:
