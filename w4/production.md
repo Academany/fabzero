@@ -41,6 +41,12 @@ Some other things to take into account:
 Proper use of the heat gun. Remember to put it in cold air after use until no heat comes out.
 
 ## Programming the board
+Download this [sample code](files/code101/samplecode.zip) and test if you can compile it and upload it to your microcontroller with your FabISP. Usage:
+
+```bash
+make program
+make flash
+```
 
 ## It doesn't work: Debugging
 Finding errors in the programming step is normal. A common fail is that when there is an error the student just mills another board, and another, and another... until he succeeds. This is wrong. You have to learn how to debug your boards. You have to find and isolate where is the error. The most important thing when debugging is **reading** what is the error you are receiving, it will give you hints on how to proceed. Here you are some (not all!) things you can try:
