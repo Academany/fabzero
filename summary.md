@@ -25,6 +25,6 @@ Please bear in mind that this is not an actual calendar but a syllabus of the pr
 ## Week 4
 * [Day 1. Electronics 101](w4/electronics101.md) & [Electronics production](w4/production.md)
 * [Day 2. Electronics design](w4/circuitdesign.md)
-* [Day 3. Introduction to programming](w4/code101.md)
-* [Day 4. Advanced programming in C](w4/codelikeapro.md) & [Assembly](w4/assembly.md)
+* [Day 3. Introduction to programming](w4/code101.md), [Interrupts](w4/interrupts.md)
+* Day 4. Advanced programming in C: [Timers](w4/timercounter.md), PWM, [Timer Interrupts](timerinterrupt.md), [ADC](adc.md) & [Assembly](w4/assembly.md)
 * [Day 5. Final Project](w4/finalproject.md)
