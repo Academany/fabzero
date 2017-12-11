@@ -21,7 +21,7 @@ The first official cycle of Pre Academy was tutored by Luciano Betoldi and Franc
 ## Second iteration. Pre Academy 2017
 The second iteration of Pre Academy was tutored by Francisco Sanchez with assistance from Sibu Saman and Yadu Sharon (both from Kerala itself) in December 2016 to twenty professors of KTU Engineering colleges of the state of Kerala, South India. A certificate was issued by Fab Academy X during [Fab13](http://fab13.fabevent.org) in Santiago de Chile.
 
-[Go to Pre Academy 2017 students archive](http://archive.fabacademy.org/fabacademyx/preacademy2017/)
+[Go to Pre Academy 2017 students archive](http://preacademy.fabcloud.io/preacademy2017)
 
 ## Third iteration: Pre Academy 2018
 The third iteration of Pre Academy is planned to be tutored by Francisco Sanchez, Fiore Basile and Sibu Saman in late 2017-Early 2018 in Amman, Jordan to a number of participants of Hussein Technical University and the Crown Prince Foundation. Successful students will obtain a certificate issued by Fab Academy X during [Fab14](http://fab14.fabevent.org) in France.
