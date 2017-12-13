@@ -2,7 +2,7 @@
 Please bear in mind that this is not an actual calendar but a syllabus of the program.
 
 ## Week 1
-* [Day 1. Introduction to Pre Fab Academy. Getting ready](w1/intro.md)
+* [Day 1. Introduction to Pre Fab Academy. Getting ready](w1/intro.md) & [The video conferencing system](w1/video.md)
 * [Day 2. Linux Command Line](w1/commandline.md) & [Documenting your work](w1/doc.md)
 * [Day 3. Working with git repositories](w1/git.md)
 * [Day 4. CAD 2D. Raster and Vector](w1/cad2d.md)
