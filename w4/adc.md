@@ -12,11 +12,6 @@ It is a 10-bit ADC. That means it has a resolution of 2E10=1024. It has 8 channe
 
 * It has 12 differential ADC channel pairs with 1x/20x gain
 
-## Modes of Operation
-The ADC has **two** fundamental operation **modes**: **Single Conversion** and **Free Running**. In Single Conversion mode, you have to initiate each conversion. When it is done, the result is placed in the ADC Data register pair and no new conversion is started. In Free Runing mode, you start the conversion only once, and then, the ADC automatically will start the following conversion as soon as the previous one is finished.
-
-![](img/adc/adcsra.png)
-
 ## ADC Prescaler
 The ADC of the AVR converts analog signal into digital signal at some regular interval. This interval is determined by the clock frequency. In general, the ADC input requires a frequency range of 50kHz to 200kHz. Out of this range of frequencies, which one do we choose? There is a trade-off between frequency and accuracy. The greater the frequency, the lesser the accuracy. So, if your application doesn’t require 10 bits of resolution, you could go for higher frequencies than 200KHz. In any case it is not recommended to go over 1MHz.
 
@@ -47,7 +42,13 @@ So if we want to activate ADC6 in PA6 we do:
 The reference voltage is selected configuring the bits REFS1 and REFS0 according to this table. By default is set to use VCC:
 
 ![](img/adc/vref.png)
+ 
+## Modes of Operation & Starting the Conversion
+The ADC has **two** fundamental operation **modes**: **Single Conversion** and **Free Running**. In Single Conversion mode, you have to initiate each conversion. When it is done, the result is placed in the ADC Data register pair and no new conversion is started. In Free Runing mode, you start the conversion only once, and then, the ADC automatically will start the following conversion as soon as the previous one is finished.
 
+![](img/adc/adcsra.png)
+
+ADCSRA |= (1 << ADFR);
 
 ## Beware the smoke
 You MUST respect the voltage range allowed for the AVR pins (see Maximum Absolute Ratings in the Electrical Characteristics section of the datasheet). The voltage must be below VCC+0.5V and above -1V. If you don't respect this, you will blow your AVR. Be sure that the analog signals you are using are in the right range. If they come from the external world, is a good idea to use some kind of protection at the input. See the suggested circuit below (which consists of just one resistor...).

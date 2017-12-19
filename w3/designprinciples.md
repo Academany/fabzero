@@ -26,8 +26,8 @@ In your designs(Fab Academy Slide, Fab Academy documentation, posters, etc.) tak
 > Select a font pair for your final project slide.
 
 ## Color
-* Number of colors
-* Harmony[ http://paletton.com/](http://paletton.com/)
+* Number of colors 2, 3, 4
+* [Harmony](https://zevendesign.com/color-harmony-hulk-wears-purple-pants/)
 * Saturation
 * Simbolism
 
@@ -52,7 +52,7 @@ Whether we’ve been genetically programmed to like them or we find them pleasin
 * You can use the golden ration when creating a grid for your design
 * To establish the relationship between sizes of two elements
 
-![](img/principles/golden.png)  
+![](img/principles/golden.png)
 The mathematics behind the golden ratio is heavily connected to the Fibonacci Sequence. If you take any number n in the sequence and divide it by the previous number n-1 the result approximates Phi or the golden ratio as n tends to infinity.
 
 ## Hick's Law
@@ -77,7 +77,7 @@ The picture superiority effect refers to the phenomenon in which pictures and im
 
 
 ## Rule of thirds
-The rule of thirds is a guideline applied to the process of composing visual designs which proposes that an image should be divided into nine equal parts by two equally spaced horizontal lines and two equally spaced vertical lines, and that important compositional elements should be placed along these lines or their intersections.  
+The rule of thirds is a guideline applied to the process of composing visual designs which proposes that an image should be divided into nine equal parts by two equally spaced horizontal lines and two equally spaced vertical lines, and that important compositional elements should be placed along these lines or their intersections.
 
 ![](img/principles/thirds.gif)
 
