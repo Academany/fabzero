@@ -1,6 +1,6 @@
 # The Pre Academy Program
 
-The Pre Academy is a short crash course under designed to fill knowledge gaps and aimed to prepare students and labs to succeed and improve their experience during [Fab Academy](http://fabacademy.org). It's **everything you should know before starting Fab Academy**. Topics covered include repository management, project documentation, lab preparation, fundamental electronics and programming, design thinking, machine operation, and health and safety.
+The Pre Academy is a short crash course designed to fill knowledge gaps and aimed to prepare students and labs to succeed and improve their experience during [Fab Academy](http://fabacademy.org). It's **everything you should know before starting Fab Academy**. Topics covered include repository management, project documentation, lab preparation, fundamental electronics and programming, design thinking, machine operation, and health and safety.
 
 This repository hosts the current iteration of Pre Academy, which incorporates improved documentation and lessons learned during the follow-up of the pre academy students participating in Fab Academy. Some changes include:
 * Adding more design thinking and design principles
@@ -24,9 +24,9 @@ The second iteration of Pre Academy was tutored by Francisco Sanchez with assist
 [Go to Pre Academy 2017 students archive](http://preacademy.fabcloud.io/preacademy2017)
 
 ## Third iteration: Pre Academy 2018
-The third iteration of Pre Academy is planned to be tutored by Francisco Sanchez, Fiore Basile and Sibu Saman in late 2017-Early 2018 in Amman, Jordan to a number of participants of Hussein Technical University and the Crown Prince Foundation. Successful students will obtain a certificate issued by Fab Academy X during [Fab14](http://fab14.fabevent.org) in France.
+The third iteration of Pre Academy was tutored by Francisco Sanchez, Fiore Basile and Sibu Saman in late 2017-Early 2018 in Amman, Jordan to a number of participants of Hussein Technical University and the Crown Prince Foundation. Successful students will a certificate issued by Fab Academy X during [Fab14](http://fab14.fabevent.org) in France.
 
 [Go to Pre Academy 2018 students archive](http://preacademy.fabcloud.io/preacademy2018/)
 
 # Questions and comments
-If you have questions or inquiries about the course content please do not hesitate to raise an issue or contact me (Francisco): hola [at] beachlab [dot] org. Happy to help!
+This repository is maintaned and updated by Francisco Sanchez. If you have questions or inquiries about the course content please do not hesitate to raise an issue or contact me francisco [at] fabfoundation [dot] org. Happy to help!
