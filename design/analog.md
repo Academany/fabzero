@@ -1,0 +1,1 @@
+# Analog Techniques. Always start with a piece of paper

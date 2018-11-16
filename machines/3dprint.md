@@ -1,4 +1,4 @@
-# 3D Scanning and Printing
+# 3D Printing
 
 ## General Notes
 
@@ -25,22 +25,6 @@ Use your USB microscope. In the image above, you can see the 0.4mm filament thro
 * Host big STL files in sketchab
 * Original design file should go in the archive
 
-## 3D Scanning
-
-### Individual assignment 2
-Scan something using:
-
-* Camera Pictures
-* Xbox Kinect
-* Structured light
-* Roland Modela (windows). Scan something that you cannot scan with this level of detail (like a coin) or not possible at all like Glass.
-
-### Extra assignments
-Since these are not mandatory you can do and document them in group.
-
-* Learn how to edit and fix STL files
-* Try to 3D print your scan
-* Try make your own scanner DIY (milk scanner, laser scanner, ...)
 
 ---
 [Back to Summary](../summary.md)
