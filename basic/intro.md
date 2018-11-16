@@ -73,7 +73,7 @@ Pre Academy program will be awarded a Diploma if you meet the following requirem
 
 ### A piece of advice
 * Do not follow existing roads, make your own path
-* Move out of your comfort zone and stay there
+* Move out of your comfort zone and stay there  
 ![](../diagrams/comfort.png)
 * Free your mind, forget what you already know, try new things
 * Be brave, take risks (not physical risks)
