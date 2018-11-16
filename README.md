@@ -13,23 +13,23 @@ This repository hosts the official curriculum of Fab Zero, which incorporates im
 
 # Fab Zero cycles
 
-## First iteration. Pre Academy Kerala 2016
-The first official cycle of Pre Academy was tutored by Luciano Betoldi and Francisco Sanchez during October and November 2015. The course was taught in the state of Kerala, South India. There were 8 participants in Kochi and 14 in Thiruvananthapuram. Successful students obtained a certificate issued by Fab Academy X during [Fab12](http://fab12.fabevent.org) in China. The program sillabus and student work was documented here:
-
-[Go to Pre Academy 2016 students archive](http://thebeachlab.github.io/)
-
-## Second iteration. Pre Academy Kerala 2017
-The second iteration of Pre Academy was tutored by Francisco Sanchez with assistance from Sibu Saman and Yadu Sharon (both from Kerala itself) in December 2016 to twenty professors of KTU Engineering colleges of the state of Kerala, South India. A certificate was issued by Fab Academy X during [Fab13](http://fab13.fabevent.org) in Santiago de Chile.
-
-[Go to Pre Academy 2017 students archive](http://preacademy.fabcloud.io/preacademy2017)
+## Fourth iteration: Fab Zero Egypt 2019
+The fourth and rebranded version of Fab Zero is expected to take place in Egypt during late 2018 and early 2019 (exact dates TBA). To be mentored by Francisco Sanchez and Sibu Saman to a group of managing teachers from a network of school labs all around the country.
 
 ## Third iteration: Pre Academy Jordan 2018
 The third iteration of Pre Academy was tutored by Francisco Sanchez, Fiore Basile and Sibu Saman in late 2017-Early 2018 in Amman, Jordan to a number of participants of Hussein Technical University and the Crown Prince Foundation. Successful students will a certificate issued by Fab Academy X during [Fab14](http://fab14.fabevent.org) in France.
 
 [Go to Pre Academy 2018 students archive](http://preacademy.fabcloud.io/preacademy2018/)
 
-## Fourth iteration: Fab Zero Egypt 2019
-The fourth and rebranded version of Fab Zero will take place in Egypt during late 2018 and early 2019. It is expected to be mentored by Francisco Sanchez and Sibu Saman to a group of Fab Lab Managers from school labs around the country.
+## Second iteration. Pre Academy Kerala 2017
+The second iteration of Pre Academy was tutored by Francisco Sanchez with assistance from Sibu Saman and Yadu Sharon (both from Kerala itself) in December 2016 to twenty professors of KTU Engineering colleges of the state of Kerala, South India. A certificate was issued by Fab Academy X during [Fab13](http://fab13.fabevent.org) in Santiago de Chile.
+
+[Go to Pre Academy 2017 students archive](http://preacademy.fabcloud.io/preacademy2017)
+
+## First iteration. Pre Academy Kerala 2016
+The first official cycle of Pre Academy was tutored by Luciano Betoldi and Francisco Sanchez during October and November 2015. The course was taught in the state of Kerala, South India. There were 8 participants in Kochi and 14 in Thiruvananthapuram. Successful students obtained a certificate issued by Fab Academy X during [Fab12](http://fab12.fabevent.org) in China. The program sillabus and student work was documented here:
+
+[Go to Pre Academy 2016 students archive](http://thebeachlab.github.io/)
 
 # Questions and comments
 This repository is maintaned and updated by Francisco Sanchez. If you have questions or inquiries about the course content please do not hesitate to raise an issue or contact me francisco [at] fabfoundation [dot] org. Happy to help!
