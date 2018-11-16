@@ -85,8 +85,6 @@ Fab Zero program will be awarded a Diploma if you meet the following requirement
   * you will break things
   * you will not be able to find a solution immediately
 
-> Exercise: Bookmark all these documents and pages
-
 ## Let's get ready!
 
 ### Safefy first
