@@ -1,2 +1,5 @@
 temp/
+*.log
+*.aux
+*.gz
 
