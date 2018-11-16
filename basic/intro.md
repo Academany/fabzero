@@ -60,19 +60,20 @@ Academany programs are not a traditional but a **distributed education system** 
   * [Fab Academy Handbook](http://docs.academany.org/FabAcademy-Handbook/_book/). More than you want to know about Fab Academy
   * [Assignments and Assessments](http://docs.academany.org/FabAcademy-Assessment/_book/). How the Fab Academy program is evaluated
 
-### Requirements to pass Pre academy
-Pre Academy program will be awarded a Diploma if you meet the following requirements by the end of the program.
+### Requirements to succeed in Fab Zero
+Fab Zero program will be awarded a Diploma if you meet the following requirements by the end of the program.
 * Documentation
-  * You are able to narrate the experience during the Pre Academy program
-  * You use resized images and compressed videos where applicable
+  * You are able to narrate the experience during the Fab Zero program
+  * You are able to keep your file sizes low by using resized images and compressed videos where applicable
 * Complete and document a final project that
   * Contains a microcontroller board that yoy have designed and fabricated with an input and output device
-  * Uses at least 2 fabrication proceses in the Lab
+  * Uses at least 2 digital fabrication proceses
   * You create a 1280x720 pixels `.png` slide
   * You create a 30s presentation 720p `.mp4` compressed video introducing you and your final project
 
 ### A piece of advice
-* Do not follow existing roads, make your own path
+* Do not follow existing roads, make your own path  
+![](img/intro/makeyourpath.png)
 * Move out of your comfort zone and stay there  
 ![](../diagrams/comfort.png)
 * Free your mind, forget what you already know, try new things
