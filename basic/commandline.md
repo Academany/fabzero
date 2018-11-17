@@ -134,7 +134,9 @@ If we have a group of files and folders and we want to check the size of all of 
 
 `du -sh * | sort -rh`
 
-A normal archive should grow at a rate of 1-2 mb per week.
+> **Remember** Always check your folder size before pushing to the archive! A normal archive should grow at a rate of 1-2 mb per week.
+
+![](img/bash/slap.jpg)
 
 ### Looking inside files
 
