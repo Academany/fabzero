@@ -17,7 +17,7 @@ This repository hosts the official curriculum of Fab Zero, which incorporates le
 The fourth and rebranded version of Fab Zero is expected to take place in Egypt during late 2018 and early 2019 (exact dates TBA). To be mentored by Francisco Sanchez and Sibu Saman to a group of managing teachers from a network of school labs all around the country.
 
 ## Third iteration: Pre Academy Jordan 2018
-The third iteration of Pre Academy was tutored by Francisco Sanchez, Fiore Basile and Sibu Saman in late 2017-Early 2018 in Amman, Jordan to a number of participants of Hussein Technical University and the Crown Prince Foundation. Successful students will a certificate issued by Fab Academy X during [Fab14](http://fab14.fabevent.org) in France.
+The third iteration of Pre Academy was tutored by Francisco Sanchez, Fiore Basile and Sibu Saman in late 2017 / early 2018 in Amman, Jordan to a number of participants of Hussein Technical University and the Crown Prince Foundation. Successful students were awarded a certificate issued by Fab Academy X during [Fab14](http://fab14.fabevent.org) in France.
 
 ![](img/jordan.png)
 
