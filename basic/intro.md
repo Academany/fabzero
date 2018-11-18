@@ -1,7 +1,7 @@
-# Introduction to Pre Fab Academy. Getting ready
+# Introduction to Fab Zero. Getting ready to unlearn
 
 ## Before we start: The notebook
-For the Pre Academy and also Fab Academy **it is strongly recommended that you always carry with you a notebook** with around 100 non detachable pages that you will use **exclusively** for the course. Do not use separate sheets because it is highly probable that they will eventually end up lost and shuffled. Screenshots are helpful, but do not rely all your research in screenshots only.
+For Fab Zero and also Fab Academy **it is strongly recommended that you always carry with you a notebook** with around 100 non detachable pages that you will use **exclusively** for the course. Do not use separate sheets because it is highly probable that they will eventually end up lost and shuffled. Screenshots are helpful, but do not rely all your research in screenshots only.
 
 Divide your annotations in entries. In every entry you can write:
 
@@ -10,22 +10,20 @@ Divide your annotations in entries. In every entry you can write:
 * Include machines used and settings
 * Include workflows, protocols or procedures you are following
 * Include troubles you are finding in the way, and how are you dealing with them
-* Include a debugging table if you are debugging
-* Finish the entry with a conclusion (Finished, to be continued later, stuck in a process, ...)
+* Include a debugging table if you are debugging a problem
+* Whenever you are leaving (lunch, end of day, switch task), finish the entry with an exit note (Finished, to be continued later, stuck in a process, ...)
 
-> Exercise: Get a notebook for the pre academy program and write down your first entry and answer in one sentence: Why are you here?
+> Exercise: Get a notebook for Fab Zero program and write down your first entry. Answer in one sentence: Why are you here?
 
 ## Fab Labs and The Fab Lab Network
-
 * History
-* Cost of innovation
+* [Fab Foundation](http://fabfoundation.org)
 * [Fab Lab Charter](http://fab.cba.mit.edu/about/charter/)
 * Equipment - [Inventory](https://docs.google.com/spreadsheets/d/1U-jcBWOJEjBT5A0N84IUubtcHKMEMtndQPLCkZCkVsU/pub?single=true&gid=0&output=html)
   * Collaboration
   * Standardization
-* Conferences ([global](http://fab13.fabevent.org/), [regional]())
+* Conferences ([global](http://fab13.fabevent.org/), [regional](https://fan4.fablabs.vn/))
 * [FabLabs.io](http://fablabs.io)
-* [Fab Foundation](http://fabfoundation.org)
 
 ## Educational programs: The Academany
 ![](./img/intro/academany.png)
@@ -40,7 +38,7 @@ The Academany a short name for **The Academy of Almost Anything**, a new global 
 * Will your program be the next?
 
 ### Academany methodology
-Academany programs are not a traditional but a **distributed education system** with tutors instead of teachers. Students undertake their own research in a 5 months long program. Academany educational programs are inspired in line with [the nine principles](http://media.mit.edu/about/principles) from Joi Ito (MIT Media Lab).
+Academany programs are not a traditional but a **distributed education system** with mentors instead of teachers. Students undertake their own research in a 5 months long program. Academany educational programs are inline with [the nine principles](http://media.mit.edu/about/principles) from Joi Ito (MIT Media Lab).
 
 ![](./img/intro/principles.jpeg)
 
@@ -66,42 +64,26 @@ Fab Zero program will be awarded a Diploma if you meet the following requirement
   * You are able to narrate the experience during the Fab Zero program
   * You are able to keep your file sizes low by using resized images and compressed videos where applicable
 * Complete and document a final project that
-  * Contains a microcontroller board that yoy have designed and fabricated with an input and output device
+  * Contains a microcontroller board that you have designed and fabricated with (at least) an input and output device
   * Uses at least 2 digital fabrication proceses
-  * You create a 1280x720 pixels `.png` slide
-  * You create a 30s presentation 720p `.mp4` compressed video introducing you and your final project
+  * You design a (beatiful) 1280x720 pixels `.png` presentation slide
+  * You create a 30s compressed 720p `.mp4` presentation video introducing you and your final project
 
 ### A piece of advice
-* Do not follow existing roads, make your own path  
+* Do not follow existing roads, make your own path
 ![](img/intro/makeyourpath.png)
-* Move out of your comfort zone and stay there  
+* Move out of your comfort zone and stay there
 ![](../diagrams/comfort.png)
 * Free your mind, forget what you already know, try new things
 * Be brave, take risks (not physical risks)
 * You will need to control your stress. Can you handle it?
   * Things will go wrong
-  * things will change continuously
+  * Things will continuously change
   * you will loose work
   * you will break things
   * you will not be able to find a solution immediately
 
 ## Let's get ready!
-
-### Safefy first
-Health, Safety and Environment (HSE) guidelines.
-* Cleaning up - Not someone else Problem
-* Safety Manual
-* Access control
-  * Facility
-  * Sensitive items
-  * Machines
-* Emergency Plan
-  * Fire
-  * Police
-  * Hospital
-  * Pharmacy
-
-> Exercise: Walk around the lab. Identify HSE potential problems and write them down in your notebook.
 
 ### Prepare your Laptop
 * The importance of FOSS software.
@@ -114,17 +96,17 @@ Health, Safety and Environment (HSE) guidelines.
   * Install software using command line
   * Compiling software
 * Installing Windows software using Wine
-* WIP: Post-install script for [Ubuntu]() and [Arch]()
+* WIP: Automatic Post-install script
 
 > Exercise: Backup your data, partition your hard drive and install Ubuntu-based distro in it
 
 ### Create online accounts
 It is recommended that students create the following online accounts
 * [Fablabs.io](fablabs.io) account. This is the official account used for many services
-* [Google](google.com) account for all Google services (Docs, YouTube...)
+* [Google](google.com) account for all Google services (YouTube...)
 * [Vimeo](vimeo.com) account for storing large videos. Alternative to Youtube.
 * [Github](github.com) account for your personal code projects
-* [Dropbox](dropbox.com) account for hosting large files
+* [Dropbox](dropbox.com) or similar account for hosting large files
 * [Sketchfab](sketchfab.com) account for embedding and hosting STL files
 
 > Exercise: Create those online accounts and keep your usernames/passwords in a **safe** place
