@@ -54,6 +54,7 @@ The general workflow is that you hook your inputs and outputs to the microcontro
 
 ## Setting Inputs and Outputs. The DDR (Data Direction Registers)
 To tell the microcontroller if a pin is an input or an output we have modify a register called Data Direction Register. A register is like a DIP switch with 8 independently switches that can be set to 0 (off) or 1 (on).
+
 ![](img/101/register.jpg)
 
 There is one of these for each port A and B, named DDRA and DDRB.

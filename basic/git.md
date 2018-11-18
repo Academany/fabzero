@@ -1,6 +1,6 @@
 # Working with git repositories
 
-> **Note:** As you go through this tutorial, do not try to memorize, learn by usage.
+> **Note:** As you go through this topic, do not try to memorize, learn by usage.
 
 ## The community effect
 Imagine a community of 4 people, where everyone has a design and shares it. The balance is positive for all of them, since each one gives one and receives 3. The **most important** feature in sharing communities is that knowledge is amplified and **you always receive more that you give**.
@@ -9,10 +9,10 @@ Imagine a community of 4 people, where everyone has a design and shares it. The 
 
 In Fab Academy **we are working with git repositories**. Every lab has a git repository where students push their work and pull other people's work. The advantages of working with repositories rather than simple file sharing are countless: you can create branches, roll back changes, delete other people's files and many other things that you will ~~hate~~ love very soon.
 
-## Downloading from Github
-[Github](github.com) is a web-based Git repository hosting. You don't need a github account or any software to download a repository.
+## Downloading a repository from Github
+[Github](github.com) is a web-based Git repository hosting. You don't need a github account or any software to download a zipped repository.
 
-> Exercise: Visit GitHub and download a repository. Think of the inconveniences of proceeding that way.
+> Exercise: Visit GitHub and download a repository in zip format. Think of the inconveniences of proceeding that way.
 
 ## Installing git
 For the next part of the course we will need to install [git](https://git-scm.com/). In Ubuntu type in a terminal window:
@@ -22,7 +22,7 @@ For the next part of the course we will need to install [git](https://git-scm.co
 > Exercise: Install git in your laptop.
 
 ## Configuring git
-Set some basic config and tell git who you are. Maybe I don't have to say that but please remember gentle reader, to replace **yourname** with your actual name and **youremail** with your actual email address.
+Set some basic config and tell git who you are. I might not have to remind that, but please remember gentle reader, to replace **yourname** with your actual name and **youremail** with your actual email address.
 
 ```bash
 cd ~/folder_name # replace this with your repository folder
@@ -44,20 +44,19 @@ You can specify 2 kind of address depending on the connection used: HTTPS or SSH
 
 HTTPS connection is commonly used when you are cloning a repository that you will not be modifiying but you want to receive changes. It will not require login/password for each connection if the project is public.
 
-> Exercise: Clone the prefab repository using the https address:
-https://gitlab.fabcloud.org/preacademy/preacademy2018.git
+> Exercise: Clone the class fab zero archive in gitlab using the https address. Your mentor will provide you with the address.
 Did you need to authenticate? What does it mean?
 
-Hopefully you will have a folder called `preacademy2018` in your home folder now. But the problem is that if we want to push changes now it will require our login/password for each time we connect. Which is very inconvenient. So we will change the connection to SSH.
+Hopefully you will now have a folder containing the archive somewhere in your computer. But the problem is that if we want to push changes now it will require our login/password for each time we connect. Which is very inconvenient. So we will change the connection to SSH.
 
-> Delete the `preacademy2018` folder
+> Delete the local folder containing the class repository. We will clone it again later
 
-## Generating SSH Keypair
-We usually use SSH connection in git, that way we are not messing with logins and passwords. A SSH connection needs a SSH keypair, one public key and one private key. These two together will allow you to establish an encripted connection. You can generate a ssh keypair by following [this tutorial](https://help.github.com/articles/generating-an-ssh-key/).
+## Generating a SSH Keypair
+We usually use SSH connection in git, that way we are not dealing with logins and passwords. A SSH connection needs a SSH keypair, one public key and one private key. These two together will allow you to establish an encripted connection. You can generate a ssh keypair by following [this tutorial](https://help.github.com/articles/generating-an-ssh-key/).
 
-If you define a passphrase at the time of generating the keypair, you will have to type it every-single-time you push to the archive. And this is going to be a lot of times. You have been warned.
+If you decide to define a passphrase at the time of generating the keypair, you will have to type it every-single-time you push to the archive. And this is going to be a lot of times. You have been warned.
 
-After creating the ssh keypair, and adding it to the ssh-agent, you have to upload the public key to github/gitlab. For that we will learn a command line tool called **xclip**. If you don't have it already, install it by typing:
+After creating the ssh keypair, and adding it to the ssh-agent, you have to upload the public key to github/gitlab. For copying the contents of the public key to the clipboard you can just open it in any text editor, select all of it contents and copy it. I will use a command line tool called **xclip**. If you don't have it already, you can install it by typing:
 
 `sudo apt-get install xclip`
 
@@ -70,32 +69,34 @@ And it is just a matter of pasting the clipboard in the SSH Keys section of gith
 > Question: Can you have more than one key? Can you copy the keys to another computer?
 
 ## Cloning a repository using a SSH connection
-Please find below the SSH address to clone the repository. In your computer, inside a terminal window, navigate to where you want to clone the repository (**recommended your home directory**):
+This time locate the SSH address to clone the repository. In your computer, inside a terminal window, navigate to where you want to clone the repository (**recommended your home directory**):
 
 ```
 cd ~  # actually it also goes to home if you just do cd
-git clone git@gitlab.fabcloud.org:preacademy/preacademy2018.git
+git clone paste-the-address-here.git
 ```
 
-> Exercise: Clone the prefab repository in your computer.
+> Exercise: Clone the Fab Zero class repository in your computer using the SSH connection.
 
 ## Basic git workflow
 This is the basic git workflow. Once you have made all changes to your website (hopefully daily), upload those changes to the repository. **Very important:** Do not miss any step, and do them in order.
 ```
-cd ~/repositoryfolder     # go to the repository folder
-du -sh personalfolder     # check your folder size
+cd ~/repositoryfolder     # go to the local repository folder
+du -sh personalsubfolder  # check your subfolder size
 git pull                  # pull other students changes
 git add --all             # add your changes
 git commit -m "message"   # write a meaningful message
 git push                  # push to the archive
 ```
-This is the manual workflow of updating your page. You can also write a script and  [automate this process](doc.md).
+This is the manual workflow of updating your page. You can also write a script and [automate this process](doc.md).
 
 > Exercise: What happens if you move the folder to another location? What happens if you rename the folder? Try to pull and push some changes after you rename or move the repository folder.
->
 
-## Where is the webpage?
-The webpage is here http://preacademy.fabcloud.io/preacademy2018/
+## Advanced git workflow
+![](img/git/git.jpg)
+
+## Where is the webpage published?
+Your mentor will give you the webpage address.
 
 > Bookmark this page
 
@@ -144,6 +145,8 @@ $ ssh-add -l
 ```
 
 An then, git pull and push using SSH should work again.
+
+> Exercise: If this happens to you frecuently, try to automate a solution
 
 ---
 [Back to Summary](../summary.md)
