@@ -1,39 +1,22 @@
 # Coding 101
 
 For learning to code you **have to** code. There is a difference between **knowing** the path and **walking** the path. Walk-the-path.
-
 * Basics about programming
-
     * Add Author, date, description and license
-
     * Always comment your code
-
     * Init and loop parts
-
     * Digital output
-
     * Analog output (PWM)
-
     * Digital input
-
     * Analog input (ADC) 8 bit/10bit
-
     * Pull up down resistors (10k)
-
     * Multitasking? Polling
-
     * Debounce buttons
-
 * Programming. 3 paths depending on proficiency:
-
     * Beginners: Arduino IDE
-
     * Intermediates: C
-
     * Advanced: Assembly
-
 * Why C? [https://www.youtube.com/watch?v=ERY7d7W-6nA&feature=youtu.be](https://www.youtube.com/watch?v=ERY7d7W-6nA&feature=youtu.be)
-
 * Why Assembly? [https://en.wikipedia.org/wiki/Apollo_Guidance_Computer](https://en.wikipedia.org/wiki/Apollo_Guidance_Computer)
 
 
@@ -58,18 +41,26 @@ In Ubuntu
 
 `sudo apt install avrdude gcc-avr binutils-avr avr-libc`
 
-And in Arch Linux
+## The basic idea behind a microcontroller
+A microcontroller is an electronic device with a CPU, memory and some other hardware that interfaces with the external world through a number of pins.
 
-`sudo pacman -S avrdude `
+![](img/101/t85.jpg)
 
-## The basic idea
-A microcontroller has a number of pins. Some pins have a fixed function and cannot be changed, like VCC or GND. The rest of the pins and can be configured as inputs or outputs by writing to the Data Direction Registers. There is one of these for each port A and B, named DDRA and DDRB.
+Some pins have a fixed function and cannot be changed, like VCC or GND. The rest of the pins can be configured as inputs (for receiving data from sensors) or outputs (to move motors or turn on lights).
 
-By default pins are configured as input
+![](img/101/t85pinout.jpg)
 
-https://www.arduino.cc/en/Tutorial/DigitalPins
+The general workflow is that you hook your inputs and outputs to the microcontroller pins and then later in your code you program the logic that enables reading from the sensors and actions in the actuators. This way, someone with little knowledge in electronics engineering can design and program a circuit board.
 
-## DDR Data Direction Registers
+## Setting Inputs and Outputs. The DDR (Data Direction Registers)
+To tell the microcontroller if a pin is an input or an output we have modify a register called Data Direction Register. A register is like a DIP switch with 8 independently switches that can be set to 0 (off) or 1 (on).
+![](img/101/register.jpg)
+
+There is one of these for each port A and B, named DDRA and DDRB.
+
+By default all pins are configured as input.
+
+> Exercise: Read this tutorial https://www.arduino.cc/en/Tutorial/DigitalPins
 
 ## PORT Registers
 

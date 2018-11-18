@@ -14,7 +14,7 @@ The simplest explanation I can give you about **why do you have to document** is
 After writing your documentation, you will share it in one of the most universal formats, a static web page (HTML file).
 
 ## Writing documentation in markdown
-Even though the final format of the documentation will be a webpage, you will not write HTML code. There is a rising tendence to write documentation in **markdown** format. This is an example of documentation written in HTML code. It complex to write because there are all these tags that you have to open and remember to close like:
+Even though the final format of the documentation will be a webpage, ~~you will not write~~ I do not recommend you to write HTML code. There is a rising tendence to write documentation in **markdown** format. This is an example of documentation written in HTML code. It complex to write because there are all these tags that you have to open and remember to close like:
 ```html
 <h1>This is the title</h1>
 <p>This is a paragraph with some <strong>bold</strong> text.</p>
