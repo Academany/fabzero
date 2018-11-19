@@ -43,6 +43,23 @@ It is important to analize which tasks are independent, so that you can execute 
 ## Rescheduling
 If you **overestimated time** or **ignored the third law** of time you will probably need to reschedule. It will also be the time to **drop some unrealistic goals** you had in mind. Remember that the most important thing is to deliver.
 
+## Spiral development. Failing as fast as you can
+If you try to create the project you have in your mind in one go you will fail. Nature never achieves perfection in one attempt, but in a series of infinite iterations. At least, you have to reach the following milestone iterations:
+1. Make it work. There is a fundamental design principle called *satisfizing* and here it is summarized: Doesn't matter how, but it has to work.
+2. Make it integrated and resilient. At the very minimum, make it holdable in one hand and resistant to shakes
+3. Make it nice
+
+Refine your project over and over until
+1. You are happy with the result
+2. You run out of time
+
+## Debugging. When things go wrong
+Things will go wrong, the only thing you don't know is how much. The following example is about a circuit board. But it can be for anything. Imagine you made a circuit board and it doesn't work. Somehow, you find there is problem in the design. What do you do? In fact you have to do 2 things.
+1. **Top-down debbuging**: Fix the board. Do not make a new board. The goal is learning, not succeeding. Even if you found the problem in the design, no one said that this was the only flaw. Worse is the case if you make a new board and succeed, like the donkey and the flute kid's story.
+2. **Bottom-up debugging**: Find the root cause that originated the flaw. Sometimes the root cause is hidden. Ask *why* a few times until you find it.
+
+When debugging, always smile. Tomorrow will be worse.
+
 ## Deliver
 The only thing certain in project management is that **there is a deadline**. At that day you **have** to deliver. Doesn't matter if it is not what you wanted, if you don't like it, or you are halfway done. That day you deliver, whatever you have. Afterwards, if you want, you can meditate about what changes you should to do in the future to achieve your goals. But remember, you deliver that ugly thing you made. Always. **Deliver**.
 
