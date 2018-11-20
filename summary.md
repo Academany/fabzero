@@ -20,8 +20,8 @@ This is **not** a novel. Do **not** attempt to follow these topics from the begi
 * Digital 2D Design
 	* [2D Raster and Vector](design/cad2d.md)
 * Digital 3D Design
-	* [Parametric CAD. FreeCAD](design/freecad.md)
-	* [The CAD code approach. OpenSCAD](design/openscad.md)
+	* [Parametric CAD with FreeCAD](design/freecad.md)
+	* [The code approach. CAD with OpenSCAD](design/openscad.md)
 	* [Advanced CAD](design/advancedcad.md)
 	* [Break it before you make it! Structural Simulation in FreeCAD](design/simulation.md)
 
