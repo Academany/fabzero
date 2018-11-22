@@ -1,5 +1,7 @@
 # Shopbot CNC
 
+This is not a manual, rather a quick start guide. 
+
 ## Safety first
 
 ## Basic machine operation

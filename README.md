@@ -2,19 +2,20 @@
 
 Fab Zero is a high-density course originally designed to fill knowledge gaps and aimed to prepare students and labs to succeed and improve their experience during [Fab Academy](http://fabacademy.org). Fab Zero is **everything you should know before starting Fab Academy**. It has been also be adapted to prepare Fab Lab Managers. Topics covered include repository management, project documentation, lab preparation, fundamental electronics and programming, design thinking, machine operation, and many more.
 
-This repository hosts the official curriculum of Fab Zero, which incorporates lessons learned during the follow-up of the participants in Fab Academy. Some changes include:
+This repository hosts the official curriculum of Fab Zero, which incorporates new content and lessons learned during the follow-up of the participants in Fab Academy. Some changes include:
 * Adding more design thinking and design principles
 * Increasing time spent on documentation tools and repository management
 * Increasing lessons in CAD (2D, 3D, parametric, advanced and simulation)
 * It is now based in commonly used [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software)
 * Removing some topics that are common with Fab Academy
+* Creating new topics related to fab lab management
 
 [Click here to go to Fab Zero official curriculum](summary.md)
 
 # Fab Zero cycles
 
 ## Fourth iteration: Fab Zero Egypt 2019
-The fourth and rebranded version of Fab Zero is expected to take place in Egypt during late 2018 and early 2019 (exact dates TBA). To be mentored by Francisco Sanchez and Sibu Saman to a group of managing teachers from a network of school labs all around the country.
+The fourth and rebranded version of Fab Zero is expected to take place in Egypt in early 2019 (exact dates TBA). To be mentored by Francisco Sanchez and Sibu Saman to a group of managing teachers from a network of school labs all around the country.
 
 ## Third iteration: Pre Academy Jordan 2018
 The third iteration of Pre Academy was tutored by Francisco Sanchez, Fiore Basile and Sibu Saman in late 2017 / early 2018 in Amman, Jordan to a number of participants of Hussein Technical University and the Crown Prince Foundation. Successful students were awarded a certificate issued by Fab Academy X during [Fab14](http://fab14.fabevent.org) in France.
