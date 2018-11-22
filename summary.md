@@ -32,7 +32,7 @@ This is **not** a novel. Do **not** attempt to follow these topics from the begi
 * [3D Scannner, the forgotten machine](machines/3dscan.md)
 * [Shopbot CNC Router, the dangerous machine](machines/shopbotcnc.md)
 * [Maintenance. No, machines do not clean themselves](machines/maintenance.md)
-* [Boston, we have a problem. Troubeshooting and support](machines/troubleshooting.md)
+* [Boston, we have a problem. Troubleshooting and support](machines/troubleshooting.md)
 
 ## Making things move. Electronics and programming
 * [Basic Electronics. For people who doesn't understand the difference between a resistor and a capacitor](w4/electronics101.md)

@@ -1,6 +1,6 @@
 # Fab Zero Program (formerly Pre Academy)
 
-Fab Zero is a high-density course originally designed to fill knowledge gaps and aimed to prepare students and labs to succeed and improve their experience during [Fab Academy](http://fabacademy.org). Fab Zero is **everything you should know before starting Fab Academy**. It has been also be adapted to prepare Fab Lab Managers. Topics covered include repository management, project documentation, lab preparation, fundamental electronics and programming, design thinking, machine operation, and many more.
+Fab Zero is a high-density course originally designed to fill knowledge gaps and aimed to prepare students and labs to succeed and improve their experience during [Fab Academy](http://fabacademy.org). Fab Zero is **everything you should know before starting Fab Academy**. It has been also be adapted to prepare Fab Lab Managers. Topics covered include repository management, project documentation, lab preparation, fundamental electronics and programming, design thinking, machine operation, and many more!
 
 This repository hosts the official curriculum of Fab Zero, which incorporates new content and lessons learned during the follow-up of the participants in Fab Academy. Some changes include:
 * Adding more design thinking and design principles
@@ -11,6 +11,8 @@ This repository hosts the official curriculum of Fab Zero, which incorporates ne
 * Creating new topics related to fab lab management
 
 [Click here to go to Fab Zero official curriculum](summary.md)
+
+---
 
 # Fab Zero cycles
 
