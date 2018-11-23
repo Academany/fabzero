@@ -22,7 +22,6 @@ This is **not** a novel. Do **not** attempt to follow these topics from the begi
 * Digital 3D Design
 	* [Parametric CAD with FreeCAD](design/freecad.md)
 	* [The code approach. CAD with OpenSCAD](design/openscad.md)
-	* [Advanced CAD](design/advancedcad.md)
 	* [Break it before you make it! Structural Simulation in FreeCAD](design/simulation.md)
 
 ## Do not push this button! Interacting with machines and processes
