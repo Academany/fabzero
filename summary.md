@@ -34,9 +34,10 @@ This is **not** a novel. Do **not** attempt to follow these topics from the begi
 * [Boston, we have a problem. Troubleshooting and support](machines/troubleshooting.md)
 
 ## Making things move. Electronics and programming
-* [Basic Electronics. For people who doesn't understand the difference between a resistor and a capacitor](w4/electronics101.md)
+* [Electronics for people who doesn't understand the difference between a resistor and a capacitor](electronics/electronics101.md)
 * [The fabber way to make a circuit board](electronics/production.md)
 * [Ready player 2. Design your own circuit board](electronics/circuitdesign.md)
+* [Learning Python](electronics/python.md)
 * Programming circuit boards
 	* [Introduction to programming](electronics/code101.md)
 	* [Advanced Programming. Interrupts](electronics/interrupts.md)
@@ -54,6 +55,8 @@ This is **not** a novel. Do **not** attempt to follow these topics from the begi
 * [Documentation. Why tomorrow you will not remember anything](lab/doc.md)
 * [Where are the tweezers? Inventory Management](lab/assets.md)
 * [Keep in touch! Mastering the video conferencing systems](lab/video.md)
+* [Women can do anything!](lab/women.md)
+* [The respectful workplace](lab/respectful.md)
 
 ## Now all together. The Final Project
 * [The untold truth about Final Projects](final/finalproject.md)
