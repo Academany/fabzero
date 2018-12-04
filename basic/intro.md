@@ -13,7 +13,7 @@ Divide your annotations in entries. In every entry you can write:
 * Include a debugging table if you are debugging a problem
 * Whenever you are leaving (lunch, end of day, switch task), finish the entry with an exit note (Finished, to be continued later, stuck in a process, ...)
 
-> Exercise: Get a notebook for Fab Zero program and write down your first entry. Answer in one sentence: Why are you here?
+> **Learning by doing:** Get a notebook for Fab Zero program and write down your first entry. Answer in one sentence: Why are you here?
 
 ## Fab Labs and The Fab Lab Network
 * History
@@ -98,7 +98,7 @@ Fab Zero program will be awarded a Diploma if you meet the following requirement
 * Installing Windows software using Wine
 * WIP: Automatic Post-install script
 
-> Exercise: Backup your data, partition your hard drive and install Ubuntu-based distro in it
+> **Learning by doing:** Backup your data, partition your hard drive and install Ubuntu-based distro in it
 
 ### Create online accounts
 It is recommended that students create the following online accounts
@@ -109,4 +109,4 @@ It is recommended that students create the following online accounts
 * [Dropbox](dropbox.com) or similar account for hosting large files
 * [Sketchfab](sketchfab.com) account for embedding and hosting STL files
 
-> Exercise: Create those online accounts and keep your usernames/passwords in a **safe** place
+> **Learning by doing:** Create those online accounts and keep your usernames/passwords in a **safe** place

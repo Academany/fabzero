@@ -12,14 +12,14 @@ In Fab Academy **we are working with git repositories**. Every lab has a git rep
 ## Downloading a repository from Github
 [Github](github.com) is a web-based Git repository hosting. You don't need a github account or any software to download a zipped repository.
 
-> Exercise: Visit GitHub and download a repository in zip format. Think of the inconveniences of proceeding that way.
+> **Learning by doing:** Visit GitHub and download a repository in zip format. Think of the inconveniences of proceeding that way.
 
 ## Installing git
 For the next part of the course we will need to install [git](https://git-scm.com/). In Ubuntu type in a terminal window:
 
 `sudo apt-get install git`
 
-> Exercise: Install git in your laptop.
+> **Learning by doing:** Install git in your laptop.
 
 ## Configuring git
 Set some basic config and tell git who you are. I might not have to remind that, but please remember gentle reader, to replace **yourname** with your actual name and **youremail** with your actual email address.
@@ -31,7 +31,7 @@ git config --global user.email "youremail" #set email for commits
 git config --global push.default simple #default push only the current branch
 git config --global core.editor atom #set the editor
 ```
-> Exercise: Configure git with your personal data
+> **Learning by doing:** Configure git with your personal data
 
 ## Cloning a repository using HTTPS connection
 > **Note:** From now on you will need your [fablabs.io](fablabs.io) account.
@@ -44,12 +44,12 @@ You can specify 2 kind of address depending on the connection used: HTTPS or SSH
 
 HTTPS connection is commonly used when you are cloning a repository that you will not be modifiying but you want to receive changes. It will not require login/password for each connection if the project is public.
 
-> Exercise: Clone the class fab zero archive in gitlab using the https address. Your mentor will provide you with the address.
+> **Learning by doing:** Clone the class fab zero archive in gitlab using the https address. Your mentor will provide you with the address.
 Did you need to authenticate? What does it mean?
 
 Hopefully you will now have a folder containing the archive somewhere in your computer. But the problem is that if we want to push changes now it will require our login/password for each time we connect. Which is very inconvenient. So we will change the connection to SSH.
 
-> Delete the local folder containing the class repository. We will clone it again later
+> **Learning by doing:** Delete the local folder containing the class repository. We will clone it again later
 
 ## Generating a SSH Keypair
 We usually use SSH connection in git, that way we are not dealing with logins and passwords. A SSH connection needs a SSH keypair, one public key and one private key. These two together will allow you to establish an encripted connection. You can generate a ssh keypair by following [this tutorial](https://help.github.com/articles/generating-an-ssh-key/).
@@ -66,7 +66,7 @@ And of course, read the manual `man xclip`. Say our public key name is `id_rsa.p
 
 And it is just a matter of pasting the clipboard in the SSH Keys section of github/gitlab. A piece of advice. Name that key in github/gitlab as the computer you are using. If you loose that computer or you feel that the key is compromised you will know what key to delete.
 
-> Question: Can you have more than one key? Can you copy the keys to another computer?
+> **Think about it:** Can you have more than one key? Can you copy the keys to another computer?
 
 ## Cloning a repository using a SSH connection
 This time locate the SSH address to clone the repository. In your computer, inside a terminal window, navigate to where you want to clone the repository (**recommended your home directory**):
@@ -76,7 +76,7 @@ cd ~  # actually it also goes to home if you just do cd
 git clone paste-the-address-here.git
 ```
 
-> Exercise: Clone the Fab Zero class repository in your computer using the SSH connection.
+> **Learning by doing:** Clone the Fab Zero class repository in your computer using the SSH connection.
 
 ## Basic git workflow
 This is the basic git workflow. Once you have made all changes to your website (hopefully daily), upload those changes to the repository. **Very important:** Do not miss any step, and do them in order.
@@ -90,7 +90,7 @@ git push                  # push to the archive
 ```
 This is the manual workflow of updating your page. You can also write a script and [automate this process](doc.md).
 
-> Exercise: What happens if you move the folder to another location? What happens if you rename the folder? Try to pull and push some changes after you rename or move the repository folder.
+> **Learning by doing:** What happens if you move the folder to another location? What happens if you rename the folder? Try to pull and push some changes after you rename or move the repository folder.
 
 ## Advanced git workflow
 ![](img/git/git.jpg)
@@ -98,7 +98,7 @@ This is the manual workflow of updating your page. You can also write a script a
 ## Where is the webpage published?
 Your mentor will give you the webpage address.
 
-> Bookmark this page
+> **Learning by doing:** Bookmark this page
 
 ---
 
@@ -146,7 +146,7 @@ $ ssh-add -l
 
 An then, git pull and push using SSH should work again.
 
-> Exercise: If this happens to you frecuently, try to automate a solution
+> **Learning by doing:** If this happens to you frecuently, try to automate a solution
 
 ---
 [Back to Summary](../summary.md)

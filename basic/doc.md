@@ -5,7 +5,7 @@ The most important thing to understand when it comes to documenting your work is
 
 Documenting **is not about the final result, it's about the learning journey**. What was the goal, what did you had to research, how did you approach the solution, and what was the outcome. **Document both failures and successes**. There is a tendency to hide failures inherited from our educational system. In traditional education failure is negative. But there is much more you can learn from documenting your failures than documenting your sucesses.
 
-The simplest explanation I can give you about **why do you have to document** is that [you have less recall memory than a goldfish](https://www.telegraph.co.uk/news/science/science-news/10937888/Memory-of-a-goldfish-Actually-fish-can-recall-events-12-days-ago.html). Actually **you will remember less than 60% after just 20 minutes** [(read more)](https://en.wikipedia.org/wiki/Hermann_Ebbinghaus). Remember to document what you do **while you do it**. Exercise the habit of documenting every day.
+The simplest explanation I can give you about **why do you have to document** is that [you have less recall memory than a goldfish](https://www.telegraph.co.uk/news/science/science-news/10937888/Memory-of-a-goldfish-Actually-fish-can-recall-events-12-days-ago.html). Actually **you will remember less than 60% after just 20 minutes** [(read more)](https://en.wikipedia.org/wiki/Hermann_Ebbinghaus). Document what you do **while you do it**. Exercise the habit of documenting every day.
 
 ![](img/doc/forget.jpg)
 
@@ -35,9 +35,11 @@ Markdown is very **easy to write**, very **easy to read** and you can also **eas
 
 A Markdown document is just a plain text file usually appended with a `.md` extension. It will only take you about 10 minutes to learn the basics following [this tutorial](https://www.markdowntutorial.com/).
 
-> Exercise: Create a markdown page with a text editor and introduce yourself. Use header titles, bold text, italic text, link, bullets and an image.
+> **Learning by doing:** Create a markdown page with a text editor and introduce yourself. Use header titles, bold text, italic text, link, bullets and an image.
 
-> **Some markdown headaches solutions learned the hard way**
+> **Tip**
+> 
+> Some markdown headaches solutions learned the hard way
 > 1. Standard markdown syntax does not require a blank line before a header. Pandoc (the tool that converts it to a webpage) does require  this (except, of course, at the beginning of the document). The reason for the requirement is that it is too easy for a # to end up at the beginning of a line by accident (perhaps through line wrapping).
 >
 > 2. If you need a line break, you must put two (or more) spaces at the end of the line.
@@ -46,18 +48,18 @@ A Markdown document is just a plain text file usually appended with a `.md` exte
 The process of writing the documentation involves typing the documentation in markdown, converting it to HTML. We will first learn how to do all of these things manually, but they can automated them in a shell script.
 
 ### The text editor
-You first need a text editor. I use [Atom](https://atom.io/) because it is Open Source and also has built in markdown preview. To activate the markdown preview in Atom clic on _Packages/Markdown Preview/Toggle Preview_ or press `SHIFT`+`CONTROL`+`M`.
+You first need a text editor. I use [Visual Studio Code](https://code.visualstudio.com/) because it is Open Source and also has built in markdown preview, among many other useful things.
 
-![](./img/doc/atom.png)
+[MISSING: Visual Studio Code Image Placeholder]
 
-> Exercise: Install atom
+> **Learning by doing:** Install Visual Studio Code
 
 ### Markdown to HTML conversion
 To convert `.md` files to `.html` files there is a command line tool called **pandoc**. In Ubuntu you can install pandoc by typing this in the terminal:
 
 `sudo apt-get install pandoc`
 
-> Exercise: Install pandoc
+> **Learning by doing:** Install pandoc
 
 When you convert to HTML, by default pandoc will export it unstyled, just like a plain HTML file written from scratch. But you can style your HTML using CSS by using the option `-c style.css`. Styling the resulting HTML is recommended not only because it looks nicer, but also because styling can make it easier and more pleasant to read. Which is an important feature for the documentation. Instead of writing your own `css` file from scratch, modify one of the many available `css` files for pandoc, or use [this one](http://git.fabcloud.io/francisco/beach-lab-htgaa-2015/blob/master/students/sanchez.francisco/base.css). Pandoc has several options. You can learn them by reading the manual, type `man pandoc`. The options we will use are:
 
@@ -70,7 +72,7 @@ So exporting a markdown file.md to file.html with a style.css stylesheet is:
 
 `pandoc -s -t html -c style.css file.md -o file.html`
 
-> It's so annoying having to type all of those commands. Why do we keep using all these command line tools?
+> **Think about it:** It's so annoying having to type all of those commands. Why do we keep using all these command line tools?
 
 ### Automating everything
 Automation is the **real power of comand line tools**. You want to automate in order to avoid typing all these commands in terminal over and over and also in order to speed up the process of file conversion and uploading to the server.
@@ -85,7 +87,7 @@ This tutorial assumes that you have all the markdown `.md` and css `.css` files 
 pandoc -s -t html -c style.css file1.md -o file1.html
 pandoc -s -t html -c style.css file2.md -o file2.html
 ```
-> Do you see any disadvantage in the above script?
+> **Think about it:** Do you see any disadvantage in the above script?
 
 ```bash
 # Advanced Automation file
@@ -107,7 +109,7 @@ Now it comes the easy part. After you type all your documentation you open a new
 
 And it search for all the `.md` files in your folder and will convert them to HTML, overwriting if they already existed.
 
-> Exercise: Write a script to automate the conversion of your files to HTML.
+> **Learning by doing:** Write a script to automate the conversion of your files to HTML.
 
 ## Adding multimedia to your documentation
 
@@ -124,11 +126,12 @@ And it search for all the `.md` files in your folder and will convert them to HT
 
 ![](img/doc/interview.png)
 
-> Record a 10 to 15 seconds video presenting yourself. Do you think it's easy? Let's see how many times you have to repeat the scene until you are satisfied.
+> **Learning by doing:** Record a 10 to 15 seconds video presenting yourself. Do you think it's easy? Let's see how many times you have to repeat the scene until you are satisfied.
 
 
 * Screen recording: Sometimes the best way to show something that you are doing in a computer is with a screen capture video (with or without voice over). A good screen recorder for GNU/Linux is [SimpleScreenRecorder](http://www.maartenbaert.be/simplescreenrecorder/).
-> Record a 30 seconds video showing something you do on screen.
+  
+> **Learning by doing:** Record a 30 seconds video showing something you do on screen.
 
 * The legacy `.gif` format might seem useful to show short videos (2 to 5 seconds) like a led blinking, **but it is very inefficient in compressing the video**. It is actually recommended that you convert them to `.mp4`. There are a number of resources for downloading, manipulating or converting `.gif` files like [Giphy](http://giphy.com/), [Ezgif](http://ezgif.com/video-to-gif) and many more.
 

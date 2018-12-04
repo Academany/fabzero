@@ -37,25 +37,25 @@ Linux is a case sensitive operating system. `-n` and `-N` are different things!
 
 Some options also have a human readable flavor called **long option**. Human readable options are prefixed with two dashes `--` and they give you a clue of what that option is doing. For example the long option of `-a` is `--all`, giving you the clue that it will list all the files and folders, including the hidden ones. Long options cannot be concatenated.
 
-> Exercise: List the files of your home folder. Display them as a list. Display the hidden files also. What other options can be useful?
+> **Learning by doing:** List the files of your home folder. Display them as a list. Display the hidden files also. What other options can be useful?
 
 ## The manual
 Wait, wait, wait... Do I need to memorize all of this?
 No. Just use the `man` command (for Manual) everytime you need help on how to use the commands. Yes, I know. We all hate manuals.
 
-> Exercise: Have a quick look at the manual for `ls` command. Get familiarised, you will need it a lot.
+> **Learning by doing:** Have a quick look at the manual for `ls` command. Get familiarised, you will need it a lot.
 
 ## Navigating the filesystem
 
 ### Where am I?
 The information displayed in Bash varies from distribution to distribution. In Ubuntu you can see at every moment what is the current directory and the full path. Otherwise `pwd` command (_Print Working Directory_) will output the full path of your location in the filesystem.
 
-> Exercise: Open a new terminal window. Where are you now? What is ~?
+> **Learning by doing:** Open a new terminal window. Where are you now? What is ~?
 
 ### Moving around
 `cd` command stands for *change directory* and it is used to go to other directories.
 
-> Exercise: Navigate to your root folder /
+> **Learning by doing:** Navigate to your root folder /
 
 If you need to navigate to a folder with spaces like *My Documents* use the escape character `\` to tell bash that the space is part of the name and not another argument:
 
@@ -66,7 +66,7 @@ If you need to go back to the last directory you were you can use the command `c
 ### Tab completion
 A very handy keyboard shorcut is the `TAB` key. It will autocomplete the name of the file or the folder name.
 
-> Exercise: From the root folder, navigate to your Documents folder. Use `TAB` to keep autocompleting.
+> **Learning by doing:** From the root folder, navigate to your Documents folder. Use `TAB` to keep autocompleting.
 
 When two or more options are available the first `TAB` will not autocomplete, a second `TAB` will show you the available options for you to type a few extra letters to diferenciate. After that another `TAB` will autocomplete.
 
@@ -75,36 +75,36 @@ We have seen the `ls` command already. Most of the time you will use `ls -lh` (w
 
 The first column tells you if the item is a file `-`, a directory `d`, or a link `l`. Then you can see the permissions, owner, group, date, file size, and name.
 
-> Exercise: List and analyse the contents of your `/usr/bin`. What do you see?
+> **Learning by doing:** List and analyse the contents of your `/usr/bin`. What do you see?
 
 ### Creating, moving and deleting files and folders
 `mkdir` is used to create a directory
 
-> Exercise: Create a personal folder using this scheme `surname.name` in your `~/Documents` folder.
+> **Learning by doing:** Create a personal folder using this scheme `surname.name` in your `~/Documents` folder.
 
 If you need to create a folder structure you can use the option `-p` which will create all the required parent folders.
 
-> Create `~/Documents/surname.name/week1/img`
+> **Learning by doing:** Create `~/Documents/surname.name/week1/img`
 
 `touch` command is used to create an empty file.
 
-> Exercise: create a file named `readme.md` inside your personal folder. Check that the file is there.
+> **Learning by doing:** create a file named `readme.md` inside your personal folder. Check that the file is there.
 
 `rmdir` removes empty directories.
 
-> Exercise: Try to remove your personal folder. Ouch. What's the problem?
+> **Learning by doing:** Try to remove your personal folder. Ouch. What's the problem?
 
 `cp` is a command used to copy files and folder. It has many options but the basic usage is `cp origin destination`.
 
-> Exercise: Copy your `readme.md` to `day1.md`
+> **Learning by doing:** Copy your `readme.md` to `day1.md`
 
 `mv` is used for moving files but can also me used as a rename tool.
 
-> Exercise: Rename `day1.md` to `week1day1.md`. Remember to use `man mv` if you don't know how to use the command.
+> **Learning by doing:** Rename `day1.md` to `week1day1.md`. Remember to use `man mv` if you don't know how to use the command.
 
 When moving files from other directories to the current directory you can use the shortcut `.`
 
-> Example: `mv ~/Downloads/somefile.zip .`
+Example: `mv ~/Downloads/somefile.zip .`
 
 At all time we can use wildcards like `*` that represents any number of any characters and `?` that represent one of any character.
 
@@ -114,7 +114,7 @@ At all time we can use wildcards like `*` that represents any number of any char
 
 You can use `rm` recursively to delete files and folders
 
-> Example `rm -r ~/Documents/surname.name/` will delete the folder and everything inside it. Extreme caution!
+> **Learning by doing:** `rm -r ~/Documents/surname.name/` will delete the folder and everything inside it. Extreme caution!
 
 ### Finding files and folders
 `find` will recursively search for files and folders inside a specified starting location. For example, to find files and folders anywhere inside your home folder which contains "1":
@@ -230,20 +230,20 @@ But what does 666 mean? It's about time to talk about the octal notation.
 #### Octal notation
 In octal notation, permissions are represented by 3 numbers. Each one of these three numbers represent the user/group/others access and the value of the number itself the read/write/execute value. Given than read access is 4, write access is 2 and execute access is 1, all combinations of these three result in an unique number from 0 to 7.
 
-Who? | Read (4) | Write (2) | Execute (1) | Result
----|---|---|---|---
-User | 4 | 2 | 0 | **6**
-Group | 4 | 2 | 0 | **6**
-Others | 4 | 2 | 0 | **6**
+| Who?   | Read (4) | Write (2) | Execute (1) | Result |
+| ------ | -------- | --------- | ----------- | ------ |
+| User   | 4        | 2         | 0           | **6**  |
+| Group  | 4        | 2         | 0           | **6**  |
+| Others | 4        | 2         | 0           | **6**  |
 
 With a little bit of math all the permissions are easily derived. Otherwise you can also use this table:
 
-Octal Value | Mode | Octal Value | Mode
----|---|---|---
-**0** | - - - | **4** | r - -
-**1** | - - x | **5** | r - x
-**2** | - w - | **6** | r w -
-**3** | - w x | **7** | r w x
+| Octal Value | Mode  | Octal Value | Mode  |
+| ----------- | ----- | ----------- | ----- |
+| **0**       | - - - | **4**       | r - - |
+| **1**       | - - x | **5**       | r - x |
+| **2**       | - w - | **6**       | r w - |
+| **3**       | - w x | **7**       | r w x |
 
 This method is recommended when you want to set all permissions at once.
 
@@ -252,21 +252,21 @@ This method is recommended when you want to set all permissions at once.
 #### Symbolic notation
 The symbolic notation is more intuitive and it is useful when only a few permissions settings want to be changed. The notation is as follows, `+` stands for add a permission, `-` for removing a permission, and `=` for adding a specific permission but removing the others.
 
- Who? | Read (r) | Write (w) | Execute (x) | Result
----|---|---|---|---
-User (u) | + | + |  | **u+rw**
-Group (g) |  | - | + | **g+x-w**
-Others (o) | = |  |  | **o=r**
-All (a) | - | - | - | **a-rwx**
+ | Who?       | Read (r) | Write (w) | Execute (x) | Result    |
+ | ---------- | -------- | --------- | ----------- | --------- |
+ | User (u)   | +        | +         |             | **u+rw**  |
+ | Group (g)  |          | -         | +           | **g+x-w** |
+ | Others (o) | =        |           |             | **o=r**   |
+ | All (a)    | -        | -         | -           | **a-rwx** |
 
 #### Octal _vs_ Symbolic Notation
 
-Octal Value | Symbolic  | Result
----|---|---
-755 | u+rwx,g+rx,o+rx | rwxr-xr-x
-777 | a+rwx | rwxrwxrwx
-644 | u+rw,g=r,o=r | rw-r--r--
-700 | u+rwx,g-rwx,o-rwx | rwx------
+| Octal Value | Symbolic          | Result    |
+| ----------- | ----------------- | --------- |
+| 755         | u+rwx,g+rx,o+rx   | rwxr-xr-x |
+| 777         | a+rwx             | rwxrwxrwx |
+| 644         | u+rw,g=r,o=r      | rw-r--r-- |
+| 700         | u+rwx,g-rwx,o-rwx | rwx------ |
 
 ---
 [Back to Summary](../summary.md)

@@ -1,6 +1,6 @@
-# Official Fab Zero Documentation
+# Official fabzero Program Sillabus
 
-This documentation is WIP. Estimated release date: December 2018
+> This documentation is WIP. Estimated release date: December 2018
 
 ![](img/sign.png)
 
@@ -13,7 +13,7 @@ This is **not** a novel. Do **not** attempt to follow these topics from the begi
 * [Working with git repositories](basic/git.md)
 * [By tomorrow?! Time and project management](basic/projectmanagement.md)
 
-## Design is a process, not a result
+## Design
 * [Principles of Design](design/designprinciples.md)
 * [In the beginning. The Design Thinking strategy](design/designthinking.md)
 * [Going Analog in a Digital Age](design/analog.md)

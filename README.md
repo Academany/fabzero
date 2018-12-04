@@ -1,6 +1,6 @@
-# `Fab Zero` Program (formerly Pre Academy)
+# `fabzero` Program (formerly Pre Academy)
 
-This repository hosts the official curriculum of `Fab Zero`, a course originally designed to fill knowledge gaps and aimed to prepare students to succeed and improve their experience during [Fab Academy](http://fabacademy.org). `Fab Zero` was **everything you should know before starting Fab Academy**. Over the years, it grew into a multidiscilinar program, incorporating also non technical topics, like laboratory management, and social aspects.
+This repository hosts the `fabzero` official program, a course originally designed to fill knowledge gaps and aimed to prepare students to succeed and improve their experience during [Fab Academy](http://fabacademy.org). Over the years, it has been growing into a multidiscilinar program, incorporating also non-technical topics, like laboratory management and social aspects.
 
 ## What's new!
 * Adding more design thinking and design principles
@@ -13,9 +13,9 @@ This repository hosts the official curriculum of `Fab Zero`, a course originally
 
 ## Let's get started!
 
-[Click here to go to Fab Zero official curriculum](summary.md)
+[Click here to go to `fabzero` official curriculum](summary.md)
 
-[Click here to visit the archive of students experience](cycles.md)
+[Click here to browse the participants archive of past experiences](cycles.md)
 
 ## Questions and comments
 This repository is maintaned and updated by Francisco Sanchez. If you have questions or inquiries about the course content please do not hesitate to raise an issue or contact me francisco [at] fabfoundation [dot] org. Happy to help!
