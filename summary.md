@@ -58,5 +58,5 @@ This is **not** a novel. Do **not** attempt to follow these topics from the begi
 * [Women can do anything!](lab/women.md)
 * [The respectful workplace](lab/respectful.md)
 
-## Now all together. The Final Project
+## All together now. The Final Project
 * [The untold truth about Final Projects](final/finalproject.md)
