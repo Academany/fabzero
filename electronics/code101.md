@@ -1,18 +1,20 @@
 # Coding 101
 
+Programming is a powerful skill. Not just useful, not just good for your career, not just a moneymaker, but powerful. 
+
 For learning to code you **have to** code. There is a difference between **knowing** the path and **walking** the path. Walk-the-path.
-* Basics about programming
-    * Add Author, date, description and license
+* Basics about writing code
+    * First thing: Add Author, date, description and license
     * Always comment your code
-    * Init and loop parts
+    * Init and loop sections
     * Digital output
     * Analog output (PWM)
     * Digital input
     * Analog input (ADC) 8 bit/10bit
-    * Pull up down resistors (10k)
+    * Pull up / down resistors (10k)
     * Multitasking? Polling
     * Debounce buttons
-* Programming. 3 paths depending on proficiency:
+* Embedded Programming. 3 levels depending on proficiency:
     * Beginners: Arduino IDE
     * Intermediates: C
     * Advanced: Assembly
