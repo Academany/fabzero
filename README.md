@@ -1,8 +1,9 @@
 # `fabzero` Program (formerly Pre Academy)
 
-This repository hosts the `fabzero` official program, a course originally designed to fill knowledge gaps and aimed to prepare students to succeed and improve their experience during [Fab Academy](http://fabacademy.org). Over the years, it has been growing into a multidiscilinar program, incorporating also non-technical topics, like laboratory management and social aspects.
+This repository hosts the `fabzero` official program. It was originally designed to fill knowledge gaps and aimed to prepare students to succeed and improve their experience during [Fab Academy](http://fabacademy.org). Over the years, it has been growing into a multidiscilinar program, where a customized learning path is designed and crafted to the specific needs of the group.
 
-## What's new!
+## What's new
+
 * Adding more design thinking and design principles
 * Increasing documentation tools and repository management
 * Increasing lessons in CAD (2D, 3D, parametric, advanced and simulation)
@@ -18,4 +19,5 @@ This repository hosts the `fabzero` official program, a course originally design
 [Click here to browse the participants archive of past experiences](cycles.md)
 
 ## Questions and comments
+
 This repository is maintaned and updated by Francisco Sanchez. If you have questions or inquiries about the course content please do not hesitate to raise an issue or contact me francisco [at] fabfoundation [dot] org. Happy to help!
