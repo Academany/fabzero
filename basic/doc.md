@@ -1,6 +1,19 @@
 # Documenting your work
+<!-- TOC -->
 
-## 1. What, why, how, where and when to document
+1. [What, why, how, where and when to document](#what-why-how-where-and-when-to-document)
+2. [The text editor](#the-text-editor)
+3. [Writing documentation in markdown](#writing-documentation-in-markdown)
+4. [Typical Markdown to HTML Workflow](#typical-markdown-to-html-workflow)
+    1. [Markdown to HTML conversion](#markdown-to-html-conversion)
+    2. [Automating everything](#automating-everything)
+    3. [Using the script](#using-the-script)
+5. [Adding multimedia to your documentation](#adding-multimedia-to-your-documentation)
+    1. [Pictures](#pictures)
+    2. [Video](#video)
+
+<!-- /TOC -->
+## What, why, how, where and when to document
 
 The most important thing to understand when it comes to documenting your work is that **you are not writing a tutorial**, a step by step guide or telling others what to do. **You are telling your personal story**, your journey into the learning process. While you still have to provide details about your findings, you have to become a storyteller.
 
@@ -13,7 +26,7 @@ The simplest explanation I can give you about **why do you have to document** is
 
 After writing your documentation, you will share it in one of the most universal formats, a static web page (HTML file).
 
-## 2. The text editor
+## The text editor
 
 To write any kind of documentation, you first need a text editor. I use [Visual Studio Code](https://code.visualstudio.com/) because it is Open Source and also has built in markdown preview, among many other useful things.
 
@@ -22,7 +35,7 @@ To write any kind of documentation, you first need a text editor. I use [Visual 
 > **Learning by doing:** Install Visual Studio Code
 
 
-## 3. Writing documentation in markdown
+## Writing documentation in markdown
 
 Even though the final format of the documentation will be a webpage, ~~you will not write~~ I do not recommend you to write HTML code. There is a rising tendence to write documentation in **markdown** format. This is an example of documentation written in HTML code. It complex to write because there are all these tags that you have to open and remember to close like:
 
@@ -59,11 +72,11 @@ A Markdown document is just a plain text file usually appended with a `.md` exte
 >
 > 2. If you need a line break, you must put two (or more) spaces at the end of the line.
 
-## 4. Typical Markdown to HTML Workflow
+## Typical Markdown to HTML Workflow
 
 The process of writing the documentation involves typing the documentation in markdown, converting it to HTML. We will first learn how to do all of these things manually, but they can automated them in a shell script.
 
-### 4.1. Markdown to HTML conversion
+### Markdown to HTML conversion
 
 To convert `.md` files to `.html` files there is a command line tool called **pandoc**. In Ubuntu you can install pandoc by typing this in the terminal:
 
@@ -83,7 +96,7 @@ So exporting a markdown file.md to file.html with a style.css stylesheet is:
 
 > **Think about it:** It's so annoying having to type all of those commands. Why do we keep using all these command line tools?
 
-### 4.2. Automating everything
+### Automating everything
 
 Automation is the **real power of comand line tools**. You want to automate in order to avoid typing all these commands in terminal over and over and also in order to speed up the process of file conversion and uploading to the server.
 
@@ -113,7 +126,7 @@ do
 done
 ```
 
-### 4.3. Using the script
+### Using the script
 
 Now it comes the easy part. After you type all your documentation you open a new terminal inside your student folder that contains `auto.sh` file and type:
 
@@ -123,9 +136,9 @@ And it search for all the `.md` files in your folder and will convert them to HT
 
 > **Learning by doing:** Write a script to automate the conversion of your files to HTML.
 
-## 5. Adding multimedia to your documentation
+## Adding multimedia to your documentation
 
-### 5.1. Pictures
+### Pictures
 
 * Resizing Images. You can resize and convert between image formats using [GraphicsMagick](http://www.graphicsmagick.org/) package. `gm convert -resize 600x600 bigimage.png smallimage.jpg` will resize `bigimage.png` without modifiyng the aspect ratio inside a bounding box of 600x600 pixels and convert it into `.jpg`.
 
@@ -133,7 +146,7 @@ And it search for all the `.md` files in your folder and will convert them to HT
 
 ![apollo 13 image strip](../design/img/principles/apollo13.png)
 
-### 5.2. Video
+### Video
 
 * Selfie video: Many incubators and accelerators will ask you to record a video where you show you and your team. If you are planning to start a [kickstarter](https://www.kickstarter.com) campaign for a product you want to sell you will also have to do the same.
 

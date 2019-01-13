@@ -1,6 +1,18 @@
 # By Tomorrow?! Time and project management
+<!-- TOC -->
 
-## 1. Laws of time
+1. [Laws of time](#laws-of-time)
+2. [The two mistakes](#the-two-mistakes)
+3. [Listing all the required tasks](#listing-all-the-required-tasks)
+4. [Assigning time to each task](#assigning-time-to-each-task)
+5. [Parallel vs Serial development](#parallel-vs-serial-development)
+6. [Rescheduling](#rescheduling)
+7. [Spiral development. Failing as fast as you can](#spiral-development-failing-as-fast-as-you-can)
+8. [Debugging. When things go wrong](#debugging-when-things-go-wrong)
+9. [Deliver](#deliver)
+
+<!-- /TOC -->
+## Laws of time
 
 Time has three peculiarities, which I elevated to laws.
 
@@ -8,7 +20,7 @@ Time has three peculiarities, which I elevated to laws.
 * **Second** law of time. **You can't stop time**. There is nothing you can do about it. You can pause but time will not
 * **Third** law of time. **Time x Effort = constant**. Given an initial large time to do something, the effort will be low. As time tends to zero, the effort tends to infinite.
 
-## 2. The two mistakes
+## The two mistakes
 
 There are **two mistakes** people make when **managing time**. The **first one** is thinking about it as a continuous, **infinite** line, whose duration is **relative**. Do this and you will always be late. You need to start thinking about time as a physical dimension like length, finite and perfectly measurable.
 
@@ -24,7 +36,7 @@ In theory, you will have 8 hours available everyday for working/studying, often 
 
 So in reality you have roughly 5h. That is assuming that you are not a social network addict. To recap, **in a week you have less than 24h of continuous work**.
 
-## 3. Listing all the required tasks
+## Listing all the required tasks
 
 The idea behind project management is simple: To allocate every task in our project in a bidimensional matrix of time (days as columns, hours as rows). We only have two uncertains: **The first uncertain is knowing how many pieces (tasks) we have in the puzzle**. The second uncertain is how long it will take to complete each task. Sometimes you will forget the first law of time and you will not consider a task, because you think it won't consume a noticeable amount of time. Here are a list of commonly ignored tasks that make your project fail:
 
@@ -38,7 +50,7 @@ The idea behind project management is simple: To allocate every task in our proj
 * Troubleshooting and debugging (no, this is not an unforeseen, this is a mathematical certain)
 * Rehearshing a presentation
 
-## 4. Assigning time to each task
+## Assigning time to each task
 
 In project management there are two variants of how to assign time to a task. One is called **demand-side**, in which you start a task and wait until it is completed to continue. You assign time this way for tasks that are out of your control, like the time it takes to a machine for milling a board or to a computer for processing something.
 
@@ -46,15 +58,15 @@ But for things that are under your control -like designing a circuit, or researc
 
 Work backwards from the deadline and forward from current time, iterating until you find a match.
 
-## 5. Parallel vs Serial development
+## Parallel vs Serial development
 
 It is important to analize which tasks are independent, so that you can execute them in parallel and which tasks are dependent and you have to wait to start them. Always **throw as many parallel processes as your sanity can handle**. In particular, the **documenting** process should be **always running in parallel**.
 
-## 6. Rescheduling
+## Rescheduling
 
 If you **overestimated time** or **ignored the third law** of time you will probably need to reschedule. It will also be the time to **drop some unrealistic goals** you had in mind. Remember that the most important thing is to deliver.
 
-## 7. Spiral development. Failing as fast as you can
+## Spiral development. Failing as fast as you can
 
 If you try to create the project you have in your mind in one go, you will fail. Nature never achieves perfection in one attempt, but in a series of infinite iterations. At least, you have to reach the following milestone iterations:
 
@@ -67,7 +79,7 @@ Refine your project over and over until
 1. You are happy with the result
 2. You run out of time
 
-## 8. Debugging. When things go wrong
+## Debugging. When things go wrong
 
 Things will go wrong, the only thing you don't know is how much. The following example is about a circuit board. But it could apply for anything else: Imagine you made a circuit board and it doesn't work. Somehow, you find there is problem in the design.
 
@@ -80,7 +92,7 @@ In fact you have to do 2 things.
 
 > **Free tip:** When debugging, always smile. Tomorrow it will be worse.
 
-## 9. Deliver
+## Deliver
 
 The only thing certain in project management is that **there is a deadline**. At that day you **have** to deliver. Doesn't matter if it is not what you wanted, if you don't like it, or if you are halfway done. That day, you deliver whatever you have. Afterwards, if you want, you can meditate about what changes you should make in the future to achieve your goals. But remember, you deliver that ugly thing you made. Always. **Deliver**.
 

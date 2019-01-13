@@ -1,8 +1,32 @@
 # Linux Command Line
+<!-- TOC -->
 
+1. [Command Line? Like in 1983?](#command-line-like-in-1983)
+2. [The Unix philosophy](#the-unix-philosophy)
+3. [Basic syntax](#basic-syntax)
+4. [The manual](#the-manual)
+5. [Navigating the filesystem](#navigating-the-filesystem)
+    1. [Where am I?](#where-am-i)
+    2. [Moving around](#moving-around)
+    3. [Tab completion](#tab-completion)
+    4. [Listing contents](#listing-contents)
+    5. [Creating, moving and deleting files and folders](#creating-moving-and-deleting-files-and-folders)
+    6. [Finding files and folders](#finding-files-and-folders)
+6. [File sizes](#file-sizes)
+7. [Looking inside files](#looking-inside-files)
+8. [The `echo` command](#the-echo-command)
+    1. [Display text on the screen](#display-text-on-the-screen)
+    2. [Writing to files](#writing-to-files)
+9. [Understanding users](#understanding-users)
+10. [Understanding permissions](#understanding-permissions)
+    1. [Octal notation](#octal-notation)
+    2. [Symbolic notation](#symbolic-notation)
+    3. [Octal _vs_ Symbolic Notation](#octal-_vs_-symbolic-notation)
+
+<!-- /TOC -->
 > **Note:** As you go through this topic, do not try to memorize, learn by usage.
 
-## 1. Command Line? Like in 1983?
+## Command Line? Like in 1983?
 
 We are all familiar with programs that have a **Graphical User Interface (GUI)**, but in reality this is just an interface for showing us information and interact with **the actual programs** in an *user friendly* way. The actual programs **are running underneath**, in the background.
 
@@ -12,7 +36,7 @@ The enviroment we use is the *Shell or command-line interpreter*. There are many
 
 ![bash screenshot](img/bash/bash.png)
 
-## 2. The Unix philosophy
+## The Unix philosophy
 
 It is important to understand the [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) before you move forward. Programs in Unix were written following this philosophy:
 
@@ -22,7 +46,7 @@ It is important to understand the [Unix philosophy](https://en.wikipedia.org/wik
 
 So Unix (and Linux programs) usually perform a single task only. They are not multipulpose tools programs. To achieve complex behaviours the output of a program can be *piped* (more on this later) to another program. Keep this is mind.
 
-## 3. Basic syntax
+## Basic syntax
 
 The command line syntax is a `command` with optional `options` and optional `arguments`. For example, copy the following and paste it in the command line:
 
@@ -44,22 +68,22 @@ Some options also have a human readable flavor called **long option**. Human rea
 
 > **Learning by doing:** List the files of your home folder. Display them as a list. Display the hidden files also. What other options can be useful?
 
-## 4. The manual
+## The manual
 
 Wait, wait, wait... Do I need to memorize all of this?
 No. Just use the `man` command (for Manual) everytime you need help on how to use the commands. Yes, I know. We all hate manuals.
 
 > **Learning by doing:** Have a quick look at the manual for `ls` command. Get familiarised, you will need it a lot.
 
-## 5. Navigating the filesystem
+## Navigating the filesystem
 
-### 5.1. Where am I?
+### Where am I?
 
 The information displayed in Bash varies from distribution to distribution. In Ubuntu you can see at every moment what is the current directory and the full path. Otherwise `pwd` command (_Print Working Directory_) will output the full path of your location in the filesystem.
 
 > **Learning by doing:** Open a new terminal window. Where are you now? What is ~?
 
-### 5.2. Moving around
+### Moving around
 
 `cd` command stands for *change directory* and it is used to go to other directories.
 
@@ -71,7 +95,7 @@ If you need to navigate to a folder with spaces like *My Documents* use the esca
 
 If you need to go back to the last directory you were you can use the command `cd -`. This is very useful to go back and forward between 2 directories.
 
-### 5.3. Tab completion
+### Tab completion
 
 A very handy keyboard shorcut is the `TAB` key. It will autocomplete the name of the file or the folder name.
 
@@ -79,7 +103,7 @@ A very handy keyboard shorcut is the `TAB` key. It will autocomplete the name of
 
 When two or more options are available the first `TAB` will not autocomplete, a second `TAB` will show you the available options for you to type a few extra letters to diferenciate. After that another `TAB` will autocomplete.
 
-### 5.4. Listing contents
+### Listing contents
 
 We have seen the `ls` command already. Most of the time you will use `ls -lh` (with optional `-a`) which gives you a long list with human readable file sizes.
 
@@ -87,7 +111,7 @@ The first column tells you if the item is a file `-`, a directory `d`, or a link
 
 > **Learning by doing:** List and analyse the contents of your `/usr/bin`. What do you see?
 
-### 5.5. Creating, moving and deleting files and folders
+### Creating, moving and deleting files and folders
 
 `mkdir` is used to create a directory
 
@@ -127,7 +151,7 @@ You can use `rm` recursively to delete files and folders
 
 > **Learning by doing:** `rm -r ~/Documents/surname.name/` will delete the folder and everything inside it. Extreme caution!
 
-### 5.6. Finding files and folders
+### Finding files and folders
 
 `find` will recursively search for files and folders inside a specified starting location. For example, to find files and folders anywhere inside your home folder which contains "1":
 
@@ -135,7 +159,7 @@ You can use `rm` recursively to delete files and folders
 
 This command has many other options, explore the manual if you want to learn more.
 
-## 6. File sizes
+## File sizes
 
 One of the things you ~~should~~ must do before pushing your files to the archive is checking your files sizes. That way you make sure you are not accidentally uploading 16Mpx pictures, a large video or huge STL meshes (to name just three of the most common mistakes).
 
@@ -149,7 +173,7 @@ If we have a group of files and folders and we want to check the size of all of 
 
 > **Remember** Always check your folder size before pushing to the archive! A normal archive should grow at a rate of 1-2 mb per week.
 
-## 7. Looking inside files
+## Looking inside files
 
 `cat` will display your file on the screen. You can also use option `-n` to number the lines.
 
@@ -177,13 +201,13 @@ So for if you want to seach for "openscad" anywhere inside the current folder yo
 
 `grep -rin "openscad" .`
 
-## 8. The `echo` command
+## The `echo` command
 
-### 8.1. Display text on the screen
+### Display text on the screen
 
 `echo` displays its parameters in the stdout (screen). It is usefull when creating our scripts `echo hello world` will display `hello world` on screen.
 
-### 8.2. Writing to files
+### Writing to files
 
 If you want to write text to a file you can use `echo hello world > file.txt` but **warning!**, it will overwrite the contents of the file.
 
@@ -206,7 +230,7 @@ hello me
 hello you
 ```
 
-## 9. Understanding users
+## Understanding users
 
 Linux is a multi-user operating system with users and groups. Different users have different file access levels or privileges (read, write, execute). By default bash tells you what user is logged in. Otherwise you can ask bash _Who am I?_
 
@@ -224,7 +248,7 @@ Files are owned by the user who created them. You can change the owner with the 
 
 `sudo chown myuser file` will change the owner to a user called `myuser`.
 
-## 10. Understanding permissions
+## Understanding permissions
 
 Permissions are arranged in groups of 3 letters that represents the access level for the current user, group and others.
 
@@ -240,7 +264,7 @@ Permissions of a specific file or device are changed with the `chmod` command. F
 
 But what does 666 mean? It's about time to talk about the octal notation.
 
-### 10.1. Octal notation
+### Octal notation
 
 In octal notation, permissions are represented by 3 numbers. Each one of these three numbers represent the user/group/others access and the value of the number itself the read/write/execute value. Given than read access is 4, write access is 2 and execute access is 1, all combinations of these three result in an unique number from 0 to 7.
 
@@ -263,7 +287,7 @@ This method is recommended when you want to set all permissions at once.
 
 > Exercise: Derive the following permissions 755, 644, 600, 660
 
-### 10.2. Symbolic notation
+### Symbolic notation
 
 The symbolic notation is more intuitive and it is useful when only a few permissions settings want to be changed. The notation is as follows, `+` stands for add a permission, `-` for removing a permission, and `=` for adding a specific permission but removing the others.
 
@@ -274,7 +298,7 @@ The symbolic notation is more intuitive and it is useful when only a few permiss
  | Others (o) | =        |           |             | **o=r**   |
  | All (a)    | -        | -         | -           | **a-rwx** |
 
-### 10.3. Octal _vs_ Symbolic Notation
+### Octal _vs_ Symbolic Notation
 
 | Octal Value | Symbolic          | Result    |
 | ----------- | ----------------- | --------- |
