@@ -1,18 +1,16 @@
 # Introduction to Fab Zero. Getting ready to unlearn
-<!-- TOC -->
 
-1. [Before we start: The notebook](#before-we-start-the-notebook)
-2. [Fab Labs and The Fab Lab Network](#fab-labs-and-the-fab-lab-network)
-3. [Educational programs: The Academany](#educational-programs-the-academany)
-    1. [Academany methodology](#academany-methodology)
-    2. [How Fab Academy works](#how-fab-academy-works)
-    3. [Requirements to succeed in Fab Zero](#requirements-to-succeed-in-fab-zero)
-    4. [A piece of advice](#a-piece-of-advice)
-4. [Let's get ready!](#lets-get-ready)
-    1. [Prepare your Laptop](#prepare-your-laptop)
-    2. [Create online accounts](#create-online-accounts)
+* [Before we start: The notebook](#before-we-start-the-notebook)
+* [Fab Labs and The Fab Lab Network](#fab-labs-and-the-fab-lab-network)
+* [Educational programs: The Academany](#educational-programs-the-academany)
+  * [Academany methodology](#academany-methodology)
+  * [How Fab Academy works](#how-fab-academy-works)
+  * [Requirements to succeed in Fab Zero](#requirements-to-succeed-in-fab-zero)
+  * [A piece of advice](#a-piece-of-advice)
+* [Let's get ready!](#lets-get-ready)
+  * [Prepare your Laptop](#prepare-your-laptop)
+  * [Create online accounts](#create-online-accounts)
 
-<!-- /TOC -->
 ## Before we start: The notebook
 
 For Fab Zero and also Fab Academy **it is strongly recommended that you always carry with you a notebook** with around 100 non detachable pages that you will use **exclusively** for the course. Do not use separate sheets because it is highly probable that they will eventually end up lost and shuffled. Screenshots are helpful, but do not rely all your research in screenshots only.

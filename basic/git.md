@@ -1,22 +1,20 @@
 # Working with git repositories
-<!-- TOC -->
 
-1. [The community effect](#the-community-effect)
-2. [Downloading a repository from Github](#downloading-a-repository-from-github)
-3. [Installing git](#installing-git)
-4. [Configuring git](#configuring-git)
-5. [Cloning a repository using HTTPS connection](#cloning-a-repository-using-https-connection)
-6. [Generating a SSH Keypair](#generating-a-ssh-keypair)
-7. [Cloning a repository using a SSH connection](#cloning-a-repository-using-a-ssh-connection)
-8. [Basic git workflow](#basic-git-workflow)
-9. [Advanced git workflow](#advanced-git-workflow)
-10. [Where is the webpage published?](#where-is-the-webpage-published)
-11. [Troubleshooting](#troubleshooting)
-    1. [Problem 1: I don't know what to do](#problem-1-i-dont-know-what-to-do)
-    2. [Problem 2: Panic! Push error!](#problem-2-panic-push-error)
-    3. [Problem 3: SSH connection not working. Is asking my password](#problem-3-ssh-connection-not-working-is-asking-my-password)
+* [The community effect](#the-community-effect)
+* [Downloading a repository from Github](#downloading-a-repository-from-github)
+* [Installing git](#installing-git)
+* [Configuring git](#configuring-git)
+* [Cloning a repository using HTTPS connection](#cloning-a-repository-using-https-connection)
+* [Generating a SSH Keypair](#generating-a-ssh-keypair)
+* [Cloning a repository using a SSH connection](#cloning-a-repository-using-a-ssh-connection)
+* [Basic git workflow](#basic-git-workflow)
+* [Advanced git workflow](#advanced-git-workflow)
+* [Where is the webpage published?](#where-is-the-webpage-published)
+* [Troubleshooting](#troubleshooting)
+  * [Problem 1: I don't know what to do](#problem-1-i-dont-know-what-to-do)
+  * [Problem 2: Panic! Push error!](#problem-2-panic-push-error)
+  * [Problem 3: SSH connection not working. Is asking my password](#problem-3-ssh-connection-not-working-is-asking-my-password)
 
-<!-- /TOC -->
 > **Note:** As you go through this topic, do not try to memorize, learn by usage.
 
 ## The community effect

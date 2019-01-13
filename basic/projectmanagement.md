@@ -1,17 +1,15 @@
 # By Tomorrow?! Time and project management
-<!-- TOC -->
 
-1. [Laws of time](#laws-of-time)
-2. [The two mistakes](#the-two-mistakes)
-3. [Listing all the required tasks](#listing-all-the-required-tasks)
-4. [Assigning time to each task](#assigning-time-to-each-task)
-5. [Parallel vs Serial development](#parallel-vs-serial-development)
-6. [Rescheduling](#rescheduling)
-7. [Spiral development. Failing as fast as you can](#spiral-development-failing-as-fast-as-you-can)
-8. [Debugging. When things go wrong](#debugging-when-things-go-wrong)
-9. [Deliver](#deliver)
+* [Laws of time](#laws-of-time)
+* [The two mistakes](#the-two-mistakes)
+* [Listing all the required tasks](#listing-all-the-required-tasks)
+* [Assigning time to each task](#assigning-time-to-each-task)
+* [Parallel vs Serial development](#parallel-vs-serial-development)
+* [Rescheduling](#rescheduling)
+* [Spiral development. Failing as fast as you can](#spiral-development-failing-as-fast-as-you-can)
+* [Debugging. When things go wrong](#debugging-when-things-go-wrong)
+* [Deliver](#deliver)
 
-<!-- /TOC -->
 ## Laws of time
 
 Time has three peculiarities, which I elevated to laws.

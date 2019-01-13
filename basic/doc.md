@@ -1,18 +1,16 @@
 # Documenting your work
-<!-- TOC -->
 
-1. [What, why, how, where and when to document](#what-why-how-where-and-when-to-document)
-2. [The text editor](#the-text-editor)
-3. [Writing documentation in markdown](#writing-documentation-in-markdown)
-4. [Typical Markdown to HTML Workflow](#typical-markdown-to-html-workflow)
-    1. [Markdown to HTML conversion](#markdown-to-html-conversion)
-    2. [Automating everything](#automating-everything)
-    3. [Using the script](#using-the-script)
-5. [Adding multimedia to your documentation](#adding-multimedia-to-your-documentation)
-    1. [Pictures](#pictures)
-    2. [Video](#video)
+* [What, why, how, where and when to document](#what-why-how-where-and-when-to-document)
+* [The text editor](#the-text-editor)
+* [Writing documentation in markdown](#writing-documentation-in-markdown)
+* [Typical Markdown to HTML Workflow](#typical-markdown-to-html-workflow)
+  * [Markdown to HTML conversion](#markdown-to-html-conversion)
+  * [Automating everything](#automating-everything)
+  * [Using the script](#using-the-script)
+* [Adding multimedia to your documentation](#adding-multimedia-to-your-documentation)
+  * [Pictures](#pictures)
+  * [Video](#video)
 
-<!-- /TOC -->
 ## What, why, how, where and when to document
 
 The most important thing to understand when it comes to documenting your work is that **you are not writing a tutorial**, a step by step guide or telling others what to do. **You are telling your personal story**, your journey into the learning process. While you still have to provide details about your findings, you have to become a storyteller.
