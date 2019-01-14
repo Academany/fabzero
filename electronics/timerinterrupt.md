@@ -18,7 +18,7 @@ Today we will learn about interrupts associated with timers. Timers can generate
 
 To enable timer interrupts, first we have to include the interrupt library and enable global interrupts
 
-```C
+```c
 #include <avr/interrupt.h>
 sei();
 ```
@@ -43,7 +43,7 @@ As we saw before, the interrupt routine needs to have a specific name called vec
 
 In this example we are going to consider all the above to set up a 1 second timer on an attiny44 microcontroller with an external 20MHz clock source. So first thing is activating global interrupts:
 
-```C
+```c
 sei();
 ```
 
@@ -63,13 +63,13 @@ We see that we will have to **set the pre-scaler to 1024** in order to be able t
 
 But what number shall we count up to? As you see in the table above, counting to 65535 at this speed would take 3.355392 seconds. Therefore 1 second will take 65535/3.355392=19531.25 increments. To set this as the maximum the timer should count to, we set Output Compare Register 1 A (`OCR1A`) to 19531.
 
-```C
+```c
 OCR1A   = 19531; // set the CTC compare value
 ```
 
 Next thing is setting the timer to CTC (Clear Timer on Compare) mode. To use this mode, the Waveform Generation Mode bits (`WGM13:10`) in `TCCR1A` and `TCCR1B` must be set accordingly.
 
-```C
+```c
 TCCR1B |= (1 << WGM12); // configure timer1 for CTC mode
 ```
 
@@ -77,13 +77,13 @@ TCCR1B |= (1 << WGM12); // configure timer1 for CTC mode
 
 Let's set the **interrupt**. To ensure that a signal is received when the timer reaches 1 second, the Timer/Counter1 Output Compare A Match interrupt (`OCIE1A`) bit must be set in the Timer/Counter1 Interrupt Mask Register (`TIMSK1`).
 
-```C
+```c
 TIMSK1 |= (1 << OCIE1A); // enable the CTC interrupt
 ```
 
 Finally we have to set the ISR routine. In this case setting the `OCIE1A` bit corresponds to the `TIM1_COMPA_vect` Interrupt Service Routine.
 
-```C
+```c
 ISR(TIM1_COMPA_vect) {
   // here the routine that
   // toggles the LED
