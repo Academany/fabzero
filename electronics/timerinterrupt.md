@@ -94,7 +94,7 @@ ISR(TIM1_COMPA_vect) {
 
 That was everything required to prepare the timer and the interrupt, so the only thing remaining is triggering it. Remember that the timer will start as soon as we set the pre-scaler:
 
-```C
+```c
 TCCR1B |= ((1 << CS10) | (1 << CS12)); // start the timer   at 20MHz/1024
 ```
 
