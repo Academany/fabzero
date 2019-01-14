@@ -7,6 +7,7 @@
 * [Cloning a repository using HTTPS connection](#cloning-a-repository-using-https-connection)
 * [Generating a SSH Keypair](#generating-a-ssh-keypair)
 * [Cloning a repository using a SSH connection](#cloning-a-repository-using-a-ssh-connection)
+* [Before you upload. Check file size](#before-you-upload-check-file-size)
 * [Basic git workflow](#basic-git-workflow)
 * [Advanced git workflow](#advanced-git-workflow)
 * [Where is the webpage published?](#where-is-the-webpage-published)
@@ -100,6 +101,20 @@ git clone paste-the-address-here.git
 ```
 
 > **Learning by doing:** Clone the Fab Zero class repository in your computer using the SSH connection.
+
+## Before you upload. Check file size
+
+One of the things you ~~should~~ must do before pushing your files to the archive is checking your files sizes. That way you make sure you are not accidentally uploading 16Mpx pictures, a large video or huge STL meshes (to name just three of the most common mistakes).
+
+The reason why this is important, has an answer in how version control systems are designed. They are designed to keep history. That's why once you upload something by mistake, even if you delete it, it remains in the history and it is very difficult to remove it. So we use the `du` (disk usage) command to check the size of alll files and folders (*) inside the current folder with summarize option `-s` and human readable format `-h`.
+
+`du -sh foldername`
+
+If we have a group of files and folders and we want to check the size of all of them, we can specify all files and folders instead of a specific folder `*` and optionally *pipe* the result `|` to the `sort` command to sort the results by human numerical value `-h` and in reverse order `-r` so that bigger files appear first.
+
+`du -sh * | sort -rh`
+
+> **Remember** Always check your folder size before pushing to the archive! A normal archive should grow at a rate of 1-2 mb per week.
 
 ## Basic git workflow
 

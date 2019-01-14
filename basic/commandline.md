@@ -11,7 +11,6 @@
   * [Listing contents](#listing-contents)
   * [Creating, moving and deleting files and folders](#creating-moving-and-deleting-files-and-folders)
   * [Finding files and folders](#finding-files-and-folders)
-* [File sizes](#file-sizes)
 * [Looking inside files](#looking-inside-files)
 * [The `echo` command](#the-echo-command)
   * [Display text on the screen](#display-text-on-the-screen)
@@ -156,20 +155,6 @@ You can use `rm` recursively to delete files and folders
 `find ~ -name "*1*"`
 
 This command has many other options, explore the manual if you want to learn more.
-
-## File sizes
-
-One of the things you ~~should~~ must do before pushing your files to the archive is checking your files sizes. That way you make sure you are not accidentally uploading 16Mpx pictures, a large video or huge STL meshes (to name just three of the most common mistakes).
-
-The reason why this is important, has an answer in how version control systems are designed. They are designed to keep history. That's why once you upload something by mistake, even if you delete it, it remains in the history and it is very difficult to remove it. So we use the `du` (disk usage) command to check the size of alll files and folders (*) inside the current folder with summarize option `-s` and human readable format `-h`.
-
-`du -sh foldername`
-
-If we have a group of files and folders and we want to check the size of all of them, we can specify all files and folders instead of a specific folder `*` and optionally *pipe* the result `|` to the `sort` command to sort the results by human numerical value `-h` and in reverse order `-r` so that bigger files appear first.
-
-`du -sh * | sort -rh`
-
-> **Remember** Always check your folder size before pushing to the archive! A normal archive should grow at a rate of 1-2 mb per week.
 
 ## Looking inside files
 
