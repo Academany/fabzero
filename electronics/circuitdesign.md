@@ -1,5 +1,23 @@
 # Electronics design
+
+> Outdated
+
+* [Drawing your circuits](#drawing-your-circuits)
+* [Eagle](#eagle)
+* [KiCAD](#kicad)
+* [Kokopelli Retro](#kokopelli-retro)
+  * [A warning about kokopelli](#a-warning-about-kokopelli)
+  * [Hands on: Modifiying a circuit board design in kokopelli](#hands-on-modifiying-a-circuit-board-design-in-kokopelli)
+    * [Section 1: Defining the output](#section-1-defining-the-output)
+    * [Section 2: Definitions](#section-2-definitions)
+    * [Section 3: The design](#section-3-the-design)
+      * [Adding a component](#adding-a-component)
+      * [Placing wires](#placing-wires)
+  * [Advanced kokopelli: Creating your own components](#advanced-kokopelli-creating-your-own-components)
+  * [Advanced kokopelli: Non rectangular cutouts](#advanced-kokopelli-non-rectangular-cutouts)
+
 Welcome to the amazing world of electronics design. We will learn tools and acquire some skills to be able to design our own circuit boards, which together with the skills of Electronics Production will allow us to fabricate our own circuit boards. And this is not only super cool, but also a huge step in digital fabrication. There are several ways you can create your electronics design. These are just some that we will cover:
+
 * Drawing your circuit boards by hand. With the help of a template
 * Using [Eagle](https://www.autodesk.com/products/eagle/overview)
 * Using [Kicad](http://kicad-pcb.org/)
@@ -9,8 +27,8 @@ Remember that in any case, what you will obtain is a black and white `.png` imag
 
 ## Drawing your circuits
 
-
 ## Eagle
+
 Even if you are not planning to use Eagle you **still ~~have~~ want to know the basics of Eagle** because you will find many designs out there using this format. You have to learn how to create the Schematic Design first and then the Design Layout. These are two half an hour tutorials:
 
 [Tutorial 1: Schematic Design](https://www.youtube.com/watch?v=1AXwjZoyNno)
@@ -22,7 +40,7 @@ Even if you are not planning to use Eagle you **still ~~have~~ want to know the 
 
 [kokopelli](https://www.mattkeeter.com/projects/kokopelli/) was created by Matt Keeter and Neil Gershenfeld and is currently *abandonware*.
 
-![](img/elecdesign/kokogear.png)
+![gear in kokopelli](img/elecdesign/kokogear.png)
 
 > Why do I want to waste my precious time in this obsolete and unsupported software that works for Linux only?  There are two reasons why you'd want to learn how to modify and design your circuit boards in kokopelli:
 > 1. Because all the hello boards that Neil designs and are in this `.cad` format. Sooner or later you will come across one of them. He probably does so because of reason number two.
@@ -124,5 +142,6 @@ That's it! The whole process is not that as hard as it might look like. It takes
 ### Advanced kokopelli: Creating your own components
 
 ### Advanced kokopelli: Non rectangular cutouts
+
 ---
 [Back to Summary](../summary.md)
