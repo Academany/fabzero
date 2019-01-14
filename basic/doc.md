@@ -7,7 +7,8 @@
   * [Markdown to HTML conversion](#markdown-to-html-conversion)
   * [Automating everything](#automating-everything)
   * [Using the script](#using-the-script)
-* [Adding multimedia to your documentation](#adding-multimedia-to-your-documentation)
+* [Adding Features to your documentation](#adding-features-to-your-documentation)
+  * [Emoji](#emoji)
   * [Pictures](#pictures)
   * [Video](#video)
 
@@ -134,7 +135,13 @@ And it search for all the `.md` files in your folder and will convert them to HT
 
 > **Learning by doing:** Write a script to automate the conversion of your files to HTML.
 
-## Adding multimedia to your documentation
+## Adding Features to your documentation
+
+### Emoji
+
+Yes! You can add emotions to your documentation too! Gitlab and Github will render them properly. All you have to do is using some codes between colons like `:blush:` and it will show :blush:
+
+Visit the [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) for a full list of supported emoji :+1:
 
 ### Pictures
 
