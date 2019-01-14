@@ -1,12 +1,12 @@
 # Introduction to interrupts
 
-* [The idea behind interrupts](#the-idea-behind-interrupts)
+* [Understanding interrupts](#understanding-interrupts)
 * [Activating the interrupts](#activating-the-interrupts)
 * [Pin change interrupts](#pin-change-interrupts)
 * [Supercharged interrupt pins](#supercharged-interrupt-pins)
 * [The interrupt routine ISR](#the-interrupt-routine-isr)
 
-## The idea behind interrupts
+## Understanding interrupts
 
 > You are in your room playing videogames. It is dinner time and **your mum gives you a call to go immediatly**. You stop what you are doing, you eat your dinner and when you finish, you continue playing videogames. In this story, you are a microcontroller. The videogame is the current task. **Your mother is an interrupt**. And dinner is the interrupt subroutine.
 
