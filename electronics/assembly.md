@@ -54,9 +54,9 @@ You need an assembler compiler to convert the `.asm` file to a `.hex` file that 
 
 Programming in assembly requires a big knowledge of the hardware since the instructions control this hardware directly. All the information about the microcontroller can be found in the datasheet. Some important microcontroller datasheets for Fab Academy are:
 
-[attiny 44](files/datasheets.attiny44.pdf)
-[attiny45](files/datasheets.attiny45.pdf)
-[atmega328](files/datasheets.atmega328.pdf)
+* [attiny44](files/datasheets/attiny44.pdf)
+* [attiny45](files/datasheets/attiny45.pdf)
+* [atmega328](files/datasheets/atmega328.pdf)
 
 ## Inputs and Outputs
 
