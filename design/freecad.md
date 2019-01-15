@@ -105,6 +105,5 @@
 
 ## Documentation. Creating Drawings and blueprints
 
-
 ---
 [Back to Summary](../summary.md)

@@ -16,9 +16,9 @@
     * [Pause in the middle of a job](#pause-in-the-middle-of-a-job)
     * [Change the spindle speed of feed rate in the middle of a job](#change-the-spindle-speed-of-feed-rate-in-the-middle-of-a-job)
 * [Design and Toolpath Generators](#design-and-toolpath-generators)
-    * [FreeCAD](#freecad)
-    * [FreeCAD Path](#freecad-path)
-    * [OpenSBP Language](#opensbp-language)
+  * [FreeCAD](#freecad)
+  * [FreeCAD Path](#freecad-path)
+  * [OpenSBP Language](#opensbp-language)
 
 This is not a manual, rather a quick start guide.
 
@@ -50,11 +50,11 @@ This is not a manual, rather a quick start guide.
 
 ## Design and Toolpath Generators
 
-#### FreeCAD
+### FreeCAD
 
-#### FreeCAD Path
+### FreeCAD Path
 
-#### OpenSBP Language
+### OpenSBP Language
 
 ---
 [Back to Summary](../summary.md)

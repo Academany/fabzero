@@ -24,7 +24,7 @@ We are going to follow a worked example on how to create a simple interrupt.
 
 For using interrupts you need to include the interrupt library in the header of your C code:
 
-```C
+```c
 #include <avr/interrupt.h>
 ```
 
@@ -40,7 +40,7 @@ This can be done either by setting the bit as usual in C.
 
 You can alternatively call the instruction SEI (set global interrupt):
 
-```C
+```c
 sei(); //activates global interrupts
 ```
 
@@ -55,7 +55,7 @@ If we want to use them, We have to activate them by setting the corresponding bi
 
 ![gimsk register](img/interrupts/gimsk.png)
 
-```C
+```c
 GIMSK |= (1<<PCIE0); //enable pin change interrupt in PORTA (pins PA0 to PA7)
 ```
 
@@ -65,13 +65,13 @@ And then we have to tell the MCU which pin or pins we will be listening to, usin
 
 ![pcmsk0 register](img/interrupts/pcmsk0.png)
 
-```C
+```c
 PCMSK0 |= (1<<PCINT7); //enable PC interrupt in PA7
 ```
 
 Same for PORTB, we first activate them in the GIMSK register
 
-```C
+```c
 GIMSK |= (1<<PCIE1); //enable pin change interrupt in PORTB (pins PB0 to PB2)
 ```
 
@@ -83,7 +83,7 @@ And then we tell the MCU which pins we want to listen using the PCMSK1 register.
 
 One of the pins of PORTA is a bit special. It is pin **PA0** which can be triggered only at falling, only at rising or only at low level. If we want to use this feature we have to activate the INT0 bit in the GIMSK register
 
-```C
+```c
 GIMSK |= (1<<INT0); //this would enable INT0 in PA0
 ```
 
@@ -103,7 +103,7 @@ Ok, the interrupt is set and ready. Now what? So far we have activated the desir
 
 Say we have a button in PA7, connected to ground and an LED in pin PB2 also connected to ground. This would be a subroutine to control the LED with the button using interrupts:
 
-```C
+```c
 ISR(PCINT0_vect)
 {
  if ( PINA & (1<<PINA7) ) // test PINA7 if true then

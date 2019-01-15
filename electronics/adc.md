@@ -73,3 +73,6 @@ You MUST respect the voltage range allowed for the AVR pins (see Maximum Absolut
  This circuit uses the internal clamping diodes present in all AVR I/O pins. If the analog voltage is higher than Vcc plus the conduction voltage of the diode (around 0.5V), the upper diode will conduct and the voltage at the input pin is clamped to Vcc+0.5 . On the other hand, if the analog voltage is lower than 0V minus the conduction voltage of the diode, the lower diode will conduct, and the voltage at the input pin is clamped to –0.5V. The resistor will limit the current through the conducting diode, which must not exceed 1mA, so you must design the resistor accordingly. For instance, if you expect that the maxim value that may reach the analog voltage is ±24V, the resistor value should be :
 
 R=24V/1mA=24K.
+
+---
+[Back to Summary](../summary.md)

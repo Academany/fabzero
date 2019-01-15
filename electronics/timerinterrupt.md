@@ -99,3 +99,6 @@ TCCR1B |= ((1 << CS10) | (1 << CS12)); // start the timer   at 20MHz/1024
 ```
 
 > **Learn by doing:** Write another routine that toggles the LED every minute.
+
+---
+[Back to Summary](../summary.md)

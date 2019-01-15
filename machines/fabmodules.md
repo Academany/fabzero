@@ -27,3 +27,6 @@ Type `localhost:631` in a web browser. You will be prompted for your user passwo
 ## Running the compiled version
 
 Just type `fab` in a terminal window.
+
+---
+[Back to Summary](../summary.md)

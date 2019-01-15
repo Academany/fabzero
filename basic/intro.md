@@ -132,3 +132,6 @@ It is recommended that students create the following online accounts:
 * [Sketchfab](sketchfab.com) account for embedding and hosting STL files
 
 > **Learning by doing:** Create those online accounts and keep your usernames/passwords in a **safe** place
+
+---
+[Back to Summary](../summary.md)

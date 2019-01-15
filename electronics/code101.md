@@ -19,11 +19,9 @@ Programming is a powerful skill. Not just useful, not just good for your career,
 * [The Makefile](#the-makefile)
 * [The programmer](#the-programmer)
 
-
 ## Introduction to embedded C programming
 
 In this section we are going to learn to program an attiny44 using AVR-GCC toolchain in C language. Programming is a huge topic. It will take long time to master.
-
 
 For learning to code you **have to** code. There is a difference between **knowing** the path and **walking** the path. Walk-the-path.
 
@@ -96,7 +94,7 @@ By default all pins are configured as input.
 
 ## Hello world program
 
-```C
+```c
 #define F_CPU 1000000UL
 #include <avr/io.h>
 #include <util/delay.h>
@@ -119,7 +117,7 @@ int main (void)
 
 ## The button and LED program
 
-```C
+```c
 #define F_CPU 1000000UL
 #include <avr/io.h>
 
@@ -157,13 +155,13 @@ int main (void)
 
 Macros are
 
-```C
+```c
 #define setbit(register, bit)   (register) |=  (1 << (bit))
 #define clearbit(register, bit) (register) &= ~(1 << (bit))
 #define testbit(register, bit)  (register) &   (1 << (bit))
 ```
 
-```C
+```c
 setbit(PORTA, PA0)
 clearbit(PORTB, PB3)
 testbit (PORTA, PA2)

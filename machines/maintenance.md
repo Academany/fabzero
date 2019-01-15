@@ -14,3 +14,6 @@
 ## Greasing
 
 ## Upgrades and replacements
+
+---
+[Back to Summary](../summary.md)

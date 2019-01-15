@@ -18,7 +18,7 @@ The **timer/counter** is a **piece of hardware** inside the microcontroller that
 
 Let's see the classical blinking LED code, where we have an LED in PA3, connected to ground.
 
-```C
+```c
 #include <avr/io.h>
 #include <util/delay.h>
 
@@ -80,7 +80,7 @@ The prescaler for `TIMER1` is set using the control register `TCCR1B`:
 
 Let's see an example of using `TIMER0` to blink an LED every 124 counts at 1024 prescaler.
 
-```C
+```c
 #include <avr/io.h>
 
 int main(void)
@@ -142,3 +142,6 @@ And `TCCR1A` and `TCCR1B` for the 16-bit `TIMER1`.
 ![](img/timercounter/timer1-wgm.png)
 
 > **Learn by doing:** Write a piece of code that counts exactly 1 second. Assume you are using a 8 Mhz resonator.
+
+---
+[Back to Summary](../summary.md)

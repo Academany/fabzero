@@ -14,3 +14,6 @@
 ## Getting help from the network
 
 ## Warranty and Support
+
+---
+[Back to Summary](../summary.md)
