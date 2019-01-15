@@ -1,5 +1,12 @@
 # 3D Scanning and Printing
 
+> :construction: This documentation is WIP
+
+* [General Notes](#general-notes)
+* [3D Scanning](#3d-scanning)
+  * [Individual assignment](#individual-assignment)
+  * [Extra assignments](#extra-assignments)
+
 ## General Notes
 
 * File limit set to 1 Mb per file. Check file sizes `du -s * | sort -rn` 1-2 Mb week
@@ -8,7 +15,8 @@
 
 ## 3D Scanning
 
-### Individual assignment 2
+### Individual assignment
+
 Scan something using:
 
 * Camera Pictures
@@ -17,6 +25,7 @@ Scan something using:
 * Roland Modela (windows). Scan something that you cannot scan with this level of detail (like a coin) or not possible at all like Glass.
 
 ### Extra assignments
+
 Since these are not mandatory you can do and document them in group.
 
 * Learn how to edit and fix STL files

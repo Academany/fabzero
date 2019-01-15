@@ -1,5 +1,8 @@
 # This way please. Managing Layout and people's flow
 
+> :construction: This documentation is WIP
+
+
 ## Safefy first
 Health, Safety and Environment (HSE) guidelines.
 * Cleaning up - Not someone else Problem

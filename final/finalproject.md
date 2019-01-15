@@ -1,14 +1,31 @@
 # The untold truth about final projects
 
-## Connect the dots
+> :construction: This documentation is WIP
+
+* [Connecting the dots](#connecting-the-dots)
+* [The one (wo)man orchestra](#the-one-woman-orchestra)
+* [Just in case no one told you: You will never finish](#just-in-case-no-one-told-you-you-will-never-finish)
+* [KISS principle](#kiss-principle)
+* [Go / No-Go point](#go--no-go-point)
+* [Final Projects examples. The good, the bad and the ugly](#final-projects-examples-the-good-the-bad-and-the-ugly)
+* [Crafting the final project](#crafting-the-final-project)
+  * [The documentation](#the-documentation)
+  * [The slide](#the-slide)
+  * [The video](#the-video)
+  * [The presentation](#the-presentation)
+
+## Connecting the dots
+
  It happens gradually, like gravitational forces in orbit with no apparent relationship. There is a always a moment in the project when you find out that all the skills that you've learned during the different weeks, start to come closer. At the beginning they form a blurred image of your idea and bit by bit they will become a very precise shape. Connecting the dots is what has led you to the place where you are now.
 
 ## The one (wo)man orchestra
+
 You will need to be multidisciplinary. You need to be able to learn fast and efficiently. You need to be able to observe. You also need to be an exceptional communicator. You're going to be writing detailed documentation explaining people why things are the way they are and why it should be the way it is. You need to be able to express yourself graphically as well. You should be good at sketching early stage designs on paper. You should be reasonably fluent in 2d and 3D design or some other tool for expressing yourself graphically. You need to be a little bit of a developer and, kind of a marketing person as well. Because you're always having to sell the thing that you're offering. 
 
-> **Tip:** During the weeks, don't waste your precious, short time. Learn as much as you can.
+> **Advice:** During the weeks, don't waste your precious, short time. Learn as much as you can.
 
 ## Just in case no one told you: You will never finish
+
 From the very beginning of the project, you have to be aware that **there is no way** you're going to be able to get everything done. No matter how small the project seems, no matter how much time you have. You are **never** going to get done what you though you were going to get done at the beginning. Ever.
 
 > **Learn by doing:** In front of the mirror, repeat 10 times every morning: *I will never finish my final project*
@@ -20,22 +37,26 @@ And you have to know from the beginning what is important and what is not. What 
 That lead us to the next point:
 
 ## KISS principle
+
 There is something that I didn't even realize when I started looking for final project ideas. And I think this is true for most people. Every awesome final project that I had seen was simple. Very simple.
 
 The [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) will help you when you start freaking out with ridiculous and useless ideas of final projects that no one would ever need.
 
 ## Go / No-Go point
+
 There are people who know what final project they will do from the very beginning. There are some other people who don't. And they keep not knowing what to do for long time. That is fine, and exciting. Just, be aware that there is a Go / No-Go point (I would locate it 3 to 4 weeks from the end) where you **have to decide** what to do. Because if you pass this point, and you still don't decide what to do, you are probably not going to make it.
 
 ## Final Projects examples. The good, the bad and the ugly
 
-## Crafting the final project documentation
+## Crafting the final project
 
-## The slide
+### The documentation
 
-## The video
+### The slide
 
-## The presentation
+### The video
+
+### The presentation
 
 ---
 [Back to Summary](../summary.md)

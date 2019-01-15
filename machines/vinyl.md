@@ -1,5 +1,11 @@
 # Vinyl cutting
+
+* [General tips](#general-tips)
+* [Vinyl Cutter](#vinyl-cutter)
+* [Press-fit laser cut design](#press-fit-laser-cut-design)
+
 ## General tips
+
 These are general tips, not only for successfully completing the assignment, but also for learning in-depth some important concepts. During this week you will use 2D design software for computer controlled cutting applications and the basics of the vinyl and laser cutter.
 
 * This week, spiral development is specially useful for the press-fit design.
@@ -20,6 +26,7 @@ Going beyond:
 * Cut a circuit board in copper. That requires [some tricks](http://fab.cba.mit.edu/content/processes/PCB/vinylcut.html).
 
 ## Press-fit laser cut design
+
 Use a parametric tool to **design** a press-fit construction set and lasercut it in cardboard. Can either be a modular construction set or [sliced object](http://fab.cba.mit.edu/classes/863.12/people/dsawada/w2.html).
 
 Going beyond:
@@ -30,5 +37,6 @@ Going beyond:
 * Compare fab modules with the laser driver provided by the manufacturer.
 * Try the Javascript fab modules halftone cuts (not in cardboard).
 * Experiment with flexures.
+
 ---
 [Back to Summary](../summary.md)

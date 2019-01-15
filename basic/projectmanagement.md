@@ -5,7 +5,7 @@
 * [Listing all the required tasks](#listing-all-the-required-tasks)
 * [Assigning time to each task](#assigning-time-to-each-task)
 * [Parallel vs Serial development](#parallel-vs-serial-development)
-* [Rescheduling](#rescheduling)
+* [Re-scheduling](#re-scheduling)
 * [Spiral development. Failing as fast as you can](#spiral-development-failing-as-fast-as-you-can)
 * [Debugging. When things go wrong](#debugging-when-things-go-wrong)
 * [Deliver](#deliver)
@@ -60,7 +60,7 @@ Work backwards from the deadline and forward from current time, iterating until 
 
 It is important to analize which tasks are independent, so that you can execute them in parallel and which tasks are dependent and you have to wait to start them. Always **throw as many parallel processes as your sanity can handle**. In particular, the **documenting** process should be **always running in parallel**.
 
-## Rescheduling
+## Re-scheduling
 
 If you **overestimated time** or **ignored the third law** of time you will probably need to reschedule. It will also be the time to **drop some unrealistic goals** you had in mind. Remember that the most important thing is to deliver.
 

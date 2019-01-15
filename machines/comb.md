@@ -1,12 +1,18 @@
 # Creating a parametric _comb_ in kokopelli and antimony
+
+* [In kokopelli](#in-kokopelli)
+* [In antimony](#in-antimony)
+
 A _comb_ is something very useful to cut when you are doing press-fit designs. It helps you to select the correct size of the slot.
 
 ## In kokopelli
+
 kokopelli first, because it's my favourite software.
 
 ![](./img/comb/kokopelli.png)
 
 And this is the script, which you can also download [here](./files/comb.ko)
+
 ```python
 from koko.retro.lib.shapes import *
 
@@ -34,12 +40,15 @@ for i in range (n):
 
 cad.function = r1
 ```
+
 ## In antimony
+
 I found this a little bit tricky, but here you are. Also you can also download the file [here](./files/comb.sb).
 
 ![](./img/comb/antimony.png)
 
 The node _slots_ has this script inside.
+
 ```python
 import fab
 
