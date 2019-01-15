@@ -1,6 +1,6 @@
 # Electronics design
 
-> Outdated
+> :construction: This documentation is WIP
 
 * [Drawing your circuits](#drawing-your-circuits)
 * [Eagle](#eagle)

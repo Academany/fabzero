@@ -1,10 +1,6 @@
 # Official fabzero Program Sillabus
 
-> This documentation is WIP. Estimated release date: End of January 2019
-
-![overflow](img/sign.png)
-
-Remember, this is **not** a novel. Do **not** attempt to follow these topics from the beginning till the end, one after the other. They are designed to be **mixed-up and spreaded** over the course. Your mentor will design and adjust an adequate **learning path** for the group.
+> **Warning! Risk of brain memory overflow** :dizzy_face:. Remember, this is **not** a novel. Do **not** attempt to follow these topics from the beginning till the end, one after the other. They are designed to be **mixed-up and spreaded** over the course. Your mentor will design and adjust an adequate **learning path** for the group.
 
 ## Introduction to Fab Zero
 

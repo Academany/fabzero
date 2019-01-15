@@ -10,7 +10,7 @@
 
 > You are in your room playing videogames. It is dinner time and **your mum gives you a call to go immediatly**. You stop what you are doing, you eat your dinner and when you finish, you continue playing videogames. In this story, you are a microcontroller. The videogame is the current task. **Your mother is an interrupt**. And dinner is the interrupt subroutine.
 
-We are going to introduce a **powerful piece of hardware** inside the microcontroller, the **interrupts**.
+So far you have been dealing with polling when you need to do multiple tasks in a microcontroller. We are going to introduce a **powerful piece of hardware** inside the microcontroller, the **interrupts**.
 
 Interrupts are **events that require immediate attention by the microcontroller**. When an interrupt event occurs the microcontroller pauses the current task and attend to the interrupt by executing a subroutine. After that, the microcontroller returns to the task it had paused and continue its normal operation.
 
