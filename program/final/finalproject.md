@@ -12,7 +12,7 @@
   * [The documentation](#the-documentation)
   * [The slide](#the-slide)
   * [The video](#the-video)
-  * [The presentation](#the-presentation)
+  * [Master the presentation](#master-the-presentation)
 
 ## Connecting the dots
 
@@ -66,13 +66,19 @@ Documenting a project differs slightly from how you document your weekly progres
 * The final result as you are delivering
 * Future opportunities of improvements and TODO
 
-And you should carefully organize and format all this information with a table of contents (TOC), headers and all the techniques you have been learning through the course. Do not just dump all the information in an endless page. Keep it neat and elegant, pleasant to the eyes and easy to read.
+And you should carefully organize and format all this information with a table of contents (TOC), headers and all the techniques you have at your fingertips. Do not just dump all the information in an endless page. Keep it neat and elegant, easy to read and pleasant to the eyes.
 
 ### The slide
 
 ### The video
 
-### The presentation
+### Master the presentation
+
+There is only one secret about public presentations. Rehearse, rehearse and rehearse. Some people can do a good presentation without rehearshing. But that requires years of experience in public speaking, interviews. You might think you can, because you did a couple of tests and . But let me tell you, that when you are in front of a camera and 500 people are looking at you, it is different. Here you are some tips that can help you to present like a professional:
+
+* **Partition the time** you have been allocated. The most frequent mistake is exceeding the time. Decide beforehand how much time you will use for introducing yourself, how much for explaining the functionality of your project (supply-time management). Partitioning time will help you stay on track.
+* **Write a script** of what you are going to say. Select carefully your words and your style. It is a spoken presentation, it should not sound unnatural when you say it. Since you know how much time you can spend on each section you can reduce of extend the length of your exposure.
+* **Record an audio** of your presentation, reading at a normal pace. Not too fast, not to slow. Do not make it monotone. Make pauses when they are needed, enphasize when is required. When you are happy with the result **memorize it**. Play the audio in loop mode and just listen to it over and over, hundreds of times. Keep listening to it until you can reproduce it, changing the order, the entonation and the pace at your will. At that point you master the presentation
 
 ---
 [Back to Summary](../summary.md)
