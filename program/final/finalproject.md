@@ -9,7 +9,7 @@
 * [Go / No-Go point](#go--no-go-point)
 * [Final Projects examples. The good, the bad and the ugly](#final-projects-examples-the-good-the-bad-and-the-ugly)
 * [Crafting the final project](#crafting-the-final-project)
-  * [The documentation](#the-documentation)
+  * [The project documentation](#the-project-documentation)
   * [The slide](#the-slide)
   * [The video](#the-video)
   * [Master the presentation](#master-the-presentation)
@@ -44,7 +44,7 @@ The [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) will help you
 
 ## Go / No-Go point
 
-There are people who know what final project they will do from the very beginning. There are some other people who don't. And they keep not knowing what to do for long time. That is fine, and exciting. Just, be aware that there is a Go / No-Go point (I would locate it 3 to 4 weeks from the end) where you **have to decide** what to do. Because if you pass this point, and you still don't decide what to do, you are probably not going to make it.
+There are people who know what final project they will do from the very beginning. There are some other people who don't. And they keep not knowing what to do for long time. That is fine, and exciting. Just, be aware that there is a point in time, called the Go / No-Go point. This point marks the limit when you **have to decide** what to do. For an average project, I would locate it 3 to 4 weeks from the presentation day. Because if you pass this point, and you still haven't decided what to do, you are probably not going to make it.
 
 ## Final Projects examples. The good, the bad and the ugly
 
@@ -52,21 +52,21 @@ There are people who know what final project they will do from the very beginnin
 
 Crafting your portfolio and your project is more important than you think. You are delivering a public document that will be read by many people. People that you don't even imagine. They know nothing about you. The only way they have to form an opinion about you is by reading your documentation. Your work reflects your personality. If your site is a mess, you are a mess. If it contains typos, you are careless. If the pictures are bad lit, deformed or poorly composed, you don't pay atention to details. If you waste, you are wasteful. Don't let people assume those things about you. Craft your work carefully.
 
-### The documentation
+### The project documentation
 
-Documenting a project differs slightly from how you document your weekly progress. So far your style has been similar to narrating your journey in a sort of diary. It would be interesting that you also keep a journal of the progress, failures and successes of your final project (like a *making of* page). But this is not what people are expecting to find. They are trying to replicate your project. The information they would like to find is:
+Documenting a project **differs** slightly from how you document your weekly assignments. So far your style has been similar to narrating your journey in a sort of diary. It would be interesting that you also keep a journal of the progress, failures and successes of your final project (like a *making of* page). But this is not what people are expecting to find. They are trying to replicate your project. The information they would like to find is:
 
-* Goal of the project
-* Brief story of the idea. The principles or theory behind
-* Who has done or attempted this beforehand. You should show your research here
+* **Goal** of the project
+* Brief **story of the idea**. The principles or theory behind
+* **Who has done** or attempted **it beforehand**. You should show your research here
 * The different fabrication processes that you have followed. Include as much detail as you captured
-* Bill of Materials (BOM)
-* The assembly process of the different components
-* The testing and programming
-* The final result as you are delivering
-* Future opportunities of improvements and TODO
+* Bill of Materials (**BOM**)
+* The **assembly process** of the different components
+* The **testing** and programming
+* The **final result** as you are delivering
+* **Future opportunities** of improvements and TODO
 
-And you should carefully organize and format all this information with a table of contents (TOC), headers and all the techniques you have at your fingertips. Do not just dump all the information in an endless page. Keep it neat and elegant, easy to read and pleasant to the eyes.
+You should carefully organize and format all this information with a table of contents (TOC), headers and all the techniques you have at your fingertips. Do not just dump all the information in an endless page. Keep it neat and elegant, easy to read and pleasant to the eye.
 
 ### The slide
 
@@ -74,7 +74,7 @@ And you should carefully organize and format all this information with a table o
 
 ### Master the presentation
 
-There is only one secret about public presentations. Rehearse, rehearse and rehearse. Some people can do a good presentation without rehearshing. But that requires years of experience in public speaking, interviews. You might think you can, because you did a couple of tests and . But let me tell you, that when you are in front of a camera and 500 people are looking at you, it is different. Here you are some tips that can help you to present like a professional:
+There is only one secret about public presentations. Rehearse, rehearse and rehearse. Some people can do a good presentation without rehearshing. But that requires years of experience in public speaking and interviews. You might think you can do this as well, because you did a couple of tests and all went flawless. But let me tell you something, when you are in front of a camera and 500 people are looking at you, it is different. Here you are some tips that can help you present like a professional:
 
 * **Partition the time** you have been allocated. The most frequent mistake is exceeding the time. Decide beforehand how much time you will use for introducing yourself, how much for explaining the functionality of your project (supply-time management). Partitioning time will help you stay on track.
 * **Write a script** of what you are going to say. Select carefully your words and your style. It is a spoken presentation, it should not sound unnatural when you say it. Since you know how much time you can spend on each section you can reduce of extend the length of your exposure.
