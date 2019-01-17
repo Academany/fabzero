@@ -164,7 +164,7 @@ Visit the [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) fo
 
 * Resizing Images. You can resize and convert between image formats using [GraphicsMagick](http://www.graphicsmagick.org/) package. `gm convert -resize 600x600 bigimage.png smallimage.jpg` will resize `bigimage.png` without modifiyng the aspect ratio inside a bounding box of 600x600 pixels and convert it into `.jpg`.
 
-* Image strip: It might be useful for documenting workflows to compose a strip of images using [GraphicsMagick](http://www.graphicsmagick.org/) package. `gm convert +append -geometry x400 image1.png image2.png image3.png image4.png strip.png`will compose 4 separate images in a `strip.png` image 400 pixels high.
+* Creating an image strip: It might be useful for documenting workflows to compose a strip of images using [GraphicsMagick](http://www.graphicsmagick.org/) package. `gm convert +append -geometry x400 image1.png image2.png image3.png image4.png strip.png` will compose 4 separate images in a file named `strip.png` 400 pixels high.
 
 ![apollo 13 image strip](../design/img/principles/apollo13.png)
 
@@ -184,7 +184,13 @@ Visit the [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) fo
 
 ![ok gif](img/doc/ok.gif)
 
+* Downloading videos. Sometimes you will need to download videos from [youtube](youtube.com) or another source. You can use the command line utility `youtube-dl` for that. Did you know that you can also download the just the audio or the video stream separately? Check out the `-F` and `-f` options.
+
+> **Learning by doing:** Download a video from youtube. Download the audio track from another video.
+
 * Experiment with adding titles and subtitles to your videos (in another language or for people with disabilities for example). Subtitles can be hardcoded or softcoded, find out the difference. You can create subtitles with YouTube Creator Studio.
+
+> **Learning by doing:** Add subtitles to the video you did before.
 
 ---
 [Back to Summary](../summary.md)
