@@ -50,6 +50,8 @@ There are people who know what final project they will do from the very beginnin
 
 ## Crafting the final project
 
+Crafting your portfolio and your project is more important than you think. You are delivering a public document that will be read by many people. People that you don't even imagine. They know nothing about you. The only way they have to form an opinion about you is by reading your documentation. Your work reflects your personality. If your site is a mess, you are a mess. If it contains typos, you are careless. If the pictures are bad lit, deformed or poorly composed, you don't pay atention to details. If you waste, you are wasteful. Don't let people assume those things about you. Craft your work carefully.
+
 ### The documentation
 
 Documenting a project differs slightly from how you document your weekly progress. So far your style has been similar to narrating your journey in a sort of diary. It would be interesting that you also keep a journal of the progress, failures and successes of your final project (like a *making of* page). But this is not what people are expecting to find. They are trying to replicate your project. The information they would like to find is:
