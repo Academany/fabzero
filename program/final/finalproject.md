@@ -16,7 +16,7 @@
 
 ## Connecting the dots
 
- It happens gradually, like gravitational forces in orbit with no apparent relationship. There is a always a moment in the project when you find out that all the skills that you've learned during the different weeks, start to come closer. At the beginning they form a blurred image of your idea and bit by bit they will become a very precise shape. Connecting the dots is what has led you to the place where you are now.
+You might think at the early stages of the course, that you will not be able to create what you have in mind for your final. This is a normal, because you still haven't connected the dots. It will happen gradually. It will feel like a gravitational force pulling to condense your disperse knowledge, in orbit with no apparent relationship. There is a always a moment in the project when you find out that all the skills that you've learned during the different weeks, start to come closer. At the beginning they form a blurred image of your idea and bit by bit they will become a very precise shape. Connecting the dots is what has led you to the place where you are now.
 
 ## The one (wo)man orchestra
 
@@ -51,6 +51,20 @@ There are people who know what final project they will do from the very beginnin
 ## Crafting the final project
 
 ### The documentation
+
+Documenting a project differs slightly from how you document your weekly progress. So far your style has been similar to narrating your journey in a sort of diary. It would be interesting that you also keep a journal of the progress, failures and successes of your final project (like a *making of* page). But this is not what people are expecting to find. They are trying to replicate your project. The information they would like to find is:
+
+* Goal of the project
+* Brief story of the idea. The principles or theory behind
+* Who has done or attempted this beforehand. You should show your research here
+* The different fabrication processes that you have followed. Include as much detail as you captured
+* Bill of Materials (BOM)
+* The assembly process of the different components
+* The testing and programming
+* The final result as you are delivering
+* Future opportunities of improvements and TODO
+
+And you should carefully organize and format all this information with a table of contents (TOC), headers and all the techniques you have been learning through the course. Do not just dump all the information in an endless page. Keep it neat and elegant, pleasant to the eyes and easy to read.
 
 ### The slide
 
