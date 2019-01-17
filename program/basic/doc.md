@@ -1,5 +1,6 @@
 # Documenting your work
 
+* [Before we start: The notebook](#before-we-start-the-notebook)
 * [What, why, how, where and when to document](#what-why-how-where-and-when-to-document)
 * [The text editor](#the-text-editor)
 * [Writing documentation in markdown](#writing-documentation-in-markdown)
@@ -12,6 +13,22 @@
   * [Pictures](#pictures)
   * [Video](#video)
 
+## Before we start: The notebook
+
+For Fab Zero (and any program or course you follow) **it is strongly recommended that you always carry with you a notebook** with around 100 non detachable pages that you will use **exclusively** for the course. Do not use separate sheets because it is highly probable that they will eventually end up lost and shuffled. Keep it with you day and night, you never know when a brilliant idea will appear!
+
+Divide your annotations in entries. In every entry you can write:
+
+* Date and time
+* What you are doing, for what assignment (you will forget soon)
+* Include machines used and settings
+* Include workflows, protocols or procedures you are following
+* Include troubles you are finding in the way, and how are you dealing with them
+* Include a debugging table if you are debugging a problem
+* Whenever you are leaving (lunch, end of day, switch task), finish the entry with an exit note (Finished, to be continued later, stuck in a process, ...)
+
+> **Learning by doing:** Get a notebook for Fab Zero program and write down your first entry. Answer in one sentence: Why are you here?
+> 
 ## What, why, how, where and when to document
 
 The most important thing to understand when it comes to documenting your work is that **you are not writing a tutorial**, a step by step guide or telling others what to do. **You are telling your personal story**, your journey into the learning process. While you still have to provide details about your findings, you have to become a storyteller.

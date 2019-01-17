@@ -1,6 +1,5 @@
 # Introduction to Fab Zero. Getting ready to unlearn
 
-* [Before we start: The notebook](#before-we-start-the-notebook)
 * [Fab Labs and The Fab Lab Network](#fab-labs-and-the-fab-lab-network)
 * [Educational programs: The Academany](#educational-programs-the-academany)
   * [Academany methodology](#academany-methodology)
@@ -10,22 +9,6 @@
 * [Let's get ready!](#lets-get-ready)
   * [Prepare your Laptop](#prepare-your-laptop)
   * [Create online accounts](#create-online-accounts)
-
-## Before we start: The notebook
-
-For Fab Zero and also Fab Academy **it is strongly recommended that you always carry with you a notebook** with around 100 non detachable pages that you will use **exclusively** for the course. Do not use separate sheets because it is highly probable that they will eventually end up lost and shuffled. Screenshots are helpful, but do not rely all your research in screenshots only.
-
-Divide your annotations in entries. In every entry you can write:
-
-* Date and time
-* What you are doing, for what assignment (you will forget soon)
-* Include machines used and settings
-* Include workflows, protocols or procedures you are following
-* Include troubles you are finding in the way, and how are you dealing with them
-* Include a debugging table if you are debugging a problem
-* Whenever you are leaving (lunch, end of day, switch task), finish the entry with an exit note (Finished, to be continued later, stuck in a process, ...)
-
-> **Learning by doing:** Get a notebook for Fab Zero program and write down your first entry. Answer in one sentence: Why are you here?
 
 ## Fab Labs and The Fab Lab Network
 
