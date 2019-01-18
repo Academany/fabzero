@@ -8,6 +8,9 @@
 * [KISS principle](#kiss-principle)
 * [Go / No-Go point](#go--no-go-point)
 * [Final Projects examples. The good, the bad and the ugly](#final-projects-examples-the-good-the-bad-and-the-ugly)
+  * [The Good](#the-good)
+  * [The Bad](#the-bad)
+  * [The Ugly](#the-ugly)
 * [Crafting the final project](#crafting-the-final-project)
   * [The project documentation](#the-project-documentation)
   * [The slide](#the-slide)
@@ -47,6 +50,20 @@ The [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) will help you
 There are people who know what final project they will do from the very beginning. There are some other people who don't. And they keep not knowing what to do for long time. That is fine, and exciting. Just, be aware that there is a point in time, called the Go / No-Go point. This point marks the limit when you **have to decide** what to do. For an average project, I would locate it 3 to 4 weeks from the presentation day. Because if you pass this point, and you still haven't decided what to do, you are probably not going to make it.
 
 ## Final Projects examples. The good, the bad and the ugly
+
+### The Good
+
+A good final project is **simple**, serves a meaningful and clear **purpose** and it is beautifully **crafted**. Don't get me wrong with the simplicity. It might be extremely complex inside, but it works so smooth and integrated that it feels simple and natural. Let's point some of them.
+
+### The Bad
+
+The bad final project is useless, overcomplicated and has no meaning, not even for its creator. Most of the times, it's even expensive. You will obtain a bad final project when your starting point is an inexistent problem or necessity. But also when you try to add extra functionality or decorations that no one requires. If you can't explain your final project in one sentence you probably have a bad final project. Let's point to some examples.
+
+Normally bad final projects never end up working. Statistically, if they ever show some output, it will be random.
+
+### The Ugly
+
+The ugly final project is just... ugly. Horrible. It is true that beauty is not universal. But the ugly final project holds a consensus. Bad crafted, poorly designed. Let's see some examples.
 
 ## Crafting the final project
 
