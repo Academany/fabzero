@@ -1,5 +1,6 @@
 # Linux Command Line
 
+* [Goal of this unit](#goal-of-this-unit)
 * [Command Line? Like in 1983?](#command-line-like-in-1983)
 * [The Unix philosophy](#the-unix-philosophy)
 * [Basic syntax](#basic-syntax)
@@ -16,12 +17,12 @@
   * [Display text on the screen](#display-text-on-the-screen)
   * [Writing to files](#writing-to-files)
 * [Understanding users](#understanding-users)
-* [Understanding permissions](#understanding-permissions)
-  * [Octal notation](#octal-notation)
-  * [Symbolic notation](#symbolic-notation)
-  * [Octal _vs_ Symbolic Notation](#octal-_vs_-symbolic-notation)
 
 > **Note:** As you go through this topic, do not try to memorize, learn by usage.
+
+## Goal of this unit
+
+The goal of this unit is **learning** a few fundamental **bash commands** to get started using the **terminal**.
 
 ## Command Line? Like in 1983?
 
@@ -226,69 +227,6 @@ There are 2 kinds of users in Linux. Normal users and _superusers_. Supersers ca
 As soon as you have performed you administrative tasks you should revert back to your normal user privileges. You can withdraw yourself from admin privileges with `sudo -k`.
 
 You can also switch user to root with `su`, but you need superuser privileges for that you must use `sudo su`. Exit to your normal user as soon as you finish with `exit` command.
-
-Files are owned by the user who created them. You can change the owner with the `chown` command:
-
-`sudo chown myuser file` will change the owner to a user called `myuser`.
-
-## Understanding permissions
-
-Permissions are arranged in groups of 3 letters that represents the access level for the current user, group and others.
-
-![user group others](img/bash/perm1.png)
-
-Each group of 3 letters represents the the read/write/execute access to a file or folder.
-
-![read write execute](img/bash/perm2.png)
-
-Permissions of a specific file or device are changed with the `chmod` command. For example, if you want to change the permission of the file `script.sh` you could do:
-
-`sudo chmod 666 script.sh`
-
-But what does 666 mean? It's about time to talk about the octal notation.
-
-### Octal notation
-
-In octal notation, permissions are represented by 3 numbers. Each one of these three numbers represent the user/group/others access and the value of the number itself the read/write/execute value. Given than read access is 4, write access is 2 and execute access is 1, all combinations of these three result in an unique number from 0 to 7.
-
-| Who?   | Read (4) | Write (2) | Execute (1) | Result |
-| ------ | -------- | --------- | ----------- | ------ |
-| User   | 4        | 2         | 0           | **6**  |
-| Group  | 4        | 2         | 0           | **6**  |
-| Others | 4        | 2         | 0           | **6**  |
-
-With a little bit of math all the permissions are easily derived. Otherwise you can also use this table:
-
-| Octal Value | Mode  | Octal Value | Mode  |
-| ----------- | ----- | ----------- | ----- |
-| **0**       | - - - | **4**       | r - - |
-| **1**       | - - x | **5**       | r - x |
-| **2**       | - w - | **6**       | r w - |
-| **3**       | - w x | **7**       | r w x |
-
-This method is recommended when you want to set all permissions at once.
-
-> Exercise: Derive the following permissions 755, 644, 600, 660
-
-### Symbolic notation
-
-The symbolic notation is more intuitive and it is useful when only a few permissions settings want to be changed. The notation is as follows, `+` stands for add a permission, `-` for removing a permission, and `=` for adding a specific permission but removing the others.
-
- | Who?       | Read (r) | Write (w) | Execute (x) | Result    |
- | ---------- | -------- | --------- | ----------- | --------- |
- | User (u)   | +        | +         |             | **u+rw**  |
- | Group (g)  |          | -         | +           | **g+x-w** |
- | Others (o) | =        |           |             | **o=r**   |
- | All (a)    | -        | -         | -           | **a-rwx** |
-
-### Octal _vs_ Symbolic Notation
-
-| Octal Value | Symbolic          | Result    |
-| ----------- | ----------------- | --------- |
-| 755         | u+rwx,g+rx,o+rx   | rwxr-xr-x |
-| 777         | a+rwx             | rwxrwxrwx |
-| 644         | u+rw,g=r,o=r      | rw-r--r-- |
-| 700         | u+rwx,g-rwx,o-rwx | rwx------ |
 
 ---
 [Back to Summary](../summary.md)
