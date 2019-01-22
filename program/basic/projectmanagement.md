@@ -10,6 +10,7 @@
 * [Spiral development. Failing as fast as you can](#spiral-development-failing-as-fast-as-you-can)
 * [Debugging. When things go wrong](#debugging-when-things-go-wrong)
 * [Deliver](#deliver)
+* [Using Gitlab/Github to manage your projects](#using-gitlabgithub-to-manage-your-projects)
 
 ## Laws of time
 
@@ -90,20 +91,26 @@ Refine your project over and over until
 
 ## Debugging. When things go wrong
 
-Things will go wrong, the only thing you don't know is how much. The following example is about a circuit board. But it could apply for anything else: Imagine you made a circuit board and it doesn't work. Somehow, you find there is problem in the design.
+Things will go wrong, the only thing you don't know is by how much. The following example is about a circuit board. But it could apply for anything else. 
 
-> **Think about it:** What do you do?
+> Imagine you made a circuit board and it doesn't work. Somehow, you find there is problem in the design. What do you do?
 
-In fact you have to do 2 things.
+You have to do two things.
 
-1. **Top-down debbuging**: Fix the board. Do not make a new board. The goal is learning, not succeeding. Even if you found the problem in the design, no one said that this was the only flaw. Worse is the case if you make a new board and succeed, like the donkey and the flute kid's story.
-2. **Bottom-up debugging**: Find the root cause that originated the flaw. Sometimes the root cause is hidden behind intermediate causes. Ask yourself *why did that happen* a few times until you find the root cause.
+1. **Top-down debbuging**: Franken-Fix the board. Do not make a new board. The goal is learning, not succeeding. Even if you found the problem in the design, no one said that this was the only flaw. Worse is the case if you make a new board and succeed, like the donkey and the flute kid's fable.
+2. **Bottom-up debugging**: Find the root cause that originated the flaw. Sometimes the root cause is hidden behind intermediate causes. Ask yourself *why did that happen?* a few times until you find the root cause.
 
-> **Free tip:** When debugging, always smile. Tomorrow it will be worse.
+> **Free tip:** When debugging, always smile. Tomorrow, it will be worse.
 
 ## Deliver
 
 The only thing certain in project management is that **there is a deadline**. At that day you **have** to deliver. Doesn't matter if it is not what you wanted, if you don't like it, or if you are halfway done. That day, you deliver whatever you have. Afterwards, if you want, you can meditate about what changes you should make in the future to achieve your goals. But remember, you deliver that ugly thing you made. Always. **Deliver**.
+
+## Using Gitlab/Github to manage your projects
+
+Among the many tools you can use for project management there is one special mention: gitlab/github. They have incorporated project management through *issues*. To keep it simple, you should open as many issues as tasks you must finish. Then you create a minimum of 3 boards: `TODO`, `doing` and `done`.
+
+![gitlab](img/pm/pm1.png)
 
 ---
 [Back to Summary](../summary.md)
