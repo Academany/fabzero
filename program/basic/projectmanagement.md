@@ -2,8 +2,9 @@
 
 * [Laws of time](#laws-of-time)
 * [The two mistakes](#the-two-mistakes)
-* [Listing all the required tasks](#listing-all-the-required-tasks)
-* [Assigning time to each task](#assigning-time-to-each-task)
+* [List all the required tasks](#list-all-the-required-tasks)
+* [Assign time to each task](#assign-time-to-each-task)
+* [Busy is the new stupid](#busy-is-the-new-stupid)
 * [Parallel vs Serial development](#parallel-vs-serial-development)
 * [Re-scheduling](#re-scheduling)
 * [Spiral development. Failing as fast as you can](#spiral-development-failing-as-fast-as-you-can)
@@ -34,27 +35,37 @@ In theory, you will have 8 hours available everyday for working/studying, often 
 
 So in reality you have roughly 5h. That is assuming that you are not a social network addict. To recap, **in a week you have less than 24h of continuous work**.
 
-## Listing all the required tasks
+## List all the required tasks
 
 The idea behind project management is simple: To allocate every task in our project in a bidimensional matrix of time (days as columns, hours as rows). We only have two uncertains: **The first uncertain is knowing how many pieces (tasks) we have in the puzzle**. The second uncertain is how long it will take to complete each task. Sometimes you will forget the first law of time and you will not consider a task, because you think it won't consume a noticeable amount of time. Here are a list of commonly ignored tasks that make your project fail:
 
-* Determining the project management strategy
-* Researching
-* Lab cleanup
-* Documenting
-* Multimedia processing
-* Testing
-* Allocated time for unforeseen
-* Troubleshooting and debugging (no, this is not an unforeseen, this is a mathematical certain)
-* Rehearshing a presentation
+* Determining the project management strategy. It consumes time.
+* Researching. It consumes time.
+* Lab cleanup. It consumes time.
+* Documenting. It consumes time.
+* Multimedia processing. It consumes time.
+* Testing. It consumes time.
+* Unforeseen. They exist and consume time. Allocate time for it.
+* Troubleshooting and debugging (no, this is not an unforeseen, this is a mathematical certain). It consumes time.
+* Rehearshing a presentation. It consumes time.
 
-## Assigning time to each task
+## Assign time to each task
 
-In project management there are two variants of how to assign time to a task. One is called **demand-side**, in which you start a task and wait until it is completed to continue. You assign time this way for tasks that are out of your control, like the time it takes to a machine for milling a board or to a computer for processing something.
+In project management there are two variants of how much time you spend on a task. One is called **demand-side**, in which you start a task and wait until it is completed to continue. If you had infinite time, you could proceed this way. But you haven't. One of the best things of fab academy is the one week cycle. That time is not enough to complete the task in demand-side mode, so it forces you to exercise your project management skills.
 
-But for things that are under your control -like designing a circuit, or researching for inflatable structures- you don't keep going until you finish. Because you will never finish. Instead, you will use the **supply-side** time management, in which you decide beforehand how much time are you going to spend on a task. You do the best you can in that time, and then you stop and switch to the next task. You have to estimate the time (according to your skills) and stick to it. Over time you will become more realistic in your supply-time estimations.
+Some tasks though, are out of your control. There is nothing you can do about it. *It takes nine months to make a baby, no matter how many people you put on the job* is a popular American business proverb.
+
+For things that are under your control -like designing a circuit, or researching for inflatable structures- you don't keep going until you finish. Because you will never finish. Instead, you will use the **supply-side** time management, in which you decide beforehand how much time are you going to spend on a task. You do the best you can in that time, and then you stop and switch to the next task. You have to estimate the time (according to your skills) and stick to it. Over time you will become more realistic in your supply-time estimations.
 
 Work backwards from the deadline and forward from current time, iterating until you find a match.
+
+## Busy is the new stupid
+
+Don't be this person:
+
+![busy](img/pm/busy.jpg)
+
+Make sure that you don't fill up your calendar with tasks, leaving no time for you to sit back, have some headspace and do some critical thinking.
 
 ## Parallel vs Serial development
 
