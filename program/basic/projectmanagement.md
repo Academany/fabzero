@@ -1,5 +1,6 @@
 # By Tomorrow?! Time and project management
 
+* [Goal of this unit](#goal-of-this-unit)
 * [Laws of time](#laws-of-time)
 * [The two mistakes](#the-two-mistakes)
 * [List all the required tasks](#list-all-the-required-tasks)
@@ -11,6 +12,10 @@
 * [Debugging. When things go wrong](#debugging-when-things-go-wrong)
 * [Deliver](#deliver)
 * [Using Gitlab/Github to manage your projects](#using-gitlabgithub-to-manage-your-projects)
+
+## Goal of this unit
+
+The goal of this unit is learning some **techniques** to become more **efficient** managing your **time** and projects.
 
 ## Laws of time
 
