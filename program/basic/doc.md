@@ -1,5 +1,6 @@
 # Documenting your work
 
+* [Goal of this unit](#goal-of-this-unit)
 * [Before we start: The notebook](#before-we-start-the-notebook)
 * [What, why, how, where and when to document](#what-why-how-where-and-when-to-document)
 * [The text editor](#the-text-editor)
@@ -12,6 +13,10 @@
   * [Emoji](#emoji)
   * [Pictures](#pictures)
   * [Video](#video)
+
+## Goal of this unit
+
+The goal of this unit is learning some easy but powerful **tools** to **write** better **documentation**.
 
 ## Before we start: The notebook
 

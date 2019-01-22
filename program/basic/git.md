@@ -1,5 +1,6 @@
 # Working with git repositories
 
+* [Goal of this unit](#goal-of-this-unit)
 * [The community effect](#the-community-effect)
 * [Downloading a repository from Github](#downloading-a-repository-from-github)
 * [Installing git](#installing-git)
@@ -10,13 +11,15 @@
 * [Before you upload. Check file size](#before-you-upload-check-file-size)
 * [Basic git workflow](#basic-git-workflow)
 * [Advanced git workflow](#advanced-git-workflow)
-* [Where is the webpage published?](#where-is-the-webpage-published)
 * [Troubleshooting](#troubleshooting)
-  * [Problem 1: I don't know what to do](#problem-1-i-dont-know-what-to-do)
+  * [Problem 1: I don't know what to do next](#problem-1-i-dont-know-what-to-do-next)
   * [Problem 2: Panic! Push error!](#problem-2-panic-push-error)
-  * [Problem 3: SSH connection not working. Is asking my password](#problem-3-ssh-connection-not-working-is-asking-my-password)
 
 > **Note:** As you go through this topic, do not try to memorize, learn by usage.
+
+## Goal of this unit
+
+The goal of this unit is learning just the **fundamentals of git** version control to get things done.
 
 ## The community effect
 
@@ -137,71 +140,15 @@ This is the manual workflow of updating your page. You can also write a script a
 
 ![git workflow](img/git/git.jpg)
 
-## Where is the webpage published?
-
-Your mentor will give you the webpage address.
-
-> **Learning by doing:** Bookmark this page
-
 ## Troubleshooting
 
-### Problem 1: I don't know what to do
+### Problem 1: I don't know what to do next
 
 Solution: Do a `git status` and read
 
 ### Problem 2: Panic! Push error!
 
 Solution: Stay calm. Read. The most common error at the push step is that after you pulled, and while you were typing the rest of the commands, someone (or several people) pushed their content to the archive. Just pull and push again. You can do that at the same time using:
-
-`git pull && git push`
-
-### Problem 3: SSH connection not working. Is asking my password
-
-Solution: Sometimes git asks for the repository password even if you have specified to use SSH keys. So what you should do is check if the keys are in the **ssh-agent**:
-
-```bash
-ssh-add -l
-Could not open a connection to your authentication agent.
-```
-
-In this case the **ssh-agent** is not running, so start it using:
-
-```bash
-eval `ssh-agent -s`
-Agent pid 3032
-```
-
-Check again:
-
-```bash
-ssh-add -l
-The agent has no identities.
-```
-
-Now the problem is that the agent has no identities. List the keys in your `.ssh` folder:
-
-```bash
-ls ~/.ssh
-academy  academy.pub  config  known_hosts
-```
-
-I add your key, which is the key you added in gitlab
-
-```bash
-ssh-add ~/.ssh/your_key
-Identity added: ~/.ssh/your_key (~/.ssh/your_key)
-```
-
-Check again:
-
-```bash
-ssh-add -l
-2048 SHA256:D0Yg6HyzIzD9mIIpytearRhVc2YMYEtIpqP664EjEzU ~/.ssh/your_key (RSA)
-```
-
-An then, `git pull` and `git push` using SSH should work again.
-
-> **Learning by doing:** If this happens to you frecuently, try to automate a solution
 
 ---
 [Back to Summary](../summary.md)
