@@ -36,6 +36,8 @@ In theory, you will have 8 hours available everyday for working/studying, often 
 
 So in reality you have roughly 5h. That is assuming that you are not a social network addict. To recap, **in a week you have less than 24h of continuous work**.
 
+> **Learn by doing:** Make a calendar of available time for working in a project.
+
 ## List all the required tasks
 
 The idea behind project management is simple: To allocate every task in our project in a bidimensional matrix of time (days as columns, hours as rows). We only have two uncertains: **The first uncertain is knowing how many pieces (tasks) we have in the puzzle**. The second uncertain is how long it will take to complete each task. Sometimes you will forget the first law of time and you will not consider a task, because you think it won't consume a noticeable amount of time. Here are a list of commonly ignored tasks that make your project fail:
@@ -50,6 +52,8 @@ The idea behind project management is simple: To allocate every task in our proj
 * Troubleshooting and debugging (no, this is not an unforeseen, this is a mathematical certain). It consumes time.
 * Rehearshing a presentation. It consumes time.
 
+> **Learn by doing:** List all your required tasks and assign them a priority.
+
 ## Assign time to each task
 
 In project management there are two variants of how much time you spend on a task. One is called **demand-side**, in which you start a task and wait until it is completed to continue. If you had infinite time, you could proceed this way. But you haven't. One of the best things of fab academy is the one week cycle. That time is not enough to complete the task in demand-side mode, so it forces you to exercise your project management skills.
@@ -59,6 +63,8 @@ Some tasks though, are out of your control. There is nothing you can do about it
 For things that are under your control -like designing a circuit, or researching for inflatable structures- you don't keep going until you finish. Because you will never finish. Instead, you will use the **supply-side** time management, in which you decide beforehand how much time are you going to spend on a task. You do the best you can in that time, and then you stop and switch to the next task. You have to estimate the time (according to your skills) and stick to it. Over time you will become more realistic in your supply-time estimations.
 
 Work backwards from the deadline and forward from current time, iterating until you find a match.
+
+> **Learn by doing:** Assign time to all your tasks.
 
 ## Busy is the new stupid
 
@@ -71,6 +77,8 @@ Make sure that you don't fill up your calendar with tasks, leaving no time for y
 ## Parallel vs Serial development
 
 It is important to analize which tasks are independent, so that you can execute them in parallel and which tasks are dependent and you have to wait to start them. Always **throw as many parallel processes as your sanity can handle**. In particular, the **documenting** process should be **always running in parallel**.
+
+> **Learn by doing:** Divide your taks in parallel and serial. Find out how much you can do at the same time.
 
 ## Re-scheduling
 
@@ -89,13 +97,16 @@ Refine your project over and over until
 1. You are happy with the result
 2. You run out of time
 
+> **Learn by doing:** Plan some iterations for your final project.
+
+
 ## Debugging. When things go wrong
 
-Things will go wrong, the only thing you don't know is by how much. The following example is about a circuit board. But it could apply for anything else. 
+Imagine you made a circuit board and it doesn't work. Somehow, you find there is problem in the design.
 
-> Imagine you made a circuit board and it doesn't work. Somehow, you find there is problem in the design. What do you do?
+> **Learn by doing:** What do you do?
 
-You have to do two things.
+Things will go wrong, the only thing you don't know is by how much. The previous example was about a circuit board. But it could apply for anything else. You have two things to do.
 
 1. **Top-down debbuging**: Franken-Fix the board. Do not make a new board. The goal is learning, not succeeding. Even if you found the problem in the design, no one said that this was the only flaw. Worse is the case if you make a new board and succeed, like the donkey and the flute kid's fable.
 2. **Bottom-up debugging**: Find the root cause that originated the flaw. Sometimes the root cause is hidden behind intermediate causes. Ask yourself *why did that happen?* a few times until you find the root cause.
@@ -110,13 +121,19 @@ The only thing certain in project management is that **there is a deadline**. At
 
 Among the many tools you can use for project management there is one special mention: gitlab/github. They have incorporated project management through *issues*. To keep it simple, you should open as many issues as tasks you must finish.
 
+> **Learn by doing:** Using what you have learned, create a few issues of tasks you must do to complete an assignment.
+
 ![gitlab](img/pm/pm1.png)
 
-Then you create **boards** where you track the status of the issues: `TODO`, `doing` and `done` are common boards, but you can create your own. Managing a project this way is very intuitive. You simply drag the issue card from one board to another to change its status. Issues placed in the `done` board are automatically closed.
+To keep track of what has been done, you create **boards** that you name according to the status of the issues: `TODO`, `doing` and `done` are common name for boards, but you can create your own. Managing a project this way is very intuitive. You simply drag the issue card from one board to another to change its status. Issues placed in the `done` board are automatically closed.
 
 ![boards](img/pm/board.png)
 
+> **Learn by doing:** Create some boards and add some tasks (issues) to the `TODO` or `doing` boards.
+
 You can also use **tags** to classify the issues in categories like `bug`, `enhancement`, `electronics`, etc. If you were part of a team you can also **assign** the taks to other team members.
+
+> **Learn by doing:** Create and assign some tags to your issues. Remember, an issue can have more than one tag.
 
 Managing projects in gitlab is very **convenient**. It doesn't have all the bells and wistles of other project management tools. But you are **tracking everything in the same environment**, which has an extra value.
 
