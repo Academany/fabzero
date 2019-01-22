@@ -108,9 +108,17 @@ The only thing certain in project management is that **there is a deadline**. At
 
 ## Using Gitlab/Github to manage your projects
 
-Among the many tools you can use for project management there is one special mention: gitlab/github. They have incorporated project management through *issues*. To keep it simple, you should open as many issues as tasks you must finish. Then you create a minimum of 3 boards: `TODO`, `doing` and `done`.
+Among the many tools you can use for project management there is one special mention: gitlab/github. They have incorporated project management through *issues*. To keep it simple, you should open as many issues as tasks you must finish.
 
 ![gitlab](img/pm/pm1.png)
+
+Then you create **boards** where you track the status of the issues: `TODO`, `doing` and `done` are common boards, but you can create your own. Managing a project this way is very intuitive. You simply drag the issue card from one board to another to change its status. Issues placed in the `done` board are automatically closed.
+
+![boards](img/pm/board.png)
+
+You can also use **tags** to classify the issues in categories like `bug`, `enhancement`, `electronics`, etc. If you were part of a team you can also **assign** the taks to other team members.
+
+Managing projects in gitlab is very **convenient**. It doesn't have all the bells and wistles of other project management tools. But you are **tracking everything in the same environment**, which has an extra value.
 
 ---
 [Back to Summary](../summary.md)
