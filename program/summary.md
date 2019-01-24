@@ -6,9 +6,9 @@
 
 * [From Zero to Hero! Getting ready to unlearn](basic/intro.md)
 * [The Linux Command Line](basic/commandline.md)
-* [Documenting your work](basic/doc.md)
+* [Documenting your work. Why tomorrow you will not remember anything](basic/doc.md)
 * [Working with git repositories](basic/git.md)
-* [By tomorrow?! Time and project management](basic/projectmanagement.md)
+* [By next week?! Time and project management](basic/projectmanagement.md)
 
 ## Design
 
@@ -37,7 +37,6 @@
 * [Electronics for people who doesn't understand the difference between a resistor and a capacitor](electronics/electronics101.md)
 * [The fabber way to make a circuit board](electronics/production.md)
 * [Ready player 2. Design your own circuit board](electronics/circuitdesign.md)
-* [Learning Python](electronics/python.md)
 * Programming circuit boards
   * [Introduction to programming](electronics/code101.md)
   * [Advanced Programming. Interrupts](electronics/interrupts.md)
@@ -53,7 +52,6 @@
 
 * [This way please. Managing layout and people's flow](lab/layout.md)
 * [Chaos and order. Balance is the key](lab/chaos.md)
-* [Documentation. Why tomorrow you will not remember anything](lab/doc.md)
 * [Where are the tweezers? Inventory Management](lab/assets.md)
 * [Keep in touch! Mastering the video conferencing systems](lab/video.md)
 * [Women can do anything!](lab/women.md)

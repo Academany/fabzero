@@ -1,4 +1,4 @@
-# Documenting your work
+# Documenting your work. Why tomorrow you will not remember anything
 
 * [Goal of this unit](#goal-of-this-unit)
 * [Before we start: The notebook](#before-we-start-the-notebook)
@@ -54,7 +54,6 @@ To write any kind of documentation, you first need a text editor. I use [Visual 
 [MISSING: Visual Studio Code Image Placeholder]
 
 > **Learning by doing:** Install Visual Studio Code
-
 
 ## Writing documentation in markdown
 
