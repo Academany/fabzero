@@ -11,6 +11,10 @@
 * [Before you upload. Check file size](#before-you-upload-check-file-size)
 * [Basic git workflow](#basic-git-workflow)
 * [Advanced git workflow](#advanced-git-workflow)
+* [Branching. Testing new things without making a mess](#branching-testing-new-things-without-making-a-mess)
+  * [What's a branch and why would I want one](#whats-a-branch-and-why-would-i-want-one)
+  * [Creating and navigating through branches](#creating-and-navigating-through-branches)
+  * [Merging and deleting branches](#merging-and-deleting-branches)
 * [Troubleshooting](#troubleshooting)
   * [Problem 1: I don't know what to do next](#problem-1-i-dont-know-what-to-do-next)
   * [Problem 2: Panic! Push error!](#problem-2-panic-push-error)
@@ -140,6 +144,47 @@ This is the manual workflow of updating your page. You can also write a script a
 
 ![git workflow](img/git/git.jpg)
 
+## Branching. Testing new things without making a mess
+
+### What's a branch and why would I want one
+
+One day, you will have (let's say) a piece of code that is working. People can download it and everybody is happy. If you want to add new features and you start messing the code, it is likely that you will break the functionality. That is a bad practice, because until you fix all the problems, people will download something that does not work anymore. What `git` allows you is to create a **branch**, which is a separate copy of your repository. In there you can test new features while maintaining the **master** branch (the original one).
+
+### Creating and navigating through branches
+
+You can create a new branch by doing:
+
+```bash
+git branch nameofthebranch
+```
+
+> **Learning by doing:** Create a new branch for your repository
+
+You have created that branch, but you are still working in the master one. To switch to another branch you use the checkout command.
+
+```bash
+git checkout nameofthebranch
+```
+
+> **Learning by doing:** Practice switching between branches. How do you know at any given point in what branch are you?
+
+You can commit changes and push as you normally do. It is a good practice to **commit before you switch branches**. Because when you switch to another branch your working directory will look like it did the last time you committed on that branch.
+
+### Merging and deleting branches
+
+Once your new features are functional, it is time to incorporate that work into the master branch. This is called **merging** in `git`. For that, you first go to the master branch and then **merge** the changes.
+
+```bash
+git checkout master
+git merge nameofthebranch
+```
+
+Congratulations! Now you should have a master branch with the new features! We don't need the testing branch anymore, let's delete it.
+
+```bash
+git branch -d nameofthebranch
+```
+
 ## Troubleshooting
 
 ### Problem 1: I don't know what to do next
@@ -148,7 +193,7 @@ Solution: Do a `git status` and read
 
 ### Problem 2: Panic! Push error!
 
-Solution: Stay calm. Read. The most common error at the push step is that after you pulled, and while you were typing the rest of the commands, someone (or several people) pushed their content to the archive. Just pull and push again. You can do that at the same time using:
+Solution: Stay calm. Read. The most common error at the push step is that after you pulled, and while you were typing the rest of the commands, someone (or several people) pushed their content to the archive. Just pull and push again. You can do that at the same time using `git pull && git push`
 
 ---
 [Back to Summary](../summary.md)
