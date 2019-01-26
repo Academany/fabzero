@@ -45,7 +45,6 @@ For learning to code you **have to** code. There is a difference between **knowi
 
 ## Pseudocode
 
-
 ## I know Arduino scripting language. I don't need C
 
 Please watch this video https://www.youtube.com/watch?v=ERY7d7W-6nA
