@@ -5,9 +5,9 @@
 
 A _comb_ is something very useful to cut when you are doing press-fit designs. It helps you to select the correct size of the slot.
 
-## In kokopelli
+## In Kokopelli
 
-kokopelli first, because it's my favourite software.
+Kokopelli first, because it's my(Fran) favorite software.
 
 ![](./img/comb/kokopelli.png)
 

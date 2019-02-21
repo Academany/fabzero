@@ -66,7 +66,7 @@ Proper use of the heat gun. Remember to put it in cold air after use until no he
 The moment of truth arrrives when you feel confident enough to power the board :sweat:. As usual in all critical events of life, you have two options:
 
 1. You could take a leap of faith and power the board straight away. This is the equivalent of clicking the [I'm feeling lucky](https://www.google.com/) button
-2. There are many things that could go wronh. But you could at least check with a multimeter that VCC and GND are not shorted
+2. There are many things that could go wrong. But you could at least check with a multimeter that VCC and GND are not shorted
 
 If after a few seconds of powering the board there is no significant heat, smoke, fire or explosion, go to the next step.
 
@@ -74,13 +74,13 @@ If after a few seconds of powering the board there is no significant heat, smoke
 
 ## Programming the board
 
-The final step is loading the program to the microcontroller. 
+The final step is loading the program to the microcontroller.
 
 ### Obtaining the toolchain
 
 ### Compiling the code
 
-Download this [sample code](files/code101/samplecode.zip) and test if you can compile it. Unzip the code somewhere in your computer and you will see a `.c` file and and `Makefile`. The `.c` file is the (souce) code. It is an editable text file. The microcontroller does not understand this. We have to **compile** it. In a terminal type:
+Download this [sample code](files/code101/samplecode.zip) and test if you can compile it. Unzip the code somewhere in your computer and you will see a `.c` file and and `Makefile`. The `.c` file is the (source) code. It is an editable text file. The microcontroller does not understand this. We have to **compile** it. In a terminal type:
 
 ```bash
 make program
@@ -110,11 +110,13 @@ If all of this does not work then probably there is something wrong in the ISP c
 
 * Check the ISP ribbon cable polarity. Are you connecting it in the right way?
 * If you fabricated the ISP ribbon cable and IDC connector inspect the terminal with a microscope. Make sure no wires are touching each other.
-* Check the board in a microscope. Check all the solderings. Look for cold soldering. Check for shorts. Check for bad soldering.
+* Check the board in a microscope. Check all the solder joints. Look for cold soldering. Check for shorts. Check for bad soldering.
 
 There is no magic in debugging. **No one on Earth will be able to tell you what happens with your board**. This is just a systematic process. Just try everything and make a debugging table so I or anyone can help you with that.
 
 Good luck and happy electronics production!
 
+
+TODO want to go double sided, multilayer?
 ---
 [Back to Summary](../summary.md)

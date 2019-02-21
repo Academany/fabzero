@@ -1,6 +1,6 @@
 # `fabzero` Program (formerly Pre Academy)
 
-This repository hosts the `fabzero` official program. It was originally designed to fill knowledge gaps and aimed to prepare students to succeed and improve their experience during [Fab Academy](http://fabacademy.org). Over the years, it has been growing into a multidiscilinar program, where a customized learning path is designed and crafted to the specific needs of the group.
+This repository hosts the `fabzero` official program. It was originally designed to fill knowledge gaps and aimed to prepare students to succeed and improve their experience during [Fab Academy](http://fabacademy.org). Over the years, it has been growing into a multidisciplinary program, where a customized learning path is designed and crafted to the specific needs of the group.
 
 ## What's new
 
@@ -20,4 +20,4 @@ This repository hosts the `fabzero` official program. It was originally designed
 
 ## Questions and comments
 
-This repository is maintaned and updated by Francisco Sanchez. If you have questions or inquiries about the course content please do not hesitate to raise an issue or contact me francisco [at] fabfoundation [dot] org. Happy to help!
+This repository is maintained and updated by Francisco Sanchez. If you have questions or inquiries about the course content please do not hesitate to raise an issue or contact me Francisco [at] fab foundation [dot] org. Happy to help!

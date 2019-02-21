@@ -73,9 +73,9 @@ The [Hello-world](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) of 
 
 Rotations are about an axis using the [right hand rule](https://en.wikipedia.org/wiki/Right-hand_rule).
 
-## Cylinders, polygons and piramids
+## Cylinders, polygons and pyramids
 
-## Unions and diferences
+## Unions and differences
 
 ## Defining parameters
 
@@ -93,7 +93,13 @@ Rotations are about an axis using the [right hand rule](https://en.wikipedia.org
 
 ## Assemblies using equations
 
-## Cheatsheet
+## Cheat-sheet
 
+TODO the logic, loops, runtime, compile time variables
+"The variable retains its last assigned value at compile time, in line with Functional programming languages"
+
+https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/The_OpenSCAD_Language#Variables
+
+ Functional vs Imperative programming languages
 ---
 [Back to Summary](../summary.md)

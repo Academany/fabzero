@@ -11,7 +11,7 @@
 
 * File limit set to 1 Mb per file. Check file sizes `du -s * | sort -rn` 1-2 Mb week
 * Clean up the archive (remove old unused students folders and files)
-* Whatever you 3D print, it must be your own design. It cannot be just downloaded. You can modify another's design though, give credits in this case.
+* Whatever you 3D print, it must be your own design. It cannot be just downloaded. You can modify other's design though, give credits in this case.
 * You have to design so that it cannot be made substractively and you have to explain why.
 
 ## 3D Printing
@@ -32,7 +32,7 @@ Use your USB microscope. In the image above, you can see the 0.4mm filament thro
 
 * Design **for the machine** and not the opposite
 * Design a small object (few cm). It is better to test many small objects and learning from all of them than printing a huge object.
-* Host big STL files in sketchab
+* Host big STL files in sketchfab  TODO link
 * Original design file should go in the archive
 
 ---

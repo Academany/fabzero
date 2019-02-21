@@ -8,7 +8,7 @@
 
 ## Understanding timer interrupts
 
-In the last chapter we learned about the [timer counter](timercounter.md) and the required registers to make it work. 
+In the last chapter we learned about the [timer counter](timercounter.md) and the required registers to make it work.
 
 We also had learned before about [interrupts](interrupts.md). An interrupt is an event that occurs when a particular trigger (either from an internal or external source) happens. The interrupt allows the program to stop what it was doing, perform a short task, and then return to where it left off in the main program.
 
@@ -47,7 +47,7 @@ In this example we are going to consider all the above to set up a 1 second time
 sei();
 ```
 
-At 20Mhz, a clock cycle is 50ns. We will count time using `TIMER1` (the 16-bit timer). Counting to 65535 at this speed with take exactly 3.277ms. That is definitely too fast for our purpose. 
+At 20Mhz, a clock cycle is 50ns. We will count time using `TIMER1` (the 16-bit timer). Counting to 65535 at this speed with take exactly 3.277ms. That is definitely too fast for our purpose.
 
 So we will have to trigger the timer with a **prescaler** value (by setting the Clock Select bits `CS12:10`) in Timer/Counter1 Control Register B (`TCCR1B`). This allows us to slow down the timer by a factor of 1, 8, 64, 256 or 1024 compared with the clock source. However, it is unlikely that counting to 65535 at any of these speeds with take exactly one second as we see in the table below:
 

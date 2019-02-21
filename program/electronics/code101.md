@@ -49,6 +49,8 @@ For learning to code you **have to** code. There is a difference between **knowi
 
 Please watch this video https://www.youtube.com/watch?v=ERY7d7W-6nA
 
+TODO avr-c vs Arduino vs assembly
+
 ## The datasheet
 
 The first thing you should know about embedded programming is that **you cannot program a microcontroller without reading the datasheet** of that specific microcontroller.
@@ -57,7 +59,7 @@ The first thing you should know about embedded programming is that **you cannot 
 
 ## Setting up AVR-GCC Toolchain on Linux
 
-For writing code you just need a text editor, like atom. AVR-GCC is a toolchain that will help you with the software development process, but doesn’t do anything about burning the final executable (the hex file) to the microcontroller. For that we need to install **AVR D**ownloader **U**ploa**DE**r (avrdude).
+For writing code you just need a text editor, like atom. AVR-GCC is a tool-chain that will help you with the software development process, but doesn’t do anything about burning the final executable (the hex file) to the microcontroller. For that we need to install ** AVR D**ownloader ** U**ploa**DE**r (avrdude).
 
 In Ubuntu
 
@@ -177,6 +179,7 @@ http://www.ladyada.net/learn/avr/avrdude.html
 ## The programmer
 
 Do not start from scratch. Start by editing an existing program.
+
 
 ---
 [Back to Summary](../summary.md)

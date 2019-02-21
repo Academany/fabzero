@@ -33,12 +33,12 @@ Divide your annotations in entries. In every entry you can write:
 * Whenever you are leaving (lunch, end of day, switch task), finish the entry with an exit note (Finished, to be continued later, stuck in a process, ...)
 
 > **Learning by doing:** Get a notebook for Fab Zero program and write down your first entry. Answer in one sentence: Why are you here?
-> 
+>
 ## What, why, how, where and when to document
 
 The most important thing to understand when it comes to documenting your work is that **you are not writing a tutorial**, a step by step guide or telling others what to do. **You are telling your personal story**, your journey into the learning process. While you still have to provide details about your findings, you have to become a storyteller.
 
-Documenting **is not about the final result, it's about the learning journey**. What was the goal, what did you had to research, how did you approach the solution, and what was the outcome. **Document both failures and successes**. There is a tendency to hide failures inherited from our educational system. In traditional education failure is negative. But there is much more you can learn from documenting your failures than documenting your sucesses.
+Documenting **is not about the final result, it's about the learning journey**. What was the goal, what did you had to research, how did you approach the solution, and what was the outcome. **Document both failures and successes**. There is a tendency to hide failures inherited from our educational system. In traditional education failure is negative. But there is much more you can learn from documenting your failures than documenting your successes.
 
 The simplest explanation I can give you about **why do you have to document** is that [you have less recall memory than a goldfish](https://www.telegraph.co.uk/news/science/science-news/10937888/Memory-of-a-goldfish-Actually-fish-can-recall-events-12-days-ago.html). Actually **you will remember less than 60% after just 20 minutes** [(read more)](https://en.wikipedia.org/wiki/Hermann_Ebbinghaus). Document what you do **while you do it**. Exercise the habit of documenting every day.
 
@@ -57,7 +57,7 @@ To write any kind of documentation, you first need a text editor. I use [Visual 
 
 ## Writing documentation in markdown
 
-Even though the final format of the documentation will be a webpage, ~~you will not write~~ I do not recommend you to write HTML code. There is a rising tendence to write documentation in **markdown** format. This is an example of documentation written in HTML code. It complex to write because there are all these tags that you have to open and remember to close like:
+Even though the final format of the documentation will be a webpage, ~~you will not write~~ I do not recommend you to write HTML code. There is a rising tendency to write documentation in **markdown** format. This is an example of documentation written in HTML code. It complex to write because there are all these tags that you have to open and remember to close like:
 
 ```html
 <h1>This is the title</h1>
@@ -118,11 +118,11 @@ So exporting a markdown file.md to file.html with a style.css stylesheet is:
 
 ### Automating everything
 
-Automation is the **real power of comand line tools**. You want to automate in order to avoid typing all these commands in terminal over and over and also in order to speed up the process of file conversion and uploading to the server.
+Automation is the **real power of command line tools**. You want to automate in order to avoid typing all these commands in terminal over and over and also in order to speed up the process of file conversion and uploading to the server.
 
 All you need to do is to create a script, which is a plain text file names something like `auto.sh` (for _shell script_) where you will write a sequence of commands. Those will be the very same commands that you would type in the terminal one by one.
 
-This tutorial assumes that you have all the markdown `.md` and css `.css` files together in the root of your student folder - which is inside the lab folder containing the github repository. Otherwise just adjust the paths accordingly. The script `auto.sh` can start simple, and towards time it will become more and more advanced as you master command line:
+This tutorial assumes that you have all the markdown `.md` and css `.css` files together in the root of your student folder - which is inside the lab folder containing the GitHub repository. Otherwise just adjust the paths accordingly. The script `auto.sh` can start simple, and towards time it will become more and more advanced as you master command line:
 
 ```bash
 # Simple Automation file
@@ -160,13 +160,13 @@ And it search for all the `.md` files in your folder and will convert them to HT
 
 ### Emoji
 
-Yes! You can add emotions to your documentation too! Gitlab and Github will render them properly. All you have to do is using some codes between colons like `:blush:` and it will show :blush:
+Yes! You can add emotions to your documentation too! GitLab and GitHub will render them properly. All you have to do is using some codes between colons like `:blush:` and it will show :blush:
 
 Visit the [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) for a full list of supported emoji :+1:
 
 ### Pictures
 
-* Resizing Images. You can resize and convert between image formats using [GraphicsMagick](http://www.graphicsmagick.org/) package. `gm convert -resize 600x600 bigimage.png smallimage.jpg` will resize `bigimage.png` without modifiyng the aspect ratio inside a bounding box of 600x600 pixels and convert it into `.jpg`.
+* Resizing Images. You can resize and convert between image formats using [GraphicsMagick](http://www.graphicsmagick.org/) package. `gm convert -resize 600x600 bigimage.png smallimage.jpg` will resize `bigimage.png` without modifying the aspect ratio inside a bounding box of 600x600 pixels and convert it into `.jpg`.
 
 * Creating an image strip: It might be useful for documenting workflows to compose a strip of images using [GraphicsMagick](http://www.graphicsmagick.org/) package. `gm convert +append -geometry x400 image1.png image2.png image3.png image4.png strip.png` will compose 4 separate images in a file named `strip.png` 400 pixels high.
 
@@ -181,20 +181,22 @@ Visit the [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) fo
 > **Learning by doing:** Record a 10 to 15 seconds video presenting yourself. Do you think it's easy? Let's see how many times you have to repeat the scene until you are satisfied.
 
 * Screen recording: Sometimes the best way to show something that you are doing in a computer is with a screen capture video (with or without voice over). A good screen recorder for GNU/Linux is [SimpleScreenRecorder](http://www.maartenbaert.be/simplescreenrecorder/).
-  
+
 > **Learning by doing:** Record a 30 seconds video showing something you do on screen.
 
 * The legacy `.gif` format might seem useful to show short videos (2 to 5 seconds) like a led blinking, **but it is very inefficient in compressing the video**. It is actually recommended that you convert them to `.mp4`. There are a number of resources for downloading, manipulating or converting `.gif` files like [Giphy](http://giphy.com/), [Ezgif](http://ezgif.com/video-to-gif) and many more.
 
 ![ok gif](img/doc/ok.gif)
 
-* Downloading videos. Sometimes you will need to download videos from [youtube](youtube.com) or another source. You can use the command line utility `youtube-dl` for that. Did you know that you can also download the just the audio or the video stream separately? Check out the `-F` and `-f` options.
+* Downloading videos. Sometimes you will need to download videos from [YouTube](youtube.com) or another source. You can use the command line utility `youtube-dl` for that. Did you know that you can also download the just the audio or the video stream separately? Check out the `-F` and `-f` options.
 
-> **Learning by doing:** Download a video from youtube. Download the audio track from another video.
+> **Learning by doing:** Download a video from YouTube. Download the audio track from another video.
 
 * Experiment with adding titles and subtitles to your videos (in another language or for people with disabilities for example). Subtitles can be hardcoded or softcoded, find out the difference. You can create subtitles with YouTube Creator Studio.
 
 > **Learning by doing:** Add subtitles to the video you did before.
 
+
+TODO Kdenlive, HandBreak, Audacity
 ---
 [Back to Summary](../summary.md)

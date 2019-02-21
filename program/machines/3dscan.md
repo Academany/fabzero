@@ -11,7 +11,7 @@
 
 * File limit set to 1 Mb per file. Check file sizes `du -s * | sort -rn` 1-2 Mb week
 * Clean up the archive (remove old unused students folders and files)
-* Whatever you 3D print, it must be your own design. It cannot be just downloaded. You can modify another's design though, give credits in this case.
+* Whatever you 3D print, it must be your own design. It cannot be just downloaded. You can modify other's design though, give credits in this case.
 
 ## 3D Scanning
 
@@ -22,7 +22,7 @@ Scan something using:
 * Camera Pictures
 * Xbox Kinect
 * Structured light
-* Roland Modela (windows). Scan something that you cannot scan with this level of detail (like a coin) or not possible at all like Glass.
+* Roland Modella (windows). Scan something that you cannot scan with this level of detail (like a coin) or not possible at all like Glass.
 
 ### Extra assignments
 

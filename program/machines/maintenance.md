@@ -3,11 +3,14 @@
 > :construction: This documentation is WIP
 
 * [Maintenance plan](#maintenance-plan)
+* [Inspection](#inspection)
 * [Cleaning](#cleaning)
 * [Greasing](#greasing)
 * [Upgrades and replacements](#upgrades-and-replacements)
 
 ## Maintenance plan
+
+## Inspection
 
 ## Cleaning
 

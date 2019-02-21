@@ -30,11 +30,13 @@ We are all familiar with programs that have a **Graphical User Interface (GUI)**
 
 Programs can also be run without a GUI. Actually many programs come without a GUI. So the way to interact with these programs is through the **Command Line Interface (CLI)**.
 
-The enviroment we use is the *Shell or command-line interpreter*. There are many CLI interpreters. The one that comes with most distributions is **Bash** (Bourne Again Shell).
+The environment we use is the *Shell or command-line interpreter*. There are many CLI interpreters. The one that comes with most distributions is **Bash** (Bourne Again Shell).
 
 ![bash screenshot](img/bash/bash.png)
 
 ## The Unix philosophy
+
+TODO Unix Linux and gnu-Linux
 
 It is important to understand the [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) before you move forward. Programs in Unix were written following this philosophy:
 
@@ -228,5 +230,6 @@ As soon as you have performed you administrative tasks you should revert back to
 
 You can also switch user to root with `su`, but you need superuser privileges for that you must use `sudo su`. Exit to your normal user as soon as you finish with `exit` command.
 
+TODO misuse of sudo.
 ---
 [Back to Summary](../summary.md)

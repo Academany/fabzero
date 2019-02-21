@@ -18,7 +18,7 @@
 
 ## Learning about components
 
-Let's learn a little bit about how the components work. A good resource is the O'Reilly Enciclopedia of Electronic Components[.](files/books.zip) Do you know what are these components for and how do they work?
+Let's learn a little bit about how the components work. A good resource is the O'Reilly Encyclopedia of Electronic Components[.](files/books.zip) Do you know what are these components for and how do they work?
 
 ## Power sources
 
@@ -43,6 +43,8 @@ Let's learn a little bit about how the components work. A good resource is the O
 ## Microcontrollers
 
 ### Fuses
+
+TODO the avr fuse calculator
 
 Fuses (HIGH, LOW, EXTENDED) Tutorial: [http://fabacademy.org/archives/2015/doc/fuses.html](http://fabacademy.org/archives/2015/doc/fuses.html)
 

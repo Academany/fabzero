@@ -1,12 +1,12 @@
 # Fab Zero cycles
 
-## Fith iteration: Fab Zero Egypt 2019
+## Fifth iteration: Fab Zero Egypt 2019
 
-The fith iteration is expected to take place in Egypt around april 2019 (exact dates TBA). To be mentored by Francisco Sanchez and Sibu Saman to a group of managing teachers from a network of school labs all around the country.
+The fifth iteration is expected to take place in Egypt around April 2019 (exact dates TBA). To be mentored by Francisco Sanchez and Sibu Saman to a group of managing teachers from a network of school labs all around the country.
 
 ## Fourth iteration: Fab Zero Bubhaneswar 2019
 
-The fourth and rebranded version of Fab Zero is expected to take place in Bubhaneswar, India in early 2019 (exact dates TBA). To be mentored by Francisco Sanchez and Sibu Saman to a group of fab lab managers.
+The fourth and re-branded version of Fab Zero is expected to take place in Bubhaneswar, India in early 2019 (exact dates TBA). To be mentored by Francisco Sanchez and Sibu Saman to a group of fab lab managers.
 
 ## Third iteration: Pre Academy Jordan 2018
 

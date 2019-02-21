@@ -58,7 +58,7 @@ That is impressive resolution. But it is not very usual that we want to count sm
 
 Somehow we need to slow down the speed at wich the counter is updating. One way if doing that it is hooking a slower oscillator or crystal. Actually most watches use a 32768 KHz oscillator.
 
-> **Question:** 32768 KHz? Why this weird number?
+TODO > **Question:** 32768 KHz? Why this weird number?
 
 Another way to slow down the count is only increasing the count when a certain amount of clock cycles has ocurred. This is called **prescaling**. The prescaler can be set to 8, 64, 256 or 1024 compared to the system clock.
 

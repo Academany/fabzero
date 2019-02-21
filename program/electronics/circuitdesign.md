@@ -2,6 +2,8 @@
 
 > :construction: This documentation is WIP
 
+TODO KiCAD, Eagle, circuit Maker
+
 * [Drawing your circuits](#drawing-your-circuits)
 * [Eagle](#eagle)
 * [KiCAD](#kicad)
@@ -24,5 +26,6 @@ Even if you are not planning to use Eagle you **still ~~have~~ want to know the 
 
 ## KiCAD
 
+TODO KiCAD basics
 ---
 [Back to Summary](../summary.md)
