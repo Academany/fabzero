@@ -14,9 +14,9 @@ This repository hosts the `fabzero` official program. It was originally designed
 
 ## Let's get started!
 
-[Click here to go to `fabzero` official curriculum](program/summary.md)
+[:point_right: Click here to go to `fabzero` official curriculum](program/summary.md)
 
-[Click here to browse the participants archive of past experiences](program/cycles.md)
+[:point_right: Click here to browse the participants archive of past experiences](program/cycles.md)
 
 ## Questions and comments
 
