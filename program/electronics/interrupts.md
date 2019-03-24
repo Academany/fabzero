@@ -8,7 +8,7 @@
 
 ## Understanding interrupts
 
-> You are in your room playing videogames. It is dinner time and **your mum gives you a call to go immediatly**. You stop what you are doing, you eat your dinner and when you finish, you continue playing videogames. In this story, you are a microcontroller. The videogame is the current task. **Your mother is an interrupt**. And dinner is the interrupt subroutine.
+> You are in your room playing video-games. It is dinner time and **your mum gives you a call to go immediately**. You stop what you are doing, you eat your dinner and when you finish, you continue playing video-games. In this story, you are a microcontroller. The video-game is the current task. **Your mother is an interrupt**. And dinner is the interrupt subroutine.
 
 So far you have been dealing with polling when you need to do multiple tasks in a microcontroller. We are going to introduce a **powerful piece of hardware** inside the microcontroller, the **interrupts**.
 
@@ -113,7 +113,9 @@ ISR(PCINT0_vect)
 }
 ```
 
-> **Learn by doing:** Create a new file using, and initialise it with all the information you usually add to the header (author, date, description, license). Write a program that blinks and LED only when you *release* the button.
+> **Learn by doing:** Create a new file using, and initialize it with all the information you usually add to the header (author, date, description, license). Write a program that blinks and LED only when you *release* the button.
 
+
+TODO interrupt priority
 ---
 [Back to Summary](../summary.md)

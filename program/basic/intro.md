@@ -44,11 +44,11 @@ Academany programs are not a traditional but a **distributed education system** 
 
 * Every week a different topic.
 * Basic principle is **Learn + make + share**. Based in the Scientific method
-  * Learn: Weekly class by Neil Gershenferld (MIT) by videoconferencing system. Student undertakes its own research
+  * Learn: Weekly class by Neil Gershenfeld (MIT) by videoconferencing system. Student undertakes its own research
   * Make: Hands-on with local instructor guidance to complete an assignment. Is an iterative approach strategy where time management is crucial
   * Share: Student documents the experience through a personal portfolio
-* 3 levels of assesment
-  * Student self-assesment: Student checks its progress against the [Assignments and Assessments](http://docs.academany.org/FabAcademy-Assessment/_book/) document.
+* 3 levels of assessment
+  * Student self-assessment: Student checks its progress against the [Assignments and Assessments](http://docs.academany.org/FabAcademy-Assessment/_book/) document.
   * Local evaluation: Local instructors make sure you meet the required standard
   * Global Evaluation: Completing students go through global evaluation process
 * Graduation: Diploma vs Learning
@@ -66,8 +66,8 @@ Fab Zero program will be awarded a Diploma if you meet the following requirement
   * You are able to keep your file sizes low by using resized images and compressed videos where applicable
 * Complete and document a final project that
   * Contains a microcontroller board that you have designed and fabricated with (at least) an input and output device
-  * Uses at least 2 digital fabrication proceses
-  * You design a (beatiful) 1280x720 pixels `.png` presentation slide
+  * Uses at least 2 digital fabrication processes
+  * You design a (beautiful) 1280x720 pixels `.png` presentation slide
   * You create a 30s compressed 720p `.mp4` presentation video introducing you and your final project
 
 ### A piece of advice

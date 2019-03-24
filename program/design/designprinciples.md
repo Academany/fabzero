@@ -52,19 +52,19 @@ In your designs(Fab Academy Slide, Fab Academy documentation, posters, etc.) tak
 
 > Select a color palette for your poster, website, and product. Why did you chose those colors?
 
-## The Fibbonacci sequence
+## The Fibonacci sequence
 
 The Fibonacci Sequence is a series of numbers where the next number is found by adding up the two numbers before it.
 
 `0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...`
 
-Fibbonacci sequence can be used to obtain a spiral.
+Fibonacci sequence can be used to obtain a spiral.
 
-Nature uses Fibbonacci sequences in self-similar grow patterns. Patterns that grow but maintain the same shape or proportion.
+Nature uses Fibonacci sequences in self-similar grow patterns. Patterns that grow but maintain the same shape or proportion.
 
 ![](img/principles/fibbo2.jpg)
 
-When you need to create grow patterns and spiral design, remember the Fibbonacci sequence.
+When you need to create grow patterns and spiral design, remember the Fibonacci sequence.
 
 ## Golden ratio
 
@@ -114,7 +114,7 @@ In analog and digital communication signal-to-noise ratio (S/N or SNR) is a meas
 
 ## The von Restorff effect
 
-The von Restorff effect predicts that when multiple homogenous stimuli are presented, the stimulus that differs from the rest is more likely to be remembered.
+The von Restorff effect predicts that when multiple homogeneous stimuli are presented, the stimulus that differs from the rest is more likely to be remembered.
 ![](img/principles/von.jpg)
 
 ## Figure-ground relationship

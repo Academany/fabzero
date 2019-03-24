@@ -55,7 +55,7 @@ The idea behind project management is simple: To allocate every task in our proj
 * Testing. It consumes time.
 * Unforeseen. They exist and consume time. Allocate time for it.
 * Troubleshooting and debugging (no, this is not an unforeseen, this is a mathematical certain). It consumes time.
-* Rehearshing a presentation. It consumes time.
+* Rehearsing a presentation. It consumes time.
 
 > **Learn by doing:** List all your required tasks and assign them a priority.
 
@@ -140,7 +140,7 @@ You can also use **tags** to classify the issues in categories like `bug`, `enha
 
 > **Learn by doing:** Create and assign some tags to your issues. Remember, an issue can have more than one tag.
 
-Managing projects in gitlab is very **convenient**. It doesn't have all the bells and wistles of other project management tools. But you are **tracking everything in the same environment**, which has an extra value.
+Managing projects in gitlab is very **convenient**. It doesn't have all the bells and whistles of other project management tools. But you are **tracking everything in the same environment**, which has an extra value.
 
 ---
 [Back to Summary](../summary.md)

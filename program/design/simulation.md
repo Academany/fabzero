@@ -28,7 +28,7 @@
 ## Workflow
 
 * Model your part using a 3D modeling software
-* Export the model to a stereolitography `STL` files
+* Export the model to a stereophotography `STL` files
 * Mesh your model, coarse and fine meshes
 * Define the material properties of the object
 * Define the model constrains (fixed, pinned or rolled)

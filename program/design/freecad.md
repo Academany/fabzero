@@ -59,7 +59,7 @@
 
 ## Parts Library
 
-## Display attibutes
+## Display attributes
 
 ## Object positioning
 
@@ -73,7 +73,7 @@
 
 ## Chamfers and fillets
 
-## Simmetries
+## Symmetries
 
 ## Offsets
 
@@ -93,7 +93,7 @@
 
 ### Loft
 
-### Helyx
+### Helix
 
 ## Importing SVG graphics
 

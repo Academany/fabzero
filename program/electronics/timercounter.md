@@ -42,7 +42,7 @@ The ATtiny44 has two independent internal timers. One 8-bit (`TIMER0`) and anoth
 
 ![tcnt0 register](img/timercounter/tcnt0.png)
 
-For the 16-bit register, the count from 0 to 65535 is stored in the `TCNT1` register, which in reality is splitted in two 8-bit registers, high `TCNT1H` and low `TCNT1L`:
+For the 16-bit register, the count from 0 to 65535 is stored in the `TCNT1` register, which in reality is split as two 8-bit registers, high `TCNT1H` and low `TCNT1L`:
 
 ![tcnt1 registers](img/timercounter/tcnt1.png)
 
@@ -54,13 +54,14 @@ By default, the timer register increment at the speed of the microcontroller (if
 
 > **Question:** Do you foresee the problem?
 
-That is impressive resolution. But it is not very usual that we want to count small amounts of time. Usually we want to count a few seconds. So the problem is that, at 1Mhz speed, the register `TCNT0` is going to overflow too fast, exactly at 0.000256 s.
+That is an impressive resolution. But we may want to time large time intervals as well. Sometimes we want to count a few seconds. So the problem is that, at 1Mhz speed, the register `TCNT0` is going to overflow too fast, exactly at 0.000256s.
 
-Somehow we need to slow down the speed at wich the counter is updating. One way if doing that it is hooking a slower oscillator or crystal. Actually most watches use a 32768 KHz oscillator.
+Somehow we need to slow down the speed at which the counter is updating. One way if doing that it is hooking a slower oscillator or crystal. Actually most watches use a 32768Hz oscillator.
 
-> **Question:** 32768 KHz? Why this weird number?
+> **Question:** 32768Hz, Why this weird number?
+> Clue: Power of two.
 
-Another way to slow down the count is only increasing the count when a certain amount of clock cycles has ocurred. This is called **prescaling**. The prescaler can be set to 8, 64, 256 or 1024 compared to the system clock.
+Another way to slow down the count is only increasing the count when a certain amount of clock cycles has occurred. This is called **prescaling**. For the AtTiny, the prescaler can be set to 8, 64, 256 or 1024 compared to the system clock.
 
 If we set the prescaler to 1024. Then the register `TCNT0` will increase the count every 1024 clock cycles, thus every 1024/1000000 = 0.001024 s and will overflow at 0.262144 s.
 

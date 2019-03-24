@@ -23,7 +23,7 @@ You might think at the early stages of the course, that you will not be able to 
 
 ## The one (wo)man orchestra
 
-You will need to be multidisciplinary. You need to be able to learn fast and efficiently. You need to be able to observe. You also need to be an exceptional communicator. You're going to be writing detailed documentation explaining people why things are the way they are and why it should be the way it is. You need to be able to express yourself graphically as well. You should be good at sketching early stage designs on paper. You should be reasonably fluent in 2d and 3D design or some other tool for expressing yourself graphically. You need to be a little bit of a developer and, kind of a marketing person as well. Because you're always having to sell the thing that you're offering. 
+You will need to be multidisciplinary. You need to be able to learn fast and efficiently. You need to be able to observe. You also need to be an exceptional communicator. You're going to be writing detailed documentation explaining people why things are the way they are and why it should be the way it is. You need to be able to express yourself graphically as well. You should be good at sketching early stage designs on paper. You should be reasonably fluent in 2d and 3D design or some other tool for expressing yourself graphically. You need to be a little bit of a developer and, kind of a marketing person as well. Because you're always having to sell the thing that you're offering.
 
 > **Advice:** During the weeks, don't waste your precious, short time. Learn as much as you can.
 
@@ -67,7 +67,7 @@ The ugly final project is just... ugly. Horrible. It is true that beauty is not 
 
 ## Crafting the final project
 
-Crafting your portfolio and your project is more important than you think. You are delivering a public document that will be read by many people. People that you don't even imagine. They know nothing about you. The only way they have to form an opinion about you is by reading your documentation. Your work reflects your personality. If your site is a mess, you are a mess. If it contains typos, you are careless. If the pictures are bad lit, deformed or poorly composed, you don't pay atention to details. If you waste, you are wasteful. Don't let people assume those things about you. Craft your work carefully.
+Crafting your portfolio and your project is more important than you think. You are delivering a public document that will be read by many people. People that you don't even imagine. They know nothing about you. The only way they have to form an opinion about you is by reading your documentation. Your work reflects your personality. If your site is a mess, you are a mess. If it contains typos, you are careless. If the pictures are bad lit, deformed or poorly composed, you don't pay attention to details. If you waste, you are wasteful. Don't let people assume those things about you. Craft your work carefully.
 
 ### The project documentation
 
@@ -91,11 +91,11 @@ You should carefully organize and format all this information with a table of co
 
 ### Master the presentation
 
-There is only one secret about public presentations. Rehearse, rehearse and rehearse. Some people can do a good presentation without rehearshing. But that requires years of experience in public speaking and interviews. You might think you can do this as well, because you did a couple of tests and all went flawless. But let me tell you something, when you are in front of a camera and 500 people are looking at you, it is different. Here you are some tips that can help you present like a professional:
+There is only one secret about public presentations. Rehearse, rehearse and rehearse. Some people can do a good presentation without rehearsing. But that requires years of experience in public speaking and interviews. You might think you can do this as well, because you did a couple of tests and all went flawless. But let me tell you something, when you are in front of a camera and 500 people are looking at you, it is different. Here you are some tips that can help you present like a professional:
 
 * **Partition the time** you have been allocated. The most frequent mistake is exceeding the time. Decide beforehand how much time you will use for introducing yourself, how much for explaining the functionality of your project (supply-time management). Partitioning time will help you stay on track.
 * **Write a script** of what you are going to say. Select carefully your words and your style. It is a spoken presentation, it should not sound unnatural when you say it. Since you know how much time you can spend on each section you can reduce of extend the length of your exposure.
-* **Record an audio** of your presentation, reading at a normal pace. Not too fast, not to slow. Do not make it monotone. Make pauses when they are needed, enphasize when is required. When you are happy with the result **memorize it**. Play the audio in loop mode and just listen to it over and over, hundreds of times. Keep listening to it until you can reproduce it, changing the order, the entonation and the pace at your will. At that point you master the presentation
+* **Record an audio** of your presentation, reading at a normal pace. Not too fast, not to slow. Do not make it monotone. Make pauses when they are needed, emphasize when is required. When you are happy with the result **memorize it**. Play the audio in loop mode and just listen to it over and over, hundreds of times. Keep listening to it until you can reproduce it, changing the order, the intonation and the pace at your will. At that point you master the presentation
 
 ---
 [Back to Summary](../summary.md)
