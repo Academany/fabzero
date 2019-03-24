@@ -1,17 +1,17 @@
 # Participants
 
-- https://github.com/9406012766/suvadip
-- https://github.com/9582220087/9582220087-fabzero/blob/master/reedme.md
-- https://github.com/anilhembram
-- https://github.com/deepak2145/fabzero
-- https://github.com/gauravstpi/gauravstpi
-- https://github.com/Jagannathoraon
-- https://github.com/jayramyadav111/fabzero
-- https://github.com/maruthiprasad06
-- https://github.com/medamk
-- https://github.com/MohantySR
-- https://github.com/motilals
-- https://github.com/nairstpi/fabzero
+- [SUVADIP BARUA](https://github.com/9406012766/suvadip)*
+- [Saurabh Kumar](https://github.com/9582220087/9582220087-fabzero)
+- https://github.com/anilhembram not updated
+- [Deepak Kumar Chaudhry](https://github.com/deepak2145/fabzero) most commits from situn001
+- https://github.com/gauravstpi/gauravstpi not updated
+- https://github.com/Jagannathoraon not updated
+- https://github.com/jayramyadav111/fabzero not updated
+- [Maruthi Prasad](https://github.com/maruthiprasad06)
+- [Meda Muralikrishna](https://github.com/medamk) code formatting
+- https://github.com/MohantySR blank
+- [Aimayum Motilal Sharma](https://github.com/motilals)*
+- [Mahesh Madhusudhanan Nair](https://github.com/nairstpi/fabzero) links need to be fixed
 
 - https://github.com/niharmohanty2018/fabzero
 - https://github.com/rameshy777/fabzero/blob/master/README.md
@@ -25,3 +25,6 @@
 - https://github.com/umesh1982/fabzero
 - https://github.com/vgeswar
 - https://github.com/Yuva-fab
+
+
+Note:- warn people from posting email in plain text
