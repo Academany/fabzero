@@ -14,10 +14,15 @@ This repository hosts the `fabzero` official program. It was originally designed
 
 ## Let's get started!
 
-[Click here to go to `fabzero` official curriculum](program/summary.md)
+[:point_right: Click here to go to `fabzero` official curriculum](program/summary.md)
 
-[Click here to browse the participants archive of past experiences](program/cycles.md)
+[:point_right: Click here to browse the participants archive of past experiences](program/cycles.md)
 
 ## Questions and comments
 
-This repository is maintained and updated by Francisco Sanchez. If you have questions or inquiries about the course content please do not hesitate to raise an issue or contact me Francisco [at] fab foundation [dot] org. Happy to help!
+This repository is maintained and updated by Francisco Sanchez and Sibu Saman. If you have questions or inquiries about the course content please do not hesitate to raise an issue or contact me francisco [at] fabfoundation [dot] org. Happy to help!
+
+This repository keeps a mirror copy both in GitHub and GitLab
+
+[![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-3D76C2.svg)](https://github.com/Academany/fabzero)
+[![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-6C488A.svg)](https://gitlab.fabcloud.org/fabzero/fabzero)
