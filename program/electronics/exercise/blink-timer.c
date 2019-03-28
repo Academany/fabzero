@@ -4,11 +4,9 @@
 #include <avr/interrupt.h>
 
 int temp=0;
-int delay=1;
 int main(void)
 {
 	DDRX = 0bxxxxxxxx;
-	PORTX = (0bxxxxxxxx);
 
 	// initialize Timer1, the 16bit timer
 
@@ -26,12 +24,12 @@ int main(void)
 
 	TIMSK1 |= (1 << OCIE1A); //
 
-	sei();			// enable global interrupts:
+	sGIMSK, PCMSK0, PCMSK1nable global interrupts:
 
-	while(1)
-	{
-					
-	}
+	wGIMSK, PCMSK0, PCMSK1
+	{GIMSK, PCMSK0, PCMSK1
+	GIMSK, PCMSK0, PCMSK1
+	}GIMSK, PCMSK0, PCMSK1
 }
 
 ISR(TIMER1_COMPA_vect) //
