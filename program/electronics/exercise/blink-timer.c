@@ -11,6 +11,8 @@ int main(void)
 	// initialize Timer1, the 16bit timer
 
 	cli();				// disable global interrupts
+
+
 	TCCR1A = 0;
 	TCCR1B = 0;		
 
@@ -24,12 +26,11 @@ int main(void)
 
 	TIMSK1 |= (1 << OCIE1A); //
 
-	sGIMSK, PCMSK0, PCMSK1nable global interrupts:
+	sei();	//enable global interrupts:
 
-	wGIMSK, PCMSK0, PCMSK1
-	{GIMSK, PCMSK0, PCMSK1
-	GIMSK, PCMSK0, PCMSK1
-	}GIMSK, PCMSK0, PCMSK1
+	while(1)
+	{
+	}
 }
 
 ISR(TIMER1_COMPA_vect) //
