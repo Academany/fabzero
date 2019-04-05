@@ -1,0 +1,54 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 6_PIN_SERIAL
+D 6-pin header connection for use with the "FTDI BASIC" pinout - TARGET SIDE.  Also known as "Arduino Serial Program Header".  It is used to mate with our FTDI Basic serial programmers using the Arduino IDE.  <b>Note, this device has "TARGET" in the name.</b> It is intended to be used on a design that contains a target micro-controller that you wish to program.  <b>The "sister" device, named "CABLE"</b> is inteneded to be used on a design that usually lives on the end of your USB cable and prvides the converter chip (FTDI232 or FTDI231x) to commnicate serial RX/TX. <b>You can populate with some of these:</b><a href="https://www.sparkfun.com/products/116"> Break Away Headers - Straight</a> (PRT-00116)  For reference (or to suit your programming needs) check out these designs:<ul><li><a href="https://www.sparkfun.com/products/9716"> SparkFun FTDI Basic Breakout - 5V</a> (DEV-09716)</li><li><a href="https://www.sparkfun.com/products/9873"> SparkFun FTDI Basic Breakout - 3.3V</a> (DEV-09873)</li><li><a href="https://www.sparkfun.com/products/12935"> SparkFun FTDI SmartBasic</a> (DEV-12935)</li><li><a href="https://www.sparkfun.com/products/13746"> SparkFun Beefy 3 - FTDI Basic Breakout</a> (DEV-13746)</li></ul>
+K PROD_ID:XXX-00000
+$ENDCMP
+#
+$CMP AVR-ISP-6
+D Atmel 6-pin ISP connector
+K AVR ISP Connector fab
+F  ~
+$ENDCMP
+#
+$CMP CPC1964B
+D SSR RELAY SPST-NO 1.5A 0-800V
+K fab mosfet ssr solidstate solid_state relay
+F http://www.ixysic.com/home/pdfs.nsf/www/CPC1964B.pdf/$file/CPC1964B.pdf
+$ENDCMP
+#
+$CMP Crystal
+D Two pin crystal
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP Resonator
+D Three pin ceramic resonator
+K ceramic resonator
+F ~
+$ENDCMP
+#
+$CMP SW_Push
+D Push button switch, generic, symbol, four pins
+K switch normally-open pushbutton push-button
+$ENDCMP
+#
+$CMP SW_SPDT
+D Switch, single pole double throw
+K switch single-pole double-throw spdt ON-ON
+$ENDCMP
+#
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
+F ~
+$ENDCMP
+#
+$CMP USB_B_Mini
+D USB Mini Type B connector
+K connector USB mini
+F ~
+$ENDCMP
+#
+#End Doc Library
