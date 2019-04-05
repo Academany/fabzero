@@ -10,6 +10,7 @@
 - [Jayram](https://github.com/jayramyadav111/fabzero) Fridge Door detector alarm
 - [Anil](https://github.com/anilhembram/fabzero) Room Temperature monitoring system
 - [Situn Santosh Ratha](https://github.com/situn001/fabzero) Battery level indicator
+- [Chintu](https://github.com/chintudora/fabzero) Motion based lighting
 
 ## Remote team
 
@@ -29,4 +30,3 @@
 - [Yuva](https://github.com/Yuva-fab/fabzero) Network Alarm
 - [Hemant](https://github.com/hemant747/fabzero) Mobile detector
 - [Chandu](https://github.com/chandu224/fabzero) Mobile detector
-- [Chintu](https://github.com/chintudora/fabzero) Motion based lighting
