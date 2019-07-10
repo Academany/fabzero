@@ -1,6 +1,6 @@
 # Principles of Design
 
-> :construction: This documentation is WIP
+> :construction: This documentation is WIP ok?
 
 * [Simplicity](#simplicity)
 * [Typography](#typography)
