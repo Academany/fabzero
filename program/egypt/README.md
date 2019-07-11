@@ -11,7 +11,7 @@ Location: [Maadi STEM High School for girls](https://goo.gl/maps/RnR2tsGYyo7xHzD
 - Introduction to the program.
   - [x] Introductions, curriculum overview, schedule, deliverables and expectations, reading materials.
   - [x] Pre-assessment exercise. 
-  - [x]  Preparing student laptops for the work ahead, introduction to Linux and software packages used in the program.  
+  - [x] Preparing student laptops for the work ahead, introduction to Linux and software packages used in the program.  
 - Modern documentation
   - [x] Project management. Time management, development strategies
   - [ ] Debugging
