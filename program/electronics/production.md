@@ -1,19 +1,20 @@
 # Electronics Production
 
-* [Preparing the machine](#preparing-the-machine)
-* [Use proper materials and tools](#use-proper-materials-and-tools)
-* [Preparing the job](#preparing-the-job)
-* [Milling the board](#milling-the-board)
-* [Stuffing the board](#stuffing-the-board)
-  * [Picking the components](#picking-the-components)
-  * [Soldering](#soldering)
-  * [Undo. Using the heat gun](#undo-using-the-heat-gun)
-* [Smoke test :boom:](#smoke-test-boom)
-* [Programming the board](#programming-the-board)
-  * [Obtaining the toolchain](#obtaining-the-toolchain)
-  * [Compiling the code](#compiling-the-code)
-  * [Uploading the code](#uploading-the-code)
-* [It doesn't work: Debugging](#it-doesnt-work-debugging)
+- [Electronics Production](#electronics-production)
+  - [Preparing the machine](#preparing-the-machine)
+  - [Use proper materials and tools](#use-proper-materials-and-tools)
+  - [Preparing the job](#preparing-the-job)
+  - [Milling the board](#milling-the-board)
+  - [Stuffing the board](#stuffing-the-board)
+    - [Picking the components](#picking-the-components)
+    - [Soldering](#soldering)
+    - [Undo. Using the heat gun](#undo-using-the-heat-gun)
+  - [Smoke test :boom:](#smoke-test-boom)
+  - [Programming the board](#programming-the-board)
+    - [Obtaining the toolchain](#obtaining-the-toolchain)
+    - [Compiling the code](#compiling-the-code)
+    - [Uploading the code](#uploading-the-code)
+  - [It doesn't work: Debugging](#it-doesnt-work-debugging)
 
 This is **one of the most important skills for a fabber**. From now on, you will be producing electronics continuously, for your assignments and final project. So **mastering this process is essential**. This is a fast process. You can mill a board in half an hour, stuff it in less than one hour and upload a program to it in a matter of minutes.
 
@@ -78,6 +79,8 @@ The final step is loading the program to the microcontroller.
 
 ### Obtaining the toolchain
 
+
+
 ### Compiling the code
 
 Download this [sample code](files/code101/samplecode.zip) and test if you can compile it. Unzip the code somewhere in your computer and you will see a `.c` file and and `Makefile`. The `.c` file is the (source) code. It is an editable text file. The microcontroller does not understand this. We have to **compile** it. In a terminal type:
@@ -112,11 +115,9 @@ If all of this does not work then probably there is something wrong in the ISP c
 * If you fabricated the ISP ribbon cable and IDC connector inspect the terminal with a microscope. Make sure no wires are touching each other.
 * Check the board in a microscope. Check all the solder joints. Look for cold soldering. Check for shorts. Check for bad soldering.
 
-There is no magic in debugging. **No one on Earth will be able to tell you what happens with your board**. This is just a systematic process. Just try everything and make a debugging table so I or anyone can help you with that.
+There is no magic in debugging. **No one on Earth will be able to tell you what happens with your board**. This is just a systematic process. Just try different solutions and make a debugging table so other people can help you with that.
 
 Good luck and happy electronics production!
 
-
-TODO want to go double sided, multilayer?
 ---
 [Back to Summary](../summary.md)

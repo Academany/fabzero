@@ -1,7 +1,5 @@
 # Pulse width modulation PWM
 
-> :construction: :construction: :construction:
-
 ---
 
 * [What?](#what)
@@ -78,8 +76,11 @@ Now, we have a few options,
   There are couple of advantages and disadvantages for this method. On the plus side, we have frequency and duty cycle control over any PWM channels, also we can use any output pin for generating the PWM.
 
   On the contrary, this procedure consumes some CPU cycles, even for normal operation, which may affect other operations.
+
 ## Where?
- TODO show use cases,
+
+ Some use cases:
+
  * Breathing LED effect in notification LEDs.
  * Dimming Light.
  * LCD backlight.

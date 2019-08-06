@@ -1,0 +1,30 @@
+\usepackage{xcolor}
+
+\usepackage{hyperref}
+
+\hypersetup{
+            pdfauthor={Fab Foundation},
+            pdftitle={Fabzero Documentation},
+            colorlinks=false,
+            pdfborder={0 0 0},
+            urlcolor=black,
+            }
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{longtable}\setlength{\LTleft}{0cm}
+
+\usepackage{sectsty}
+\sectionfont{\clearpage}
+
+\usepackage{fancyvrb,newverbs,xcolor}
+
+\definecolor{Light}{HTML}{F4F4F4}
+
+\let\oldtexttt\texttt
+\renewcommand{\texttt}[1]{
+  \colorbox{Light}{\oldtexttt{#1}}
+}
+
+
+

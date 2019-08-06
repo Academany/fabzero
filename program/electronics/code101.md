@@ -1,27 +1,27 @@
-# Coding 101
+# Introduction to embedded programming in C
 
 Programming is a powerful skill. Not just useful, not just good for your career, not just a moneymaker, but powerful.
 
-* [Introduction to embedded C programming](#introduction-to-embedded-c-programming)
-* [Pseudocode](#pseudocode)
-* [I know Arduino scripting language. I don't need C](#i-know-arduino-scripting-language-i-dont-need-c)
-* [The datasheet](#the-datasheet)
-* [Setting up AVR-GCC Toolchain on Linux](#setting-up-avr-gcc-toolchain-on-linux)
-* [The basic idea behind a microcontroller](#the-basic-idea-behind-a-microcontroller)
-* [Setting Inputs and Outputs. The DDR (Data Direction Registers)](#setting-inputs-and-outputs-the-ddr-data-direction-registers)
-* [PORT Registers](#port-registers)
-* [PIN Registers](#pin-registers)
-* [Hello world program](#hello-world-program)
-* [The button and LED program](#the-button-and-led-program)
-* [Bitwise operations](#bitwise-operations)
-* [Making your life easier: Macros](#making-your-life-easier-macros)
-* [Compiling the program](#compiling-the-program)
-* [The Makefile](#the-makefile)
-* [The programmer](#the-programmer)
+- [Introduction to embedded programming in C](#introduction-to-embedded-programming-in-c)
+  - [Embedded programming](#embedded-programming)
+  - [I know Arduino scripting language. Do I still need to learn C?](#i-know-arduino-scripting-language-do-i-still-need-to-learn-c)
+  - [The datasheet](#the-datasheet)
+  - [Setting up AVR-GCC Toolchain on Linux](#setting-up-avr-gcc-toolchain-on-linux)
+  - [The basic idea behind a microcontroller](#the-basic-idea-behind-a-microcontroller)
+  - [Setting Inputs and Outputs. The DDR (Data Direction Registers)](#setting-inputs-and-outputs-the-ddr-data-direction-registers)
+  - [PORT Registers](#port-registers)
+  - [PIN Registers](#pin-registers)
+  - [Hello world program](#hello-world-program)
+  - [The button and LED program](#the-button-and-led-program)
+  - [Bitwise operations](#bitwise-operations)
+  - [Making your life easier: Macros](#making-your-life-easier-macros)
+  - [Compiling the program](#compiling-the-program)
+  - [The Makefile](#the-makefile)
+  - [The programmer](#the-programmer)
 
-## Introduction to embedded C programming
+## Embedded programming
 
-In this section we are going to learn to program an attiny44 using AVR-GCC toolchain in C language. Programming is a huge topic. It will take long time to master.
+In this section we are going to learn to program an Atmel family microcontroller (attiny44 in the examples below) using AVR-GCC toolchain in C language. Programming is a huge topic. It will take long time to master.
 
 For learning to code you **have to** code. There is a difference between **knowing** the path and **walking** the path. Walk-the-path.
 
@@ -43,13 +43,9 @@ For learning to code you **have to** code. There is a difference between **knowi
 * Why C? [https://www.youtube.com/watch?v=ERY7d7W-6nA&feature=youtu.be](https://www.youtube.com/watch?v=ERY7d7W-6nA&feature=youtu.be)
 * Why Assembly? [https://en.wikipedia.org/wiki/Apollo_Guidance_Computer](https://en.wikipedia.org/wiki/Apollo_Guidance_Computer)
 
-## Pseudocode
-
-## I know Arduino scripting language. I don't need C
+## I know Arduino scripting language. Do I still need to learn C?
 
 Please watch this video https://www.youtube.com/watch?v=ERY7d7W-6nA
-
-TODO avr-c vs Arduino vs assembly
 
 ## The datasheet
 
@@ -91,9 +87,15 @@ By default all pins are configured as input.
 
 ## PORT Registers
 
+PORT registers write data (0 or 1) to the pins, when they are configured as outputs. If the pins are set as inputs, PORT activates or deactivates the internal pull-up resistor.
+
 ## PIN Registers
 
+PIN registers read data from the pins when they are configured as inputs.
+
 ## Hello world program
+
+If you are creating a new program, do not start from scratch. Start by editing an existing program.
 
 ```c
 #define F_CPU 1000000UL
@@ -152,15 +154,19 @@ int main (void)
 
 ## Bitwise operations
 
+So far we have been writing a full register. But it is also possible to operate in a single bit of a register. The syntax in C is rather complex. That is why the first thing we will do is defining macros.
+
 ## Making your life easier: Macros
 
-Macros are
+Macros are aliases that you can use to avoid typing complex syntax.
 
 ```c
 #define setbit(register, bit)   (register) |=  (1 << (bit))
 #define clearbit(register, bit) (register) &= ~(1 << (bit))
 #define testbit(register, bit)  (register) &   (1 << (bit))
 ```
+
+Then you can simply use
 
 ```c
 setbit(PORTA, PA0)
@@ -172,14 +178,15 @@ This makes your code much easier to understand. The precompiler will substitute 
 
 ## Compiling the program
 
+The microcontroller does not understand C code. C, like other programming languages was created for humans. Microcontrollers only understand hex instructions, but those are difficult to write or remember. It is necessary to compile the program to obtain a `.hex` file that will be flashed in the microcontroller.
+
 ## The Makefile
 
 http://www.ladyada.net/learn/avr/avrdude.html
 
 ## The programmer
 
-Do not start from scratch. Start by editing an existing program.
-
+To flash the `.hex` code to the microcontroller we need a ISP programmer. We are going to fabricate our custom ISP.
 
 ---
 [Back to Summary](../summary.md)
