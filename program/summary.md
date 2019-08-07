@@ -40,7 +40,7 @@
 * Programming circuit boards
   * [Introduction to programming](electronics/code101.md)
   * [Advanced Programming. Interrupts](electronics/interrupts.md)
-  * [Adnaced Programming. Timer Interrupts](electronics/timerinterrupt.md)
+  * [Advanced Programming. Timer Interrupts](electronics/timerinterrupt.md)
   * [Advanced programming. Timers](electronics/timercounter.md)
   * [Advanced Programming. PWM](electronics/pwm.md)
   * [Advanced Programming. ADC](electronics/adc.md)
