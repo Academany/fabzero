@@ -18,6 +18,8 @@ Programming is a powerful skill. Not just useful, not just good for your career,
   - [Compiling the program](#compiling-the-program)
   - [The Makefile](#the-makefile)
   - [The programmer](#the-programmer)
+- [Resources for AVR Programming](#resources-for-avr-programming)
+  - [- A beginnersGuide to AVR (by Aravind E Vijayan from NIT-Calicut)](#a-beginnersguide-to-avr-by-aravind-e-vijayan-from-nit-calicut)
 
 ## Embedded programming
 
@@ -188,5 +190,11 @@ http://www.ladyada.net/learn/avr/avrdude.html
 
 To flash the `.hex` code to the microcontroller we need a ISP programmer. We are going to fabricate our custom ISP.
 
+
+
+# Resources for AVR Programming 
+
+- [avr-tutorials.com](https://www.avr-tutorials.com/)
+- [A beginnersGuide to AVR (by Aravind E Vijayan from NIT-Calicut)](https://www.researchgate.net/publication/263084656_A_Beginners_Guide_to_AVR)
 ---
 [Back to Summary](../summary.md)
