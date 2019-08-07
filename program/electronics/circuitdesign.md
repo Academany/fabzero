@@ -42,8 +42,7 @@ There is a saying in the community, the PCB layout design is 90% proper componen
   - Minimum separation for different signals 
   - Minimum via drill size
   - Minimum via diameter
-- Double sided PCB design considerations 
-- Double sided PCB cut-out
+- [Double sided PCB](http://sibusaman.fabcloud.io/doublepcb/)
 - Layers and uses
 - PNG Outputs for Fabbing in FabLab
 

@@ -59,7 +59,9 @@
 
 ## All together now. The Final Project
 
-* [The untold truth about Final Projects](final/finalproject.md)
+- [The untold truth about Final Projects](final/finalproject.md)
+
+
 
 ---
 [Back to Home](../README.md)
