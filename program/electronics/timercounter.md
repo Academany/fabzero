@@ -1,14 +1,11 @@
 # Timer/counters in the attiny44
 
-* [The problem of the blinking LED](#the-problem-of-the-blinking-led)
-* [The timers/counters](#the-timerscounters)
-* [The Prescaler](#the-prescaler)
-  * [Setting the prescaler for `TIMER0`](#setting-the-prescaler-for-timer0)
-  * [Setting the prescaler for `TIMER1`](#setting-the-prescaler-for-timer1)
-* [Operation modes](#operation-modes)
-  * [Normal mode](#normal-mode)
-  * [CTC mode](#ctc-mode)
-  * [Selecting the mode of Operation](#selecting-the-mode-of-operation)
+- [Timer/counters in the attiny44](#timercounters-in-the-attiny44)
+  - [The problem of the blinking LED](#the-problem-of-the-blinking-led)
+  - [Operation modes](#operation-modes)
+    - [Normal mode](#normal-mode)
+    - [CTC mode](#ctc-mode)
+    - [Selecting the mode of Operation](#selecting-the-mode-of-operation)
 
 The **timer/counter** is a **piece of hardware** inside the microcontroller that can be used to **count and control time**. Actually, it does not count time, because it doesn't know anything about time. It should be actually named counter because **it just counts clock cycles**. What makes timers so interesting is the fact that they are **totally independent of the CPU**. The timers run parallel to the CPU without its intervention.
 

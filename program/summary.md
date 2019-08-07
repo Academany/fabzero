@@ -60,8 +60,7 @@
 ## All together now. The Final Project
 
 - [The untold truth about Final Projects](final/finalproject.md)
-
-
+- [IOT Final Project](final/iot.md)
 
 ---
 [Back to Home](../README.md)
