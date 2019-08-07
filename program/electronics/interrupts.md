@@ -1,10 +1,13 @@
 # Introduction to interrupts
 
-* [Understanding interrupts](#understanding-interrupts)
-* [Activating the interrupts](#activating-the-interrupts)
-* [Pin change interrupts](#pin-change-interrupts)
-* [Supercharged interrupt pins](#supercharged-interrupt-pins)
-* [The interrupt routine ISR](#the-interrupt-routine-isr)
+- [Introduction to interrupts](#introduction-to-interrupts)
+  - [Understanding interrupts](#understanding-interrupts)
+  - [Activating the interrupts](#activating-the-interrupts)
+  - [Pin change interrupts](#pin-change-interrupts)
+  - [Supercharged interrupt pins](#supercharged-interrupt-pins)
+  - [The interrupt routine ISR](#the-interrupt-routine-isr)
+  - [Resources](#resources)
+  - [TODO interrupt priority](#todo-interrupt-priority)
 
 ## Understanding interrupts
 
@@ -115,6 +118,10 @@ ISR(PCINT0_vect)
 
 > **Learn by doing:** Create a new file using, and initialize it with all the information you usually add to the header (author, date, description, license). Write a program that blinks and LED only when you *release* the button.
 
+
+## Resources
+
+[List of AVR-C Interrupt Sub-Routine Vectors](https://www.microchip.com/webdoc/AVRLibcReferenceManual/group__avr__interrupts.html)
 
 TODO interrupt priority
 ---
