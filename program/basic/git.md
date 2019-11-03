@@ -1,23 +1,24 @@
 # Working with git repositories
 
-* [Goal of this unit](#goal-of-this-unit)
-* [The community effect](#the-community-effect)
-* [Downloading a repository from Github](#downloading-a-repository-from-github)
-* [Installing git](#installing-git)
-* [Configuring git](#configuring-git)
-* [Cloning a repository using HTTPS connection](#cloning-a-repository-using-https-connection)
-* [Generating a SSH Keypair](#generating-a-ssh-keypair)
-* [Cloning a repository using a SSH connection](#cloning-a-repository-using-a-ssh-connection)
-* [Before you upload. Check file size](#before-you-upload-check-file-size)
-* [Basic git workflow](#basic-git-workflow)
-* [Advanced git workflow](#advanced-git-workflow)
-* [Branching. Testing new things without making a mess](#branching-testing-new-things-without-making-a-mess)
-  * [What's a branch and why would I want one](#whats-a-branch-and-why-would-i-want-one)
-  * [Creating and navigating through branches](#creating-and-navigating-through-branches)
-  * [Merging and deleting branches](#merging-and-deleting-branches)
-* [Troubleshooting](#troubleshooting)
-  * [Problem 1: I don't know what to do next](#problem-1-i-dont-know-what-to-do-next)
-  * [Problem 2: Panic! Push error!](#problem-2-panic-push-error)
+- [Goal of this unit](#goal-of-this-unit)
+- [The community effect](#the-community-effect)
+- [Downloading a repository from Github](#downloading-a-repository-from-github)
+- [Installing git](#installing-git)
+- [Configuring git](#configuring-git)
+- [Cloning a repository using HTTPS connection](#cloning-a-repository-using-https-connection)
+- [Generating a SSH Keypair](#generating-a-ssh-keypair)
+- [Cloning a repository using a SSH connection](#cloning-a-repository-using-a-ssh-connection)
+- [Before you upload. Check file size](#before-you-upload-check-file-size)
+- [Basic git workflow](#basic-git-workflow)
+- [Advanced git workflow](#advanced-git-workflow)
+- [Branching. Testing new things without making a mess](#branching-testing-new-things-without-making-a-mess)
+  - [What's a branch and why would I want one](#whats-a-branch-and-why-would-i-want-one)
+  - [Creating and navigating through branches](#creating-and-navigating-through-branches)
+  - [Merging and deleting branches](#merging-and-deleting-branches)
+- [Keeping your forked repositories up to date](#keeping-your-forked-repositories-up-to-date)
+- [Troubleshooting](#troubleshooting)
+  - [Problem 1: I don't know what to do next](#problem-1-i-dont-know-what-to-do-next)
+  - [Problem 2: Panic! Push error!](#problem-2-panic-push-error)
 
 > **Note:** As you go through this topic, do not try to memorize, learn by usage.
 
@@ -184,6 +185,20 @@ Congratulations! Now you should have a master branch with the new features! We d
 ```bash
 git branch -d nameofthebranch
 ```
+
+## Keeping your forked repositories up to date
+
+When you clone your fork `origin` points to your github/gitlab address. But you migh also incorporate the changes from the original repository. For that add the original repository as an `upstream`. Go to your local cloned respository and type:
+
+```bash
+git remote add upstream REPO-ADDRESS-YOU-FORKED-FROM
+git fetch upstream
+```
+
+And then update your fork from original repo to keep up with their changes
+
+`git pull upstream master`
+
 
 ## Troubleshooting
 
