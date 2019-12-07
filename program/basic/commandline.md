@@ -48,21 +48,20 @@ So Unix (and Linux programs) usually perform a single task only. They are not mu
 
 ## Basic syntax
 
-The command line syntax is a `command` with optional `options` and optional `arguments`. For example, copy the following and paste it in the command line:
+The command line syntax is a **command** with optional **options** and optional **arguments**. For example, copy the following and paste it in the command line:
 
 ```
 ls -a /usr/local/bin
 ```
 
-`ls` is a command which lists files and folders. `-a` is an option to display hidden files and `/usr/local/bin` is the argument telling where to operate the command. If the argument was not present it would list the current directory.
-
 > **Something's wrong! Copy and paste keys are not working**
 The usual copy and paste key combinations have different functions in Bash. To copy text in Bash, select it and press `CONTROL`+`SHITFT`+`C`. To paste text in Bash use the arrow keys to go to the desired location and use `CONTROL`+`SHITFT`+`V`.
 
+`ls` is a **command** which lists files and folders. `-a` is an **option** to display hidden files and `/usr/local/bin` is the **argument** telling where to operate the command. If the argument was not present it would list the current directory.
+
 Options come in two flavors, one is called **short option**, a single letter like `-a`. In this case you don't have a clue of what that option is performing. On the other hand you can concatenate short options. For example `-a -l` can be reduced to `-al`.
 
-> **Remember:**
-Linux is a case sensitive operating system. `-n` and `-N` are different things!
+> **Remember:** Linux is a case sensitive operating system. `-n` and `-N` are different things!
 
 Some options also have a human readable flavor called **long option**. Human readable options are prefixed with two dashes `--` and they give you a clue of what that option is doing. For example the long option of `-a` is `--all`, giving you the clue that it will list all the files and folders, including the hidden ones. Long options cannot be concatenated.
 
