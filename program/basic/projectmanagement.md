@@ -93,7 +93,7 @@ If you **overestimated time** or **ignored the third law** of time you will prob
 
 If you try to create the project you have in your mind in one go, you will fail. Nature never achieves perfection in one attempt, but in a series of infinite iterations. At least, you have to reach the following milestone iterations:
 
-1. Make it work. There is a fundamental design principle called *satisfizing* and here it is summarized: Doesn't matter how, but it has to work.
+1. Make it work. There is a fundamental design principle called *satisfizing* and here it is summarized: Doesn't matter how, but it has to work. ![](./img/pm/itruns.jpg)
 2. Make it integrated and resilient. At the very minimum, make it holdable in one hand and resistant to shakes
 3. Make it nice
 
