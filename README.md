@@ -1,4 +1,4 @@
-# `fabzero` Program (formerly Pre Academy)
+# `fabzero` Digital Fabrication Program (formerly Pre Academy)
 
 This repository hosts the `fabzero` official program. It was originally designed to fill knowledge gaps and aimed to prepare students to succeed and improve their experience during [Fab Academy](http://fabacademy.org). Over the years, it has been growing into a multidisciplinary program, where a customized learning path is designed and crafted to the specific needs of the group.
 
