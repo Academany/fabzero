@@ -1,15 +1,5 @@
 # Introduction to Fab Zero. Getting ready to unlearn
 
-* [Fab Labs and The Fab Lab Network](#fab-labs-and-the-fab-lab-network)
-* [Educational programs: The Academany](#educational-programs-the-academany)
-  * [Academany methodology](#academany-methodology)
-  * [How Fab Academy works](#how-fab-academy-works)
-  * [Requirements to succeed in Fab Zero](#requirements-to-succeed-in-fab-zero)
-  * [A piece of advice](#a-piece-of-advice)
-* [Let's get ready!](#lets-get-ready)
-  * [Prepare your Laptop](#prepare-your-laptop)
-  * [Create online accounts](#create-online-accounts)
-
 ## Fab Labs and The Fab Lab Network
 
 * History
@@ -48,14 +38,11 @@ Academany programs are not a traditional but a **distributed education system** 
   * Make: Hands-on with local instructor guidance to complete an assignment. Is an iterative approach strategy where time management is crucial
   * Share: Student documents the experience through a personal portfolio
 * 3 levels of assessment
-  * Student self-assessment: Student checks its progress against the [Assignments and Assessments](http://docs.academany.org/FabAcademy-Assessment/_book/) document.
+  * Student self-assessment: Student checks its progress against the [Assignments and Assessments](https://fabacademy.org/2022/nueval/) document.
   * Local evaluation: Local instructors make sure you meet the required standard
   * Global Evaluation: Completing students go through global evaluation process
 * Graduation: Diploma vs Learning
-* Links to previous years archives and important docs
-  * [Archives](http://archive.fabacademy.org)
-  * [Fab Academy Handbook](http://docs.academany.org/FabAcademy-Handbook/_book/). More than you want to know about Fab Academy
-  * [Assignments and Assessments](http://docs.academany.org/FabAcademy-Assessment/_book/). How the Fab Academy program is evaluated
+* Previous years [archives](https://fabacademy.org/2022/prior.html)
 
 ### Requirements to succeed in Fab Zero
 
@@ -65,10 +52,16 @@ Fab Zero program will be awarded a Diploma if you meet the following requirement
   * You are able to narrate the experience during the Fab Zero program
   * You are able to keep your file sizes low by using resized images and compressed videos where applicable
 * Complete and document a final project that
-  * Contains a microcontroller board that you have designed and fabricated with (at least) an input and output device
-  * Uses at least 2 digital fabrication processes
-  * You design a (beautiful) 1280x720 pixels `.png` presentation slide
-  * You create a 30s compressed 720p `.mp4` presentation video introducing you and your final project
+  * A [user innovation](https://www.youtube.com/watch?v=Cbydupv1EjQ) project
+    * It solves a problem
+    * There is no commercial solution for it
+  * Technical aspects
+    * Contains a microcontroller board that you have designed and fabricated with (at least) an input and output device
+    * Uses at least additive and substractive fabrication processes
+  * It is marketable
+    * Invent a  commercial name and website domain
+    * You design a (beautiful) 1920x1080 pixels `.png` presentation slide
+    * You create a 30s compressed 1080pp `.mp4` presentation video introducing you and your final project
 
 ### A piece of advice
 
@@ -80,7 +73,7 @@ Fab Zero program will be awarded a Diploma if you meet the following requirement
 * Be brave, take risks (not physical risks)
 * You will need to control your stress. Can you handle it?
   * Things will go wrong
-  * Things will continuously change
+  * Things will continuously change. [Adapt](https://www.adaptmanifesto.org/)
   * you will loose work
   * you will break things
   * you will not be able to find a solution immediately
@@ -94,12 +87,11 @@ Fab Zero program will be awarded a Diploma if you meet the following requirement
   * Backup data to USB
   * Backup data to Cloud
 * Installing a GNU/Linux distribution
+![](img/intro/linux.jpg)
 * Installing software
   * Using GUI package managers
   * Install software using command line
   * Compiling software
-* Installing Windows software using Wine
-* WIP: Automatic Post-install script
 
 > **Learning by doing:** Backup your data, partition your hard drive and install Ubuntu-based distro in it
 
@@ -108,11 +100,7 @@ Fab Zero program will be awarded a Diploma if you meet the following requirement
 It is recommended that students create the following online accounts:
 
 * [Fablabs.io](fablabs.io) account. This is the official account used for many services
-* [Google](google.com) account for all Google services (YouTube...)
-* [Vimeo](vimeo.com) account for storing large videos. Alternative to Youtube.
-* [Github](github.com) account for your personal code projects
-* [Dropbox](dropbox.com) or similar account for hosting large files
-* [Sketchfab](sketchfab.com) account for embedding and hosting STL files
+* [Gitlab](gitlab.com) account for your personal code projects
 
 > **Learning by doing:** Create those online accounts and keep your usernames/passwords in a **safe** place
 
