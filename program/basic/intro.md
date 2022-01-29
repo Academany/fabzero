@@ -88,7 +88,7 @@ Fab Zero program will be awarded a Diploma if you meet the following requirement
 * Recommended Backups
   * Backup data to USB
   * Backup data to Cloud
-* Installing a GNU/Linux distribution
+* Installing a GNU/Linux distribution  
 ![](img/intro/linux.jpg)
 * Installing software
   * Using GUI package managers
