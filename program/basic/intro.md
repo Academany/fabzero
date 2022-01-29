@@ -8,7 +8,7 @@
 * Equipment - [Inventory](https://docs.google.com/spreadsheets/d/1U-jcBWOJEjBT5A0N84IUubtcHKMEMtndQPLCkZCkVsU/pub?single=true&gid=0&output=html)
   * Collaboration
   * Standardization
-* Conferences ([global](http://fab13.fabevent.org/), [regional](https://fan4.fablabs.vn/))
+* Conferences ([global](https://fabevent.org/), [regional](https://fablabo.com/fan6/))
 * [FabLabs.io](http://fablabs.io)
 
 ## Educational programs: The Academany
@@ -100,7 +100,7 @@ Fab Zero program will be awarded a Diploma if you meet the following requirement
 It is recommended that students create the following online accounts:
 
 * [Fablabs.io](fablabs.io) account. This is the official account used for many services
-* [Gitlab](gitlab.com) account for your personal code projects
+* [Gitlab](https://gitlab.com/users/sign_in) account for your personal code projects
 
 > **Learning by doing:** Create those online accounts and keep your usernames/passwords in a **safe** place
 
