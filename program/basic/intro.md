@@ -44,6 +44,21 @@ Academany programs are not a traditional but a **distributed education system** 
 * Graduation: Diploma vs Learning
 * Previous years [archives](https://fabacademy.org/2022/prior.html)
 
+### A piece of advice
+
+* Do not follow existing roads, make your own path  
+![](img/intro/makeyourpath.png)
+* Move out of your comfort zone and stay there  
+![](../diagrams/comfort.png)
+* Free your mind, forget what you already know, try new things
+* Be brave, take risks (not physical risks)
+* You will need to control your stress. Can you handle it?
+  * Things will go wrong
+  * Things will continuously change. [Adapt](https://www.adaptmanifesto.org/)
+  * you will loose work
+  * you will break things
+  * you will not be able to find a solution immediately
+
 ### Requirements to succeed in Fab Zero
 
 Fab Zero program will be awarded a Diploma if you meet the following requirements by the end of the program.
@@ -63,20 +78,7 @@ Fab Zero program will be awarded a Diploma if you meet the following requirement
     * You design a (beautiful) 1920x1080 pixels `.png` presentation slide
     * You create a 30s compressed 1080pp `.mp4` presentation video introducing you and your final project
 
-### A piece of advice
-
-* Do not follow existing roads, make your own path  
-![](img/intro/makeyourpath.png)
-* Move out of your comfort zone and stay there  
-![](../diagrams/comfort.png)
-* Free your mind, forget what you already know, try new things
-* Be brave, take risks (not physical risks)
-* You will need to control your stress. Can you handle it?
-  * Things will go wrong
-  * Things will continuously change. [Adapt](https://www.adaptmanifesto.org/)
-  * you will loose work
-  * you will break things
-  * you will not be able to find a solution immediately
+![](img/intro/think.jpg)
 
 ## Let's get ready!
 
