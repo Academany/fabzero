@@ -44,7 +44,7 @@ In Fab Academy **we are working with git repositories**. Every lab has a git rep
 
 For the next part of the course we will need to install [git](https://git-scm.com/). In Ubuntu type in a terminal window:
 
-`sudo apt-get install git`
+`sudo apt install git`
 
 > **Learning by doing:** Install git in your laptop.
 
@@ -57,7 +57,7 @@ cd ~/folder_name # replace this with your repository folder
 git config --global user.name "yourname" #set name for commits
 git config --global user.email "youremail" #set email for commits
 git config --global push.default simple #default push only the current branch
-git config --global core.editor atom #set the editor
+git config --global core.editor nano #set the editor
 ```
 
 > **Learning by doing:** Configure git with your personal data
@@ -87,15 +87,13 @@ We usually use SSH connection in git, that way we are not dealing with logins an
 
 If you decide to define a passphrase at the time of generating the keypair, you will have to type it every-single-time you push to the archive. And this is going to be a lot of times. You have been warned.
 
-After creating the ssh keypair, and adding it to the ssh-agent, you have to upload the public key to github/gitlab. For copying the contents of the public key to the clipboard you can just open it in any text editor, select all of it contents and copy it. I will use a command line tool called **xclip**. If you don't have it already, you can install it by typing:
+After creating the ssh keypair, and adding it to the ssh-agent, you have to upload the public key to github/gitlab. For copying the contents of the public key to the clipboard you can just open it in any text editor, select all of it contents and copy it. I will use a command line tool called **cat**. 
 
-`sudo apt-get install xclip`
+Say our public key name is `id_rsa.pub`, to display its contents we do
 
-And of course, read the manual `man xclip`. Say our public key name is `id_rsa.pub`, to copy its contents to the clipboard we do
+`cat ~/.ssh/id_rsa.pub`
 
-`xclip -sel clip < ~/.ssh/id_rsa.pub`
-
-And it is just a matter of pasting the clipboard in the SSH Keys section of github/gitlab. A piece of advice. Name that key in github/gitlab as the computer you are using. If you loose that computer or you feel that the key is compromised you will know what key to delete.
+And it is just a matter copying and pasting in the SSH Keys section of github/gitlab. A piece of advice. Name that key in github/gitlab as the computer you are using. If you loose that computer or you feel that the key is compromised you will know what key to delete.
 
 > **Think about it:** Can you have more than one key? Can you copy the keys to another computer?
 
@@ -104,7 +102,7 @@ And it is just a matter of pasting the clipboard in the SSH Keys section of gith
 This time locate the SSH address to clone the repository. In your computer, inside a terminal window, navigate to where you want to clone the repository (**recommended your home directory**):
 
 ```bash
-cd ~  # actually it also goes to home if you just do cd
+cd  # this goes to home folder
 git clone paste-the-address-here.git
 ```
 
@@ -149,7 +147,7 @@ This is the manual workflow of updating your page. You can also write a script a
 
 ### What's a branch and why would I want one
 
-One day, you will have (let's say) a piece of code that is working. People can download it and everybody is happy. If you want to add new features and you start messing the code, it is likely that you will break the functionality. That is a bad practice, because until you fix all the problems, people will download something that does not work anymore. What `git` allows you is to create a **branch**, which is a separate copy of your repository. In there you can test new features while maintaining the **master** branch (the original one).
+One day, you will have (let's say) a piece of code that is working. People can download it and everybody is happy. If you want to add new features and you start messing the code, it is likely that you will break the functionality. That is a bad practice, because until you fix all the problems, people will download something that does not work anymore. What `git` allows you is to create a **branch**, which is a separate copy of your repository. In there you can test new features while maintaining the **main** branch (the original one).
 
 ### Creating and navigating through branches
 
@@ -161,7 +159,7 @@ git branch nameofthebranch
 
 > **Learning by doing:** Create a new branch for your repository
 
-You have created that branch, but you are still working in the master one. To switch to another branch you use the checkout command.
+You have created that branch, but you are still working in the main one. To switch to another branch you use the checkout command.
 
 ```bash
 git checkout nameofthebranch
@@ -173,14 +171,14 @@ You can commit changes and push as you normally do. It is a good practice to **c
 
 ### Merging and deleting branches
 
-Once your new features are functional, it is time to incorporate that work into the master branch. This is called **merging** in `git`. For that, you first go to the master branch and then **merge** the changes.
+Once your new features are functional, it is time to incorporate that work into the main branch. This is called **merging** in `git`. For that, you first go to the main branch and then **merge** the changes.
 
 ```bash
-git checkout master
+git checkout main
 git merge nameofthebranch
 ```
 
-Congratulations! Now you should have a master branch with the new features! We don't need the testing branch anymore, let's delete it.
+Congratulations! Now you should have a main branch with the new features! We don't need the testing branch anymore, let's delete it.
 
 ```bash
 git branch -d nameofthebranch
@@ -197,7 +195,7 @@ git fetch upstream
 
 And then update your fork from original repo to keep up with their changes
 
-`git pull upstream master`
+`git pull upstream main`
 
 
 ## Troubleshooting
