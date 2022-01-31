@@ -2,13 +2,13 @@
 
 > :construction: This documentation is WIP
 
-* [Raster](#raster)
-* [Graphicsmagick](#graphicsmagick)
-* [Vectorizing a raster image](#vectorizing-a-raster-image)
-
 ## Raster
 
-### Imagemagick
+### Screenshots
+
+We recommend [Flameshot](https://flameshot.org)
+
+### Imagemagic CLI
 
 [Imagemagick](https://www.imagemagick.org/script/index.php) is swiss army command line tool for image processing. 
 
