@@ -1,5 +1,7 @@
 # CAD 2D. Raster and Vector
 
+![](img/2d/vector-raster.jpg)
+
 > :construction: This documentation is WIP
 
 ## Raster
