@@ -8,7 +8,9 @@
 
 We recommend [Flameshot](https://flameshot.org)
 
-### Imagemagic CLI
+### Imagemagick CLI
+
+`sudo apt install imagemagick` in Linux/WSL or `brew install imagemagick` in macOS
 
 [Imagemagick](https://www.imagemagick.org/script/index.php) is swiss army command line tool for image processing. 
 
