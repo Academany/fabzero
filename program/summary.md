@@ -17,6 +17,7 @@
 * [Going Analog in a Digital Age](design/analog.md)
 * Digital 2D Design
   * [2D Raster and Vector](design/cad2d.md)
+  * [Video Tools](design/video.md)
 * Digital 3D Design
   * [Parametric CAD with FreeCAD](design/freecad.md)
   * [The code approach. CAD with OpenSCAD](design/openscad.md)
