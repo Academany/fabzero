@@ -4,12 +4,12 @@
 | -----                   | ---------   |
 | Zina yonten             | |
 | Jigme Tharchen          |   https://gitlab.com/jigmetharchen/fabzero-docs     |
-| Manish Rai              | |
+| Manish Rai              |   https://gitlab.com/Manish.Rai/fab |
 | Tshering Wangzom        |   https://gitlab.com/tsheringwangzom1/fab-zero-documentation    |
 | Pema Thinley            |   https://gitlab.com/PemaThinleyDHI/fabzero     |
 | Cheche                  |   https://gitlab.com/checheDHI/fabzero-documentation    |
 | Rinchhen Dorji          | |
-| Kencho Wangdi           |  https://gitlab.com/wangdikencho/fab00-documentation    |
+| Kencho Wangdi           |   https://gitlab.com/wangdikencho/fab00-documentation    |
 | Lungten Gyeltshen       | |
 | Yeshey Wangmo Lepcha    | |
 | Sonam paldon            |   https://gitlab.fabcloud.org/sonampaldondorji/fabzero-document |
