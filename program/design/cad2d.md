@@ -26,7 +26,7 @@ Or you could modify them in place (overwrite original image). The following will
 
 One of the utilities of graphicsmagick is the ability to compose images in a horizontal strip, which is very useful for documenting processes.
 
-`montage image1.jpg image2.jpg -tile 2x1 -geometry x400+10+0 stripimage.jpg`
+`convert image1.jpg image2.jpg -geometry x400 +append stripimage.jpg`
 
 ### Vectorizing a raster image
 
